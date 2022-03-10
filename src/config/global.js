@@ -1,9 +1,8 @@
 export default {
   global: {
-    componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+    componenteFormativo: 'Requerimientos del proceso de automatización',
     descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
+      'La automatización de procesos simula la inteligencia humana, por lo que las automatizaciones son utilizadas para controlar y monitorear procesos, las máquinas o los dispositivos que cumplen con tareas o funciones repetitivas. Se caracterizan por su forma de operar automáticamente, reduciendo y mejorando el trabajo humano en las industrias.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
