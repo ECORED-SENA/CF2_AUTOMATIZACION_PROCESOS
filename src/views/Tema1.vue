@@ -181,6 +181,24 @@
           figure
             img(src='@/assets/template/herramienta8.jpg', alt='Texto que describa la imagen')
 
+    <br>
+    .cajon.cajontitle2.col-4(data-aos="zoom-in-right")
+      h3.text Otra herramienta que se utiliza es UiPath
+    <br>
+    p Es ofrecida para realizar una automatización en cualquier web o aplicación de escritorio, UiPath es una Automatización Robótica de Procesos, RPA. Se destaca por la posibilidad de diseñar, desarrollar y controlar la fuerza de trabajo robótica que imita a los empleados, permite realizar:
+    br
+    img.col-10.pos8(src='@/assets/template/grafica1.jpg') 
+    br
+    br
+    p Cuando se trata de seleccionar una herramienta para la automatización, las necesidades, exigencias y expectativas siempre serán altas, teniendo en cuenta la organización, costos y facilidades de acceso, por esto es recomendable reunir la mayor información posible, clarificando los objetivos y un posible punto de partida en cuanto a recursos humanos y técnicos; también es importante tener claro la evolución tecnológica que tendrá la empresa en cuanto a infraestructura. 
+    br
+    br
+    .titulomedio
+      h4 Las ventajas de utilizar UiPath son:
+    br
+    img.col-10.pos8(src='@/assets/template/grafica2.jpg') 
+    br
+
 
 </template>
 
