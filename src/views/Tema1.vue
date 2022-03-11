@@ -28,10 +28,8 @@
               .p-2
               h2 La parte de mando
               p Suele ser programable, es un sistema de fabricación automatizado, en el centro del sistema, está el autómata programable. 
-    br
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in")
-    h2(data-aos="zoom-in") 1.1 Definición y características de automatización
-    br
+    .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
+      h2(data-aos="zoom-in") 1.1 Definición y características de automatización
     p También se puede decir que la automatización es el conjunto de procesos informáticos, mecánicos y electromecánicos, operando con una mínima o casi nula intervención humana. Se utilizan normalmente para optimizar y realizar mejoras en el funcionamiento de procesos en las industrias, campo, estadios o cualquier lugar que posea un sistema informático y desee operar sus labores de manera más ágil y eficiente. La automatización logra realizar tareas que se desarrollan por sí solas sin la participación de un individuo.
     
     .cajon-b.colorcajon3.col-10(data-aos="zoom-in")
@@ -95,7 +93,7 @@
     img.col-5.pos4(src='@/assets/curso/vector2.svg' alt='AvatarTop')
     br
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
-      h2(data-aos="zoom-in") 1.1 Definición y características de automatización
+      h2(data-aos="zoom-in") 1.2 Herramientas de Automatización
     br
     br
     img.col-4.pos6(src='@/assets/curso/vector4.jpg' alt='AvatarTop')
@@ -103,6 +101,9 @@
     .cajon-b.colorcajon4.col-10(data-aos="zoom-in")
       p.col-12 Los sistemas, en la automatización, se van regulando a sí mismos, por lo cual cada resultado de un proceso incide en su conjunto, integrándolo y modificándolo. Seguidamente tendrá ciertas restricciones que se configuran previamente, sin intervención humana, entonces el sistema estará evaluando, comparando y realizando ajustes y las mismas correcciones en tiempo real, las ventajas de la automatización de procesos son:
     img.col-10.pos7(src='@/assets/curso/ventajas.jpg')      
+
+
+    
 
 </template>
 
