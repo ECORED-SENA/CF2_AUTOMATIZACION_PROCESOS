@@ -88,7 +88,7 @@
           | La reparación de las máquinas supone un menor costo.
         li 
           i.fas.fa-angle-right
-          |Permite el ahorro en la eficiencia y producción.  vector2.svg
+          |Permite el ahorro en la eficiencia y producción. 
 
     img.col-5.pos4(src='@/assets/curso/vector2.svg' alt='AvatarTop')
     br
@@ -197,8 +197,33 @@
       h4 Las ventajas de utilizar UiPath son:
     br
     img.col-10.pos8(src='@/assets/template/grafica2.jpg') 
+    <br>
+    .cajon.cajontitle3.col-4(data-aos="zoom-in-right")
+      h3.text Sobre UiPath
+    <br>
+    p.col-12 UiPath Robotic Process Automation es una solución que se basa en la nube, ayuda a las empresas a diseñar y gestionar tareas de automatización, supervisadas y desatendidas, agilizando la atención al cliente. UiPath RPA permite que los usuarios almacenen múltiples licencias en bases de datos para ser consultadas en cualquier momento.
+    
+    .col-6.pos9
+      h4 RPA (Robotic Process Automation)
+      ul.lista-ul.lista-ul--color
+        li 
+          i.fas.fa-angle-right
+          | Conjunto de herramientas tecnológicas para la automatización de procesos de negocio. 
+        li 
+          i.fas.fa-angle-right
+          | Simula o repite las acciones de un ser humano, interactuando con la interfaz de usuario de un sistema.
+        li 
+          i.fas.fa-angle-right
+          | No es un robot físico que interactúa con el humano, es un robot sistemático.
+        li 
+          i.fas.fa-angle-right
+          | Es un sistema que se encuentra en el computador o en la nube y que ejecuta las automatizaciones que se lleven a cabo.
+        li 
+          i.fas.fa-angle-right
+          | Un robot puede automatizar procesos de negocio de alto volumen orientados con reglas de negocio, si la información se encuentre digital y es repetible:
+        
+    img.col-5.pos4(src='@/assets/curso/vector5.svg' alt='AvatarTop')
     br
-
 
 </template>
 
