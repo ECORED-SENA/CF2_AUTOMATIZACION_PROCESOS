@@ -101,9 +101,86 @@
     .cajon-b.colorcajon4.col-10(data-aos="zoom-in")
       p.col-12 Los sistemas, en la automatización, se van regulando a sí mismos, por lo cual cada resultado de un proceso incide en su conjunto, integrándolo y modificándolo. Seguidamente tendrá ciertas restricciones que se configuran previamente, sin intervención humana, entonces el sistema estará evaluando, comparando y realizando ajustes y las mismas correcciones en tiempo real, las ventajas de la automatización de procesos son:
     img.col-10.pos7(src='@/assets/curso/ventajas.jpg')      
+    <br>
+    .cajon.cajontitle1.col-4(data-aos="zoom-in-right")
+      h3.text Herramientas que son tendencia en el momento
+    <br>
+    p Ante los beneficios y las grandes ventajas que ofrece la automatización, existen algunas herramientas que se diferencian como las mejores aliadas para las organizaciones, facilitando desempeños y rendimientos laborales.<br/><br/>Con estas herramientas es posible automatizar las tareas en ejecución, conectar y coordinar aplicaciones, efectuando pruebas de diferentes tipos en los sitios web, comparando y midiendo los resultados, algunas de estas son:
+    br
+    br
+    SlyderE(indicadores="derecha")
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 WorkProject
+          p Es una muy buena solución que permite registrar automáticamente el tiempo que se invierte en cada uno de los proyectos.
+      
+        .col-md-8
+          figure
+            img(src='@/assets/template/herramienta1.jpg', alt='Texto que describa la imagen')
 
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Zapier
+          p Es una de las herramientas catalogadas como la líder del mercado de la automatización de tareas; mueve información entre las aplicaciones web automáticamente.
+      
+        .col-md-8
+          figure
+            img(src='@/assets/template/herramienta2.jpg', alt='Texto que describa la imagen')
 
-    
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Flow
+          p Esta aplicación fue lanzada en 2016 por Microsoft, surgiendo como respuesta de automatización y conexión de aplicaciones web. Es llamada también Microsoft Flow, ofreciendo la automatización de múltiples tareas combinando diferentes servicios en la nube
+      
+        .col-md-8
+          figure
+            img(src='@/assets/template/herramienta3.jpg', alt='Texto que describa la imagen')
+
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Selenium
+          p Es uno los programas más populares de código abierto para automatizar procesos. Principalmente se utiliza para automatizar aplicaciones web con fines de pruebas, pero no se limita a esto, la administración de tareas web también se puede automatizar.
+      
+        .col-md-8
+          figure
+            img(src='@/assets/template/herramienta4.jpg', alt='Texto que describa la imagen')
+
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Watir
+          p Se trata de una Biblioteca Ruby con código abierto, también es una herramienta de testeo que es desarrollada en C# para automatizar las pruebas de software en una web. Interactúa con un navegador de la misma forma que las personas, hace clic en enlaces, llena formularios y valida textos.
+      
+        .col-md-8
+          figure
+            img(src='@/assets/template/herramienta5.jpg', alt='Texto que describa la imagen')
+
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Robocorp
+          p Es una automatización robótica de procesos (RPA) que permite automatizar prácticamente cualquier rutina. La automatización puede ahorrar hasta un 75% de los costos en comparación con el trabajo manual.
+      
+        .col-md-8
+          figure
+            img(src='@/assets/template/herramienta6.jpg', alt='Texto que describa la imagen')
+
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Automágica
+          p La plataforma Automágica se está cambiando a Netcall, herramienta igualmente poderosa en la automatización.
+      
+        .col-md-8
+          figure
+            img(src='@/assets/template/herramienta7.jpg', alt='Texto que describa la imagen')
+
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Robotask
+          p RoboTask es un software de macro automatización que puede automatizar fácilmente cualquier serie de tareas sin escribir código.
+      
+        .col-md-8
+          figure
+            img(src='@/assets/template/herramienta8.jpg', alt='Texto que describa la imagen')
+
 
 </template>
 
