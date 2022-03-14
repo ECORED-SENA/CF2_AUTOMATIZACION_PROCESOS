@@ -203,7 +203,8 @@
     <br>
     p.col-12 UiPath Robotic Process Automation es una solución que se basa en la nube, ayuda a las empresas a diseñar y gestionar tareas de automatización, supervisadas y desatendidas, agilizando la atención al cliente. UiPath RPA permite que los usuarios almacenen múltiples licencias en bases de datos para ser consultadas en cualquier momento.
     
-    .col-6.pos9
+    img.col-5.pos10(src='@/assets/curso/vector5.svg' alt='AvatarTop')
+    .col-5.pos9
       h4 RPA (Robotic Process Automation)
       ul.lista-ul.lista-ul--color
         li 
@@ -221,10 +222,10 @@
         li 
           i.fas.fa-angle-right
           | Un robot puede automatizar procesos de negocio de alto volumen orientados con reglas de negocio, si la información se encuentre digital y es repetible:
-        
-    img.col-5.pos4(src='@/assets/curso/vector5.svg' alt='AvatarTop')
-    br
-
+    br  
+    .cajon-b.colorcajon5    
+      p Los sistemas, en la automatización, se van regulando a sí mismos, por lo cual cada resultado de un proceso incide en su conjunto, integrándolo y modificándolo. Seguidamente tendrá ciertas restricciones que se configuran previamente, sin intervención humana, entonces el sistema estará evaluando, comparando y realizando ajustes y las mismas correcciones en tiempo real, las ventajas de la automatización de procesos son:
+    
 </template>
 
 <script>
