@@ -224,8 +224,77 @@
           | Un robot puede automatizar procesos de negocio de alto volumen orientados con reglas de negocio, si la información se encuentre digital y es repetible:
     br  
     .cajon-b.colorcajon5    
-      p Los sistemas, en la automatización, se van regulando a sí mismos, por lo cual cada resultado de un proceso incide en su conjunto, integrándolo y modificándolo. Seguidamente tendrá ciertas restricciones que se configuran previamente, sin intervención humana, entonces el sistema estará evaluando, comparando y realizando ajustes y las mismas correcciones en tiempo real, las ventajas de la automatización de procesos son:
+       ul.lista-ul--color.lista-ul--separador
+        li.pb-0
+          ul
+            li 
+              i.fas.fa-brain
+              | Realizar Automatizaciones en aplicaciones, ya sean de escritorio, en la web o de desarrollo.
+            li 
+              i.fas.fa-brain
+              | Interactuar con sistemas de inteligencia artificial, visión artificial u otros modelosnes, ya sean de escritorio, en la web o de desarrollo.
+            li 
+              i.fas.fa-brain
+              | Interactuar con sistemas de inteligencia artificial, visión artificial u otros modelos.
+    .titulomedio2.col-12
+      h4 Los componentes de la RPA son: 
+    br
+    br
+    img.col-8.pos11(src='@/assets/curso/vector6.jpg' alt='AvatarTop')
+    .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
+      h2(data-aos="zoom-in") 1.2 Herramientas de Automatización
+    p Algunos casos de estudio son:
     
+    TabsC.color-acento-contenido
+        .py-3.py-md-4(titulo="Referente al aumento de productividad")
+          .row
+            img(src='@/assets/curso/fondo.jpg') 
+
+        .py-3.py-md-4(titulo="Automatización de la mesa de servicio")
+          .row
+            img(src='@/assets/curso/fondo2.jpg') 
+
+        .py-3.py-md-4(titulo="Control de procesos")
+          .row
+            img(src='@/assets/curso/fondo3.jpg') 
+    br
+    .cajon-b.colorcajon6 
+      h3 Algunos ejemplos de automatización son:
+    SlyderE(indicadores="derecha")
+      div
+        figure
+          img(src='@/assets/curso/auto1.jpg', alt='Texto que describa la imagen')
+
+      div
+        figure
+          img(src='@/assets/curso/auto2.jpg', alt='Texto que describa la imagen')
+
+      div
+        figure
+          img(src='@/assets/curso/auto3.jpg', alt='Texto que describa la imagen')
+
+      div
+        figure
+          img(src='@/assets/curso/auto4.jpg', alt='Texto que describa la imagen')
+
+      div
+        figure
+          img(src='@/assets/curso/auto5.jpg', alt='Texto que describa la imagen')
+
+      div
+        figure
+          img(src='@/assets/curso/auto6.jpg', alt='Texto que describa la imagen')
+
+      div
+        figure
+          img(src='@/assets/curso/auto7.jpg', alt='Texto que describa la imagen')
+
+      div
+        figure
+          img(src='@/assets/curso/auto8.jpg', alt='Texto que describa la imagen')
+
+
+
 </template>
 
 <script>
