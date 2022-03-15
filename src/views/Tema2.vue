@@ -3,12 +3,12 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal
-      .h3 Producción Audiovisual
+    .titulo-principal.color-acento-contenido
+      .titulo-principal__numero
+        span.text-white 1
+      h1 Automatización de procesos informáticos
     
-    #t_2_1.titulo-segundo
-      .h4 2.1 Infografía Animada
-    
+
 
 
 </template>
