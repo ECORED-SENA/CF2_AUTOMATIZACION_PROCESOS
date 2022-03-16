@@ -144,32 +144,119 @@ export default {
         'http://www.sc.ehu.es/sbweb/webcentro/automatica/webcqmh1/pagina%20principal/automatizacion/Automatizacion.htm',
     },
     {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+      referencia: 'Desarrolloweb. (2021). Bucle For Each.',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Colaboradores de los proyectos Wikimedia. (2021). Bucle (programación).',
+      link:
+        'https://es.wikipedia.org/w/index.php?title=Bucle_(programaci%C3%B3n)&oldid=136397850',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'alemonterotech (2020). ¿Cuánto debo pagar si quiero implementar RPA con uno de los líderes del mercado en mi empresa?',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://alemonterotech.com/cuanto-debo-pagar-si-quiero-implementar-rpa-con-uno-de-los-lideres-del-mercado-en-mi-empresa',
+    },
+    {
+      referencia: 'Definicion.de. (2021). Definición de automatización.',
+      link: 'https://definicion.de/automatizacion',
+    },
+    {
+      referencia: 'Mozilla and individual contributors (2021). do...while.',
+      link:
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/do...while',
+    },
+    {
+      referencia: 'UiPath (2021). Automation Platform - Leading RPA Company.',
+      link: 'https://www.uipath.com',
+    },
+    {
+      referencia: 'Logicbus. (2021).  ¿Qué es automatización?',
+      link: 'https://www.logicbus.com.mx/automatizacion.php',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Tecnologías Moviles. (2021). Método de Java String format() explicado con ejemplos.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'https://tecnologiasmoviles.com/metodo-de-java-string-format-explicado-con-ejemplos',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Nirvana, B. (2020). Automagica Open Source RPA. [Video] Youtube.',
+      link: 'https://www.youtube.com/watch?v=OYUj_Gc3XrY&ab_channel=BotNirvana',
+    },
+    {
+      referencia: 'Robocorp. (2021). Automation without Boundaries.',
+      link: 'https://robocorp.com',
+    },
+    {
+      referencia:
+        'ProcessMaker. (2021).  Orquestación de procesos vs. Automatización.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.processmaker.com/es/blog/process-orchestration-vs-automation',
+    },
+    {
+      referencia: 'Universidad de Granada. (2001) Arrays y cadenas.',
+      link: 'https://ccia.ugr.es/~jfv/ed1/c/cdrom/cap5/f_cap52.htm',
+    },
+    {
+      referencia:
+        'Lenguajesdeprogramacion  (2019) ¿Qué es un While en programación?',
+      link:
+        'https://lenguajesdeprogramacion.net/diccionario/que-es-un-while-en-programacion',
+    },
+    {
+      referencia:
+        '¿Qué es y cómo funciona la automatización Industrial? (2019, Julio 12).',
+      link:
+        'https://vestertraining.com/blog/automatizacion-industrial-que-es-como-funciona',
+    },
+    {
+      referencia:
+        'Rolón, E., Ruiz, F., García, F., & Piattini, M. (2005). Aplicación de Métricas Software en la Evaluación de Modelos de Procesos de Negocio. ResearchGate.',
+      link:
+        'https://www.researchgate.net/publication/251645101_aplicacion_de_metricas_software_en_la_evaluacion_de_modelos_de_procesos_de_negocio',
+    },
+    {
+      referencia: 'Selenium. (2021).',
+      link: 'https://www.selenium.devdatascope',
+    },
+    {
+      referencia: '(2021) Top 5 herramientas para automatizar procesos.',
+      link:
+        'https://datascope.io/es/blog/las-5-mejores-herramientas-para-automatizar-procesos',
+    },
+    {
+      referencia: 'UNO. (2021)',
+      link:
+        'https://www.inforges.es/post/office365-microsoft-flow-automatiza-todas-tus-tareas',
+    },
+    {
+      referencia: 'Watir Project. (2021). Watir Project.',
+      link: 'http://watir.com',
+    },
+    {
+      referencia: 'WorkMeter. (2021). Software_gestion_proyectos.',
+      link: 'https://es.workmeter.com/software_gestion_proyectos#workproject',
+    },
+    {
+      referencia:
+        'Yooz. (2021). La importancia y los beneficios de la automatización de procesos.',
+      link:
+        'https://www.getyooz.com/es/blog/la-importancia-de-la-automatizacion-de-procesos',
+    },
+    {
+      referencia: 'Zapier. (2021). The easiest way to automate your work.',
+      link: 'https://zapier.com',
+    },
+    {
+      referencia:
+        'ProcessMaker. (2021).  15 Ejemplos de Automatización de Procesos',
+      link:
+        'https://www.processmaker.com/es/blog/15-process-automation-examples',
     },
   ],
   glosario: [
