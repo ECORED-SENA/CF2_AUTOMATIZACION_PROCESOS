@@ -222,7 +222,7 @@
 
           div
             figure
-              img.bor(src='@/assets/template/slyder1.2.jpg', alt='Texto que describa la imagen')
+              img.bor(src='@/assets/template/slyder1.3.jpg', alt='Texto que describa la imagen')
               .tarjeta.colorcajon7 
                 p.negro.col-12 Ciclo de vida del BPM como un proceso de mejoramiento continuo
 
