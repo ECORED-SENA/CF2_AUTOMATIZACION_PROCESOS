@@ -30,28 +30,28 @@
               img.bor(src='@/assets/template/slyder1.jpg', alt='Texto que describa la imagen')
               .tarjeta.colorcajon7
                 img(src='@/assets/curso/1.1.png').col-1.pos14 
-                p.negro.col-12 Ingresar a la página oficial de UiPath,  https://www.uipath.com/ para realizar la respectiva instalación de la herramienta, se solicita una cuenta.
+                p.negro.col-12 Ingresar a la página oficial de <i>UiPath</i>,  https://www.uipath.com/ para realizar la respectiva instalación de la herramienta, se solicita una cuenta.
         
           div
             figure
               img.bor(src='@/assets/template/slyder2.jpg', alt='Texto que describa la imagen')
               .tarjeta.colorcajon7 
                 img(src='@/assets/curso/2.2.png').col-1.pos14 
-                p.negro.col-12 Dirigirse hacia Automation Cloud, que es la nube de Automatización donde se pueden hacer varias automatizaciones.
+                p.negro.col-12 Dirigirse hacia <i>automation Cloud</i>, que es la nube de automatización donde se pueden hacer varias automatizaciones.
 
           div
             figure
               img.bor(src='@/assets/template/slyder3.jpg', alt='Texto que describa la imagen')
               .tarjeta.colorcajon7 
                 img(src='@/assets/curso/3.png').col-1.pos14 
-                p.negro.col-12 Dentro de la nube aparece el Orquestador (Orchestrator Services), para las Automatizaciones mucho más avanzadas.
+                p.negro.col-12 Dentro de la nube aparece el orquestador (<i>Orchestrator Services</i>), para las Automatizaciones mucho más avanzadas.
 
           div
             figure
               img.bor(src='@/assets/template/slyder4.jpg', alt='Texto que describa la imagen')
               .tarjeta.colorcajon7 
                 img(src='@/assets/curso/4.png').col-1.pos14 
-                p.negro.col-12 Ingresar a la parte Download Studio, para descargar UiPath Studio. Seleccionar la plataforma Studio y no Studio X, ya que es más completo.
+                p.negro.col-12 Ingresar a la parte <i>download studio</i>, para descargar <i>uiPath studio</i>. Seleccionar la plataforma <i>studio</i> y no <i>studio X</i>, ya que es más completo.
 
     .tarjeta.colorblue.p-3.mb-5(data-aos="zoom-in")
       .row.justify-content-around.align-items-center
@@ -60,46 +60,50 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p.text-small Se invita al aprendiz a ver el siguiente video, en el que podrá ver en detalle el procedimiento para realizar el proceso de registro e instalación de UiPath.
+              p.text-small Se invita al aprendiz a ver el siguiente video, en el que podrá ver en detalle el procedimiento para realizar el proceso de registro e instalación de <i>UiPath</i>.
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://youtu.be/lciNSmdzKdA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
 
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
-      h2(data-aos="zoom-in") 2.2 Workflows   
+      h2(data-aos="zoom-in") 2.2 <i>Workflows</i>   
 
     img.col-5.pos15(src='@/assets/curso/vector7.jpg' alt='AvatarTop')
     .col-6.pos9
-      p Para empezar a trabajar una automatización se debe reconocer el Workflow, ambiente de trabajo:
+      p Para empezar a trabajar una automatización se debe reconocer el <i>Workflow</i>, ambiente de trabajo:
       ul.lista-ul.lista-ul--color
         li 
           i.fas.fa-angle-right
-          | Se crea en primer lugar un nuevo proceso, dentro de proyectos. 
+          p Se crea en primer lugar un nuevo proceso, dentro de proyectos. 
         li 
           i.fas.fa-angle-right
-          | Se ubica la carpeta donde se van a guardar dichos procesos (la cual trae por defecto la carpeta de UiPath)
+          p Se ubica la carpeta donde se van a guardar dichos procesos (la cual trae por defecto la carpeta de UiPath)
         li 
           i.fas.fa-angle-right
-          | Los procesos son las automatizaciones que se van a realizar. 
+          p Los procesos son las automatizaciones que se van a realizar. 
         li 
           i.fas.fa-angle-right
-          | Siempre se debe seleccionar abrir el Workflow, ambiente de trabajo (para conocer poco a poco las herramientas).
+          p Siempre se debe seleccionar abrir el <i>Workflow</i>, ambiente de trabajo (para conocer poco a poco las herramientas).
         li 
           i.fas.fa-angle-right
-          | Se procede a crear el ambiente de trabajo para las automatizaciones. 
+          p Se procede a crear el ambiente de trabajo para las automatizaciones. 
     br   
     br
-    p.tx Llegar a conocer de fondo todas las funcionalidades que ofrece UiPath es bastante complejo, puesto que se pueden realizar automatizaciones sencillas y complejas, estas últimas relacionadas con lenguajes de programación, Java, C++ y muchos más. 
+    p.tx Llegar a conocer de fondo todas las funcionalidades que ofrece <i>UiPath</i> es bastante complejo, puesto que se pueden realizar automatizaciones sencillas y complejas, estas últimas relacionadas con lenguajes de programación, Java, C++ y muchos más. 
     br
-    .tarjeta.colorblue.p-3.mb-5.pos16
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/video.png")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              p.text-small Se invita al aprendiz a ver el siguiente video, en el que podrá ver en detalle el procedimiento para realizar la creación de un Workflow.
+    br
+    br
+    br
+    .row
+      .tarjeta.colorblue.p-3.mb-5.col-9
+        .row.justify-content-around.align-items-center
+          .col-1.col-sm-1.col-lg-1
+            img(src="@/assets/curso/video.png")
+          .col
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                p.text-small Se invita al aprendiz a ver el siguiente video, en el que podrá ver en detalle el procedimiento para realizar la creación de un <i>Workflow</i>.
     figure.col-12.pos17
       .video
         iframe(width="560" height="315" src="https://youtu.be/lciNSmdzKdA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
