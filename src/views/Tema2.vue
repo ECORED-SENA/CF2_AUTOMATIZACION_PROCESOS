@@ -6,12 +6,13 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span.text-white 2
-      h1 Automatización de procesos informáticos
-    p Para el desarrollo e implementación se utilizará la herramienta UiPath, la cual incluye desarrollo de aplicaciones sin programación, es decir lo puede hacer una persona sin amplios conocimientos de programación, tiene reconocimiento óptico de caracteres (OCR), inteligencia artificial (IA) y aprendizaje automático. Se puede complementar de igual forma con diferentes tipos de programación.  La siguiente imagen muestra una vista del sitio web de UiPath:
+      h1 Desarrollo e implementación
+    p Para el desarrollo e implementación se utilizará la herramienta <i>UiPath</i>, la cual incluye desarrollo de aplicaciones sin programación, es decir lo puede hacer una persona sin amplios conocimientos de programación, tiene reconocimiento óptico de caracteres (OCR), inteligencia artificial (IA) y aprendizaje automático. Se puede complementar de igual forma con diferentes tipos de programación.  La siguiente imagen muestra una vista del sitio web de <i>UiPath</i>:
     br
     br
     .titulo-sexto.color-acento-contenido.pos13
-      h5 Página de Inicio de UiPath
+      h5 Figura 1
+      p Página de Inicio de <i>UiPath</i>
 
     figure.col-10.pos12
       .video

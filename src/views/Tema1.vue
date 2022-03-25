@@ -236,17 +236,17 @@
               | Realizar Automatizaciones en aplicaciones, ya sean de escritorio, en la web o de desarrollo.
             li 
               i.fas.fa-cookie
-              | Interactuar con sistemas de inteligencia artificial, visión artificial u otros modelosnes, ya sean de escritorio, en la web o de desarrollo.
-            li 
-              i.fas.fa-cookie
               | Interactuar con sistemas de inteligencia artificial, visión artificial u otros modelos.
+
     .titulomedio2.col-12
-      h4 Los componentes de la RPA son: 
+      h4 Los componentes de la RPA son 
     br
     br
     img.col-8.pos11(src='@/assets/curso/vector6.svg' alt='AvatarTop')
+    separador
+
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
-      h2(data-aos="zoom-in") 1.2 Herramientas de Automatización
+      h2(data-aos="zoom-in") 1.3 Caso de estudio de la Automatización
     p Algunos casos de estudio son:
     
     TabsC.color-acento-contenido
