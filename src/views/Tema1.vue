@@ -104,7 +104,7 @@
     p.col-8  Dentro de los grandes desafíos para el desarrollo económico se encuentra la automatización de procesos. Es una de las grandes características de la Revolución Industrial 4.0, refiriéndose a las capacidades de los sistemas tecnológicos para ejecutar tareas que originalmente son realizadas por los humanos.<br/><br/>Dentro de la automatización se encuentra ajustada la tecnología de la información, que también puede ser entendida como el conjunto de herramientas que controlan, corrigen y visualizan el estado de diversas tareas y flujos de trabajo, y aparte de esto generan reportes específicos de todos los procesos de producción de la organización.<br/><br/>Dichas características convierten a la automatización en un gran aliado para las empresas, facilitando la productividad, permitiendo que el talento humano de la empresa se enfoque en la dimensión real, obteniendo un mayor desempeño, mientras se identifican áreas donde existan margen de errores para la reducción de costos y mejoras en los resultados empresariales y permitiendo dar soluciones con las operaciones autómatas.
     .cajon-b.colorcajon4.col-10(data-aos="zoom-in")
       p.col-12 Los sistemas, en la automatización, se van regulando a sí mismos, por lo cual cada resultado de un proceso incide en su conjunto, integrándolo y modificándolo. Seguidamente tendrá ciertas restricciones que se configuran previamente, sin intervención humana, entonces el sistema estará evaluando, comparando y realizando ajustes y las mismas correcciones en tiempo real, las ventajas de la automatización de procesos son:
-    img.col-10.pos7(src='@/assets/curso/ventajas.jpg')      
+    img.col-10.pos7(src='@/assets/curso/ventajas.svg')      
     <br>
     .cajon.cajontitle1.col-4(data-aos="zoom-in-right")
       h3.text Herramientas que son tendencia en el momento
@@ -120,7 +120,7 @@
       
         .col-md-8
           figure
-            img(src='@/assets/template/herramienta1.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/herramienta1.svg', alt='Texto que describa la imagen')
 
       .row
         .col-md-4.mb-4.mb-md-0
@@ -129,7 +129,7 @@
       
         .col-md-8
           figure
-            img(src='@/assets/template/herramienta2.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/herramienta2.svg', alt='Texto que describa la imagen')
 
       .row
         .col-md-4.mb-4.mb-md-0
@@ -138,7 +138,7 @@
       
         .col-md-8
           figure
-            img(src='@/assets/template/herramienta3.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/herramienta3.svg', alt='Texto que describa la imagen')
 
       .row
         .col-md-4.mb-4.mb-md-0
@@ -147,7 +147,7 @@
       
         .col-md-8
           figure
-            img(src='@/assets/template/herramienta4.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/herramienta4.svg', alt='Texto que describa la imagen')
 
       .row
         .col-md-4.mb-4.mb-md-0
@@ -156,7 +156,7 @@
       
         .col-md-8
           figure
-            img(src='@/assets/template/herramienta5.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/herramienta5.svg', alt='Texto que describa la imagen')
 
       .row
         .col-md-4.mb-4.mb-md-0
@@ -165,7 +165,7 @@
       
         .col-md-8
           figure
-            img(src='@/assets/template/herramienta6.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/herramienta6.svg', alt='Texto que describa la imagen')
 
       .row
         .col-md-4.mb-4.mb-md-0
@@ -174,7 +174,7 @@
       
         .col-md-8
           figure
-            img(src='@/assets/template/herramienta7.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/herramienta7.svg', alt='Texto que describa la imagen')
 
       .row
         .col-md-4.mb-4.mb-md-0
@@ -183,7 +183,7 @@
       
         .col-md-8
           figure
-            img(src='@/assets/template/herramienta8.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/template/herramienta8.svg', alt='Texto que describa la imagen')
 
     <br>
     .cajon.cajontitle2.col-4(data-aos="zoom-in-right")
@@ -191,7 +191,7 @@
     <br>
     p Es ofrecida para realizar una automatización en cualquier web o aplicación de escritorio, UiPath es una Automatización Robótica de Procesos, RPA. Se destaca por la posibilidad de diseñar, desarrollar y controlar la fuerza de trabajo robótica que imita a los empleados, permite realizar:
     br
-    img.col-10.pos8(src='@/assets/template/grafica1.jpg') 
+    img.col-10.pos8(src='@/assets/template/grafica1.svg') 
     br
     br
     p Cuando se trata de seleccionar una herramienta para la automatización, las necesidades, exigencias y expectativas siempre serán altas, teniendo en cuenta la organización, costos y facilidades de acceso, por esto es recomendable reunir la mayor información posible, clarificando los objetivos y un posible punto de partida en cuanto a recursos humanos y técnicos; también es importante tener claro la evolución tecnológica que tendrá la empresa en cuanto a infraestructura. 
@@ -200,7 +200,7 @@
     .titulomedio
       h4 Las ventajas de utilizar UiPath son:
     br
-    img.col-10.pos8(src='@/assets/template/grafica2.jpg') 
+    img.col-10.pos8(src='@/assets/template/grafica2.svg') 
     <br>
     .cajon.cajontitle3.col-4(data-aos="zoom-in-right")
       h3.text Sobre UiPath
@@ -232,19 +232,19 @@
         li.pb-0
           ul
             li 
-              i.fas.fa-brain
+              i.fas.fa-cookie
               | Realizar Automatizaciones en aplicaciones, ya sean de escritorio, en la web o de desarrollo.
             li 
-              i.fas.fa-brain
+              i.fas.fa-cookie
               | Interactuar con sistemas de inteligencia artificial, visión artificial u otros modelosnes, ya sean de escritorio, en la web o de desarrollo.
             li 
-              i.fas.fa-brain
+              i.fas.fa-cookie
               | Interactuar con sistemas de inteligencia artificial, visión artificial u otros modelos.
     .titulomedio2.col-12
       h4 Los componentes de la RPA son: 
     br
     br
-    img.col-8.pos11(src='@/assets/curso/vector6.jpg' alt='AvatarTop')
+    img.col-8.pos11(src='@/assets/curso/vector6.svg' alt='AvatarTop')
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 1.2 Herramientas de Automatización
     p Algunos casos de estudio son:
@@ -252,51 +252,53 @@
     TabsC.color-acento-contenido
         .py-3.py-md-4(titulo="Referente al aumento de productividad")
           .row
-            img(src='@/assets/curso/fondo.jpg') 
+            img(src='@/assets/curso/fondo.svg') 
 
         .py-3.py-md-4(titulo="Automatización de la mesa de servicio")
           .row
-            img(src='@/assets/curso/fondo2.jpg') 
+            img(src='@/assets/curso/fondo2.svg') 
 
         .py-3.py-md-4(titulo="Control de procesos")
           .row
-            img(src='@/assets/curso/fondo3.jpg') 
+            img(src='@/assets/curso/fondo3.svg') 
     br
-    .cajon-b.colorcajon6 
-      h3 Algunos ejemplos de automatización son:
-    SlyderE(indicadores="derecha")
-      div
-        figure
-          img(src='@/assets/curso/auto1.jpg', alt='Texto que describa la imagen')
+    br
+    br
+    .row
+      SlyderE(indicadores="derecha")
+        div
+          figure
+            img(src='@/assets/curso/auto1.jpg', alt='Texto que describa la imagen')
 
-      div
-        figure
-          img(src='@/assets/curso/auto2.jpg', alt='Texto que describa la imagen')
+        div
+          figure
+            img(src='@/assets/curso/auto2.jpg', alt='Texto que describa la imagen')
 
-      div
-        figure
-          img(src='@/assets/curso/auto3.jpg', alt='Texto que describa la imagen')
+        div
+          figure
+            img(src='@/assets/curso/auto3.jpg', alt='Texto que describa la imagen')
 
-      div
-        figure
-          img(src='@/assets/curso/auto4.jpg', alt='Texto que describa la imagen')
+        div
+          figure
+            img(src='@/assets/curso/auto4.jpg', alt='Texto que describa la imagen')
 
-      div
-        figure
-          img(src='@/assets/curso/auto5.jpg', alt='Texto que describa la imagen')
+        div
+          figure
+            img(src='@/assets/curso/auto5.jpg', alt='Texto que describa la imagen')
 
-      div
-        figure
-          img(src='@/assets/curso/auto6.jpg', alt='Texto que describa la imagen')
+        div
+          figure
+            img(src='@/assets/curso/auto6.jpg', alt='Texto que describa la imagen')
 
-      div
-        figure
-          img(src='@/assets/curso/auto7.jpg', alt='Texto que describa la imagen')
+        div
+          figure
+            img(src='@/assets/curso/auto7.jpg', alt='Texto que describa la imagen')
 
-      div
-        figure
-          img(src='@/assets/curso/auto8.jpg', alt='Texto que describa la imagen')
-
+        div
+          figure
+            img(src='@/assets/curso/auto8.jpg', alt='Texto que describa la imagen')
+      .cajon-b.colorcajon6.m-t1-top1
+        h3 Algunos ejemplos de automatización son:
 
 
 </template>
