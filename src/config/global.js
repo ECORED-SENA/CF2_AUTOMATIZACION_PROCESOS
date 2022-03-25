@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Requerimientos del proceso de automatización',
+    componenteFormativo: 'Creación de la automatización',
     descripcionCurso:
-      'La automatización de procesos simula la inteligencia humana, por lo que las automatizaciones son utilizadas para controlar y monitorear procesos, las máquinas o los dispositivos que cumplen con tareas o funciones repetitivas. Se caracterizan por su forma de operar automáticamente, reduciendo y mejorando el trabajo humano en las industrias.',
+      'Para la creación de la automatización de un proceso, se debe tener en cuenta la identificación de ciertos requerimientos o necesidades en la empresa, que busca con la eficacia y precisión de las tareas, minimizando errores y teniendo la certeza de que los datos obtenidos son los deseados.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -56,13 +56,13 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Instalación de UiPath',
+            titulo: 'Instalación de <i>UiPath</i>',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Workflows',
+            titulo: '<i>Workflows</i>',
             hash: 't_2_2',
           },
           {

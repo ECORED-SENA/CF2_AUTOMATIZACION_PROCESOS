@@ -11,7 +11,7 @@
     p La automatización es un sistema donde las tareas de producción se transfieren desde los operadores humanos hacia un conjunto de elementos tecnológicos. Se podría decir que una automatización consta de dos partes: 
     .row
       img(src='@/assets/curso/vector1.svg' alt='AvatarTop')
-      .col-lg-5.pos1
+      .col-lg-5.pos1.m-t1-top
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img.numero(src='@/assets/curso/1.png' alt='AvatarTop')
@@ -20,7 +20,7 @@
               h2 La parte operativa
               p Está directamente relacionada con la máquina, son los elementos que hacen que la máquina actúe, se mueva y realice la operación que se desea. 
 
-      .col-lg-5.pos1
+      .col-lg-5.pos1.m-t1-top
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img.numero(src='@/assets/curso/2.png' alt='AvatarTop')
@@ -28,9 +28,11 @@
               .p-2
               h2 La parte de mando
               p Suele ser programable, es un sistema de fabricación automatizado, en el centro del sistema, está el autómata programable. 
+    separador
+    
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 1.1 Definición y características de automatización
-    p También se puede decir que la automatización es el conjunto de procesos informáticos, mecánicos y electromecánicos, operando con una mínima o casi nula intervención humana. Se utilizan normalmente para optimizar y realizar mejoras en el funcionamiento de procesos en las industrias, campo, estadios o cualquier lugar que posea un sistema informático y desee operar sus labores de manera más ágil y eficiente. La automatización logra realizar tareas que se desarrollan por sí solas sin la participación de un individuo.
+    p También se puede decir que la automatización es el conjunto de procesos informáticos, mecánicos y electromecánicos, operados con una mínima o casi nula intervención humana. Se utilizan normalmente para optimizar y realizar mejoras en el funcionamiento de procesos en las industrias, campo, estadios o cualquier lugar que posea un sistema informático y desee operar sus labores de manera más ágil y eficiente. La automatización logra realizar tareas que se desarrollan por sí solas sin la participación de un individuo.
     
     .cajon-b.colorcajon3.col-10(data-aos="zoom-in")
       p Las retroalimentaciones y capacidades de realizar ajustes con los datos o información, es la que indica lo autosuficiente que puede llegar a ser un sistema automatizado, por ejemplo:
@@ -44,7 +46,7 @@
               h2 Alta dependencia
               p Un brazo robótico que se utiliza en el armado de autos, utilizando sensores y programación, ejecuta las tareas sin intervención humana.
 
-      .col-lg-4.pos2
+      .col-lg-4.pos21
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
             img.numero(src='@/assets/curso/2.png' alt='AvatarTop')
@@ -53,45 +55,47 @@
               p Un tanque de leche industrial tiene sensor de temperatura, y su apagado o prendido es manual. 
     br
 
-    .col-4.pos3
-      h4 Las características de la automatización son:
-      ul.lista-ul.lista-ul--color
-        li 
-          i.fas.fa-angle-right
-          | Mejorar la productividad de la empresa.
-        li 
-          i.fas.fa-angle-right
-          | Reducir los costes y mejorar la calidad de producción.
-        li 
-          i.fas.fa-angle-right
-          | Mejorar las condiciones de los trabajadores.
-        li 
-          i.fas.fa-angle-right
-          | Incrementar la seguridad.
-        li 
-          i.fas.fa-angle-right
-          | Mejorar la disponibilidad de los productos.
-        li 
-          i.fas.fa-angle-right
-          | Simplificar las operaciones frente a grandes conocimientos que se requieran de los trabajadores.
-        li 
-          i.fas.fa-angle-right
-          | Optimizar la calidad de productos a través de los procesos constantes y repetitivos.
-        li 
-          i.fas.fa-angle-right
-          | Reduce esfuerzos y tiempos de producción.
-        li 
-          i.fas.fa-angle-right
-          | Minimiza los errores e incrementa la seguridad del personal.
-        li 
-          i.fas.fa-angle-right
-          | La reparación de las máquinas supone un menor costo.
-        li 
-          i.fas.fa-angle-right
-          |Permite el ahorro en la eficiencia y producción. 
-
-    img.col-5.pos4(src='@/assets/curso/vector2.svg' alt='AvatarTop')
+    .row
+      .col-4.pos3
+        h4 Las características de la automatización son
+        ul.lista-ul.lista-ul--color
+          li 
+            i.fas.fa-angle-right
+            | Mejorar la productividad de la empresa.
+          li 
+            i.fas.fa-angle-right
+            | Reducir los costes y mejorar la calidad de producción.
+          li 
+            i.fas.fa-angle-right
+            | Mejorar las condiciones de los trabajadores.
+          li 
+            i.fas.fa-angle-right
+            | Incrementar la seguridad.
+          li 
+            i.fas.fa-angle-right
+            | Mejorar la disponibilidad de los productos.
+          li 
+            i.fas.fa-angle-right
+            | Simplificar las operaciones frente a grandes conocimientos que se requieran de los trabajadores.
+          li 
+            i.fas.fa-angle-right
+            | Optimizar la calidad de productos a través de los procesos constantes y repetitivos.
+          li 
+            i.fas.fa-angle-right
+            | Reduce esfuerzos y tiempos de producción.
+          li 
+            i.fas.fa-angle-right
+            | Minimiza los errores e incrementa la seguridad del personal.
+          li 
+            i.fas.fa-angle-right
+            | La reparación de las máquinas supone un menor costo.
+          li 
+            i.fas.fa-angle-right
+            |Permite el ahorro en la eficiencia y producción. 
+      img.col-5.pos4(src='@/assets/curso/vector2.svg' alt='AvatarTop')
     br
+    separador
+
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 1.2 Herramientas de Automatización
     br
