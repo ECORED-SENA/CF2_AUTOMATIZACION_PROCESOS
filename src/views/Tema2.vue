@@ -112,8 +112,8 @@
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 2.3 Control de flujos 
 
-    img.col-4.pos15(src='@/assets/curso/vector8.jpg' alt='AvatarTop')
-    .col-7.pos9
+    img.col-5.pos15(src='@/assets/curso/vector8.jpg' alt='AvatarTop')
+    .col-6.pos9
       p Los controladores de flujo permiten monitoreo y control en tiempo real. Es la capacidad de
       ul.lista-ul.lista-ul--color
         li 
@@ -180,7 +180,7 @@
       table
         tr
           th Automatización de procesos
-          td Es la manera de emplear tecnología para realizar tareas sin necesidad de la intervención humana.<br/><br/>Las labores rutinarias, manuales y responsabilidades son transferidos a las máquinas.
+          td Es la manera de emplear tecnología para realizar tareas sin necesidad de la intervención humana.<br/><br/>Las labores rutinarias, manuales y responsabilidades son transferidas a las máquinas.
         tr
           th Orquestación de procesos
           td Las organizaciones pueden tener una, muchas o miles de automatizaciones a través de sus sistemas.<br/><br/>Para coordinar todas las automatizaciones, es necesario la orquestación de procesos.<br/><br/>La orquestación es la estrategia para la ejecución de las Automatizaciones de manera coordinada y eficiente. La orquestación encadena de manera eficaz las automatizaciones que funcionan en diferentes entornos. 
@@ -209,25 +209,25 @@
 
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 2.5 Evaluación de procesos de negocio
-    p Los procesos de negocio y procesos de software son similares puesto que capturan las principales características de una serie de actividades que se ordenan para lograr una meta específica.<br/><br/>El objetivo de un proceso de negocio es obtener resultados beneficiosos, generalmente de un producto o servicio para los clientes o usuarios del proceso. Algunos ejemplos de la documentación de un proceso son:
+    p Los procesos de negocio y procesos de <i>software</i> son similares puesto que capturan las principales características de una serie de actividades que se ordenan para lograr una meta específica.<br/><br/>El objetivo de un proceso de negocio es obtener resultados beneficiosos, generalmente de un producto o servicio para los clientes o usuarios del proceso. Algunos ejemplos de la documentación de un proceso son:
     .tarjeta.p-4.mb-5.col-10.pos12.azul
         SlyderA(tipo="b")
           
           div
             figure
-              img.bor(src='@/assets/template/slyder1.1.jpg', alt='Texto que describa la imagen')
-              .tarjeta.colorcajon7 
+              img.bor(src='@/assets/template/slyder1.1.svg', alt='Texto que describa la imagen').m-t1-top2
+              .tarjeta.colorcajon7
                 p.negro.col-12 El director del DCC recibe una petición de un académico para una comisión en el exterior. Esta debe estar acompañada de la documentación pertinente.
         
           div
             figure
-              img.bor(src='@/assets/template/slyder1.2.jpg', alt='Texto que describa la imagen')
+              img.bor(src='@/assets/template/slyder1.2.svg', alt='Texto que describa la imagen')
               .tarjeta.colorcajon7 
                 p.negro.col-12 Ejemplo de orden de compra, reclamos, productos defectuosos.
 
           div
             figure
-              img.bor(src='@/assets/template/slyder1.3.jpg', alt='Texto que describa la imagen')
+              img.bor(src='@/assets/template/slyder1.3.svg', alt='Texto que describa la imagen')
               .tarjeta.colorcajon7 
                 p.negro.col-12 Ciclo de vida del BPM como un proceso de mejoramiento continuo
 
@@ -247,7 +247,7 @@
 
           p.text-small(numero="2" titulo="Generación de los casos de pruebas").m-3
             ul(style="list-style-type: square")
-              p ayudan a determinar el conjunto de entradas, las condiciones de la ejecución y los resultados esperados para el objetivo particular.
+              p Ayudan a determinar el conjunto de entradas, las condiciones de la ejecución y los resultados esperados para el objetivo particular.
 
           p.text-small(numero="3" titulo="Definir procedimientos de las pruebas").m-3
             ul(style="list-style-type: square")
@@ -282,7 +282,7 @@
             .anexo__icono
               img(src="@/assets/template/icono-xml.svg")
             .anexo__texto
-              p Llamado a la acción
+              p <b>Anexo.</b>  Plantilla de pruebas.
 
 </template>
 

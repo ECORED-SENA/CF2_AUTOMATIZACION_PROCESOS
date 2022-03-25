@@ -17,7 +17,7 @@
             img.numero(src='@/assets/curso/1.png' alt='AvatarTop')
           .tarjeta.tarjeta--azul.med1
               .p-2
-              h2 La parte operativa
+              h3 La parte operativa
               p Está directamente relacionada con la máquina, son los elementos que hacen que la máquina actúe, se mueva y realice la operación que se desea. 
 
       .col-lg-5.pos1.m-t1-top
@@ -26,7 +26,7 @@
             img.numero(src='@/assets/curso/2.png' alt='AvatarTop')
           .tarjeta.tarjeta--azul.med1
               .p-2
-              h2 La parte de mando
+              h3 La parte de mando
               p Suele ser programable, es un sistema de fabricación automatizado, en el centro del sistema, está el autómata programable. 
     separador
     
@@ -43,7 +43,7 @@
           .tarjeta-avatar-b__img
             img.numero(src='@/assets/curso/1.png' alt='AvatarTop')
           .tarjeta.tarjeta--azul.med2
-              h2 Alta dependencia
+              h3 Alta dependencia
               p Un brazo robótico que se utiliza en el armado de autos, utilizando sensores y programación, ejecuta las tareas sin intervención humana.
 
       .col-lg-4.pos21
@@ -51,7 +51,7 @@
           .tarjeta-avatar-b__img
             img.numero(src='@/assets/curso/2.png' alt='AvatarTop')
           .tarjeta.tarjeta--azul.med2
-              h2 Sistema semiautomatizado
+              h3 Sistema semiautomatizado
               p Un tanque de leche industrial tiene sensor de temperatura, y su apagado o prendido es manual. 
     br
 
