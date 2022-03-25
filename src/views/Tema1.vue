@@ -169,8 +169,8 @@
 
       .row
         .col-md-4.mb-4.mb-md-0
-          h3 Automágica
-          p La plataforma Automágica se está cambiando a Netcall, herramienta igualmente poderosa en la automatización.
+          h3 Automagica
+          p La plataforma Automágica se está cambiando a <i>Netcall</i>, herramienta igualmente poderosa en la automatización.
       
         .col-md-8
           figure
@@ -189,7 +189,7 @@
     .cajon.cajontitle2.col-4(data-aos="zoom-in-right")
       h3.text Otra herramienta que se utiliza es UiPath
     <br>
-    p Es ofrecida para realizar una automatización en cualquier web o aplicación de escritorio, UiPath es una Automatización Robótica de Procesos, RPA. Se destaca por la posibilidad de diseñar, desarrollar y controlar la fuerza de trabajo robótica que imita a los empleados, permite realizar:
+    p Es ofrecida para realizar una automatización en cualquier web o aplicación de escritorio, UiPath es una Automatización Robótica de Procesos, RPA. Se destaca por la posibilidad de diseñar, desarrollar y controlar la fuerza de trabajo robótica que imita a los empleados.
     br
     img.col-10.pos8(src='@/assets/template/grafica1.svg') 
     br
@@ -203,13 +203,13 @@
     img.col-10.pos8(src='@/assets/template/grafica2.svg') 
     <br>
     .cajon.cajontitle3.col-4(data-aos="zoom-in-right")
-      h3.text Sobre UiPath
+      h3.text Sobre <i>UiPath</i>
     <br>
-    p.col-12 UiPath Robotic Process Automation es una solución que se basa en la nube, ayuda a las empresas a diseñar y gestionar tareas de automatización, supervisadas y desatendidas, agilizando la atención al cliente. UiPath RPA permite que los usuarios almacenen múltiples licencias en bases de datos para ser consultadas en cualquier momento.
+    p.col-12 <i>UiPath Robotic Process Automation</i> es una solución que se basa en la nube, ayuda a las empresas a diseñar y gestionar tareas de automatización, supervisadas y desatendidas, agilizando la atención al cliente. <i>UiPath RPA</i> permite que los usuarios almacenen múltiples licencias en bases de datos para ser consultadas en cualquier momento.
     
     img.col-5.pos10(src='@/assets/curso/vector5.svg' alt='AvatarTop')
     .col-5.pos9
-      h4 RPA (Robotic Process Automation)
+      h4 RPA <i>(Robotic Process Automation)</i>
       ul.lista-ul.lista-ul--color
         li 
           i.fas.fa-angle-right
@@ -225,7 +225,7 @@
           | Es un sistema que se encuentra en el computador o en la nube y que ejecuta las automatizaciones que se lleven a cabo.
         li 
           i.fas.fa-angle-right
-          | Un robot puede automatizar procesos de negocio de alto volumen orientados con reglas de negocio, si la información se encuentre digital y es repetible:
+          | Un robot puede automatizar procesos de negocio de alto volumen orientados con reglas de negocio, si la información se encuentra digital y es repetible.
     br  
     .cajon-b.colorcajon5    
        ul.lista-ul--color.lista-ul--separador
