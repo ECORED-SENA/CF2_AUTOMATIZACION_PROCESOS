@@ -68,7 +68,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Control de Flujos',
+            titulo: 'Control de flujos',
             hash: 't_2_3',
           },
           {
@@ -287,19 +287,17 @@ export default {
       texto:
         'Quality-Stream. (2020). Cómo Escribir Casos de Pruebas | Paso a paso.',
       tipo: 'Video',
-      link:
-        'https://www.youtube.com/watch?v=laawNIdX9js&ab_channel=Quality-Stream',
+      link: 'https://www.youtube.com/embed/laawNIdX9js',
     },
     {
       texto:
         'ISO/IEC/IEEE 29119 El nuevo estándar internacional para pruebas de software (2015). AEN/CTN 71/SC7/GT26 – Ingeniería del Software y Sistemas de Información – Pruebas del Software.',
-      tipo: 'Página web',
-      descarga:
-        'https://in2test.lsi.uniovi.es/gt26/presentations/ISO29119-Presentacion-GT26-20151215.SanSebastian.pdf',
+      tipo: 'Presentación',
+      descarga: ['/downloads/CF002_Anexo2_ISO29119-GT26-20151215.pdf'],
     },
     {
       texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
+      tipo: 'Plantilla',
       descarga: ['/downloads/OKEst_CF002_Anexo3_Plantilla-Pruebas.xlsx'],
     },
   ],

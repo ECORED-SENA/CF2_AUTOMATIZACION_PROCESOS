@@ -56,7 +56,7 @@
     br
 
     .row
-      .col-4.pos3
+      .col-5.pos3
         h4 Las características de la automatización son
         ul.lista-ul.lista-ul--color
           li 
@@ -82,17 +82,17 @@
             | Optimizar la calidad de productos a través de los procesos constantes y repetitivos.
           li 
             i.fas.fa-angle-right
-            | Reduce esfuerzos y tiempos de producción.
+            | Reducir esfuerzos y tiempos de producción.
           li 
             i.fas.fa-angle-right
-            | Minimiza los errores e incrementa la seguridad del personal.
+            | Minimizar los errores e incrementar la seguridad del personal.
           li 
             i.fas.fa-angle-right
             | La reparación de las máquinas supone un menor costo.
           li 
             i.fas.fa-angle-right
-            |Permite el ahorro en la eficiencia y producción. 
-      img.col-5.pos4(src='@/assets/curso/vector2.svg' alt='AvatarTop')
+            |Permitir el ahorro en la eficiencia y producción. 
+      img.col-4.pos4(src='@/assets/curso/vector2.svg' alt='AvatarTop')
     br
     separador
 
@@ -101,7 +101,8 @@
     br
     br
     img.col-4.pos6(src='@/assets/curso/vector4.jpg' alt='AvatarTop')
-    p.col-8  Dentro de los grandes desafíos para el desarrollo económico se encuentra la automatización de procesos. Es una de las grandes características de la Revolución Industrial 4.0, refiriéndose a las capacidades de los sistemas tecnológicos para ejecutar tareas que originalmente son realizadas por los humanos.<br/><br/>Dentro de la automatización se encuentra ajustada la tecnología de la información, que también puede ser entendida como el conjunto de herramientas que controlan, corrigen y visualizan el estado de diversas tareas y flujos de trabajo, y aparte de esto generan reportes específicos de todos los procesos de producción de la organización.<br/><br/>Dichas características convierten a la automatización en un gran aliado para las empresas, facilitando la productividad, permitiendo que el talento humano de la empresa se enfoque en la dimensión real, obteniendo un mayor desempeño, mientras se identifican áreas donde existan margen de errores para la reducción de costos y mejoras en los resultados empresariales y permitiendo dar soluciones con las operaciones autómatas.
+    p.col-6  Dentro de los grandes desafíos para el desarrollo económico se encuentra la automatización de procesos. Es una de las grandes características de la Revolución Industrial 4.0, refiriéndose a las capacidades de los sistemas tecnológicos para ejecutar tareas que originalmente son realizadas por los humanos.<br/><br/>Dentro de la automatización se encuentra ajustada la tecnología de la información, que también puede ser entendida como el conjunto de herramientas que controlan, corrigen y visualizan el estado de diversas tareas y flujos de trabajo, y aparte de esto generan reportes específicos de todos los procesos de producción de la organización.<br/><br/>Dichas características convierten a la automatización en un gran aliado para las empresas, facilitando la productividad, permitiendo que el talento humano de la empresa se enfoque en la dimensión real, obteniendo un mayor desempeño, mientras se identifican áreas donde existan margen de errores para la reducción de costos y mejoras en los resultados empresariales y permitiendo dar soluciones con las operaciones autómatas.
+    
     .cajon-b.colorcajon4.col-10(data-aos="zoom-in")
       p.col-12 Los sistemas, en la automatización, se van regulando a sí mismos, por lo cual cada resultado de un proceso incide en su conjunto, integrándolo y modificándolo. Seguidamente tendrá ciertas restricciones que se configuran previamente, sin intervención humana, entonces el sistema estará evaluando, comparando y realizando ajustes y las mismas correcciones en tiempo real, las ventajas de la automatización de procesos son:
     img.col-10.pos7(src='@/assets/curso/ventajas.svg')      
@@ -134,7 +135,7 @@
       .row
         .col-md-4.mb-4.mb-md-0
           h3 Flow
-          p Esta aplicación fue lanzada en 2016 por Microsoft, surgiendo como respuesta de automatización y conexión de aplicaciones web. Es llamada también Microsoft Flow, ofreciendo la automatización de múltiples tareas combinando diferentes servicios en la nube
+          p Esta aplicación fue lanzada en 2016 por Microsoft, surgiendo como respuesta de automatización y conexión de aplicaciones web. Es llamada también Microsoft Flow, ofreciendo la automatización de múltiples tareas combinando diferentes servicios en la nube.
       
         .col-md-8
           figure
@@ -187,9 +188,9 @@
 
     <br>
     .cajon.cajontitle2.col-4(data-aos="zoom-in-right")
-      h3.text Otra herramienta que se utiliza es UiPath
+      h3.text Otra herramienta que se utiliza es <i>UiPath</i>
     <br>
-    p Es ofrecida para realizar una automatización en cualquier web o aplicación de escritorio, UiPath es una Automatización Robótica de Procesos, RPA. Se destaca por la posibilidad de diseñar, desarrollar y controlar la fuerza de trabajo robótica que imita a los empleados.
+    p Es ofrecida para realizar una automatización en cualquier web o aplicación de escritorio, <i>UiPath</i> es una Automatización Robótica de Procesos, RPA. Se destaca por la posibilidad de diseñar, desarrollar y controlar la fuerza de trabajo robótica que imita a los empleados.
     br
     img.col-10.pos8(src='@/assets/template/grafica1.svg') 
     br
@@ -198,7 +199,7 @@
     br
     br
     .titulomedio
-      h4 Las ventajas de utilizar UiPath son:
+      h4 Las ventajas de utilizar <i>UiPath</i> son:
     br
     img.col-10.pos8(src='@/assets/template/grafica2.svg') 
     <br>
