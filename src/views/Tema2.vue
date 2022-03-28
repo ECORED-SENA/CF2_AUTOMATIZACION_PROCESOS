@@ -20,6 +20,7 @@
 
     separador
 
+    #t_2_1
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 2.1 Instalación de UiPath
     p Los pasos generales para la descarga de UiPath son los siguientes:
@@ -70,6 +71,7 @@
       
     Separador
 
+    #t_2_2
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 2.2 <i>Workflows</i>   
 
@@ -115,6 +117,7 @@
     br
     separador
 
+    #t_2_3
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 2.3 Control de flujos 
 
@@ -175,6 +178,7 @@
     img.col-8.pos12(src='@/assets/template/grafica3.svg')
     separador
 
+    #t_2_4
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 2.4 Automatización del proceso 
     br
@@ -212,8 +216,9 @@
         tr
           th Mayor agilidad
           td Mayor agilidad La automatización y la orquestación abren un nuevo mercado de herramientas en la nube, en la cual se pueden seleccionar servicios preconstruidos y adicionar o ajustar a las necesidades.
+    separador
 
-
+    #t_2_5
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 2.5 Evaluación de procesos de negocio
     p Los procesos de negocio y procesos de <i>software</i> son similares puesto que capturan las principales características de una serie de actividades que se ordenan para lograr una meta específica.<br/><br/>El objetivo de un proceso de negocio es obtener resultados beneficiosos, generalmente de un producto o servicio para los clientes o usuarios del proceso. Algunos ejemplos de la documentación de un proceso son:
@@ -239,6 +244,7 @@
                 p.negro.col-12 Ciclo de vida del BPM como un proceso de mejoramiento continuo
 
     Separador
+    #t_2_6
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 2.6 Informe de documentación y pruebas
     p Las tareas que se deben realizar para determinar un formato de pruebas son:
