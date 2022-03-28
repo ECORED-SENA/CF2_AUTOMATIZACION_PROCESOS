@@ -8,7 +8,7 @@
     .row.justify-content-center
       .col-6
         figure
-          img(src="@/assets/curso/sintesis.jpg", alt="alt")
+          img(src="@/assets/curso/sintesis.svg", alt="alt")
     
 
 

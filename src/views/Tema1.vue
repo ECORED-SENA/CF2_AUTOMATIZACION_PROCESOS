@@ -209,7 +209,7 @@
     p.col-12 <i>UiPath Robotic Process Automation</i> es una solución que se basa en la nube, ayuda a las empresas a diseñar y gestionar tareas de automatización, supervisadas y desatendidas, agilizando la atención al cliente. <i>UiPath RPA</i> permite que los usuarios almacenen múltiples licencias en bases de datos para ser consultadas en cualquier momento.
     
     img.col-5.pos10(src='@/assets/curso/vector5.svg' alt='AvatarTop')
-    .col-5.pos9
+    .col-6.pos9
       h4 RPA <i>(Robotic Process Automation)</i>
       ul.lista-ul.lista-ul--color
         li 
@@ -269,35 +269,35 @@
       SlyderE(indicadores="derecha")
         div
           figure
-            img(src='@/assets/curso/auto1.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/auto1.svg', alt='Texto que describa la imagen')
 
         div
           figure
-            img(src='@/assets/curso/auto2.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/auto2.svg', alt='Texto que describa la imagen')
 
         div
           figure
-            img(src='@/assets/curso/auto3.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/auto3.svg', alt='Texto que describa la imagen')
 
         div
           figure
-            img(src='@/assets/curso/auto4.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/auto4.svg', alt='Texto que describa la imagen')
 
         div
           figure
-            img(src='@/assets/curso/auto5.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/auto5.svg', alt='Texto que describa la imagen')
 
         div
           figure
-            img(src='@/assets/curso/auto6.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/auto6.svg', alt='Texto que describa la imagen')
 
         div
           figure
-            img(src='@/assets/curso/auto7.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/auto7.svg', alt='Texto que describa la imagen')
 
         div
           figure
-            img(src='@/assets/curso/auto8.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/auto8.svg', alt='Texto que describa la imagen')
       .cajon-b.colorcajon6.m-t1-top1
         h3 Algunos ejemplos de automatización son:
 

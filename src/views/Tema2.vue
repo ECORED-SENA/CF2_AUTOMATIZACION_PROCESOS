@@ -18,6 +18,8 @@
       .video
         iframe(src="https://www.uipath.com" allowtransparency="true" frameborder="0" scrolling="no" width="640" height="390")
 
+    separador
+
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 2.1 Instalación de UiPath
     p Los pasos generales para la descarga de UiPath son los siguientes:
@@ -27,10 +29,10 @@
           
           div
             figure
-              img.bor(src='@/assets/template/slyder1.jpg', alt='Texto que describa la imagen')
+              img.bor(src='@/assets/template/slyder1.jpg', alt='Texto que describa la imagen')   
               .tarjeta.colorcajon7
                 img(src='@/assets/curso/1.1.png').col-1.pos14 
-                p.negro.col-12 Ingresar a la página oficial de <i>UiPath</i>,  https://www.uipath.com/ para realizar la respectiva instalación de la herramienta, se solicita una cuenta.
+                p.negro.col-12 Ingresar a la página oficial de <i>UiPath</i>, <a href="https://www.uipath.com/">https://www.uipath.com/</a> para realizar la respectiva instalación de la herramienta, se solicita una cuenta.
         
           div
             figure
@@ -53,17 +55,19 @@
                 img(src='@/assets/curso/4.png').col-1.pos14 
                 p.negro.col-12 Ingresar a la parte <i>download studio</i>, para descargar <i>uiPath studio</i>. Seleccionar la plataforma <i>studio</i> y no <i>studio X</i>, ya que es más completo.
 
-    .tarjeta.colorblue.p-3.mb-5(data-aos="zoom-in")
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/video.png")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              p.text-small Se invita al aprendiz a ver el siguiente video, en el que podrá ver en detalle el procedimiento para realizar el proceso de registro e instalación de <i>UiPath</i>.
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://youtu.be/lciNSmdzKdA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row
+      .tarjeta.colorblue.p-3.mb-5(data-aos="zoom-in")
+        .row.justify-content-around.align-items-center
+          .col-3.col-sm-2.col-lg-1
+            img(src="@/assets/curso/video.png")
+          .col
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                p.text-small Se invita al aprendiz a ver el siguiente video, en el que podrá ver en detalle el procedimiento para realizar el proceso de registro e instalación de <i>UiPath</i>.
+      figure.mb-5
+        .video
+          iframe(width="560" height="315" src="https://youtu.be/lciNSmdzKdA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      
     Separador
 
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
@@ -104,10 +108,12 @@
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
                 p.text-small Se invita al aprendiz a ver el siguiente video, en el que podrá ver en detalle el procedimiento para realizar la creación de un <i>Workflow</i>.
-    figure.col-12.pos17
-      .video
-        iframe(width="560" height="315" src="https://youtu.be/lciNSmdzKdA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+    .row
+      figure.col-12.pos17
+        .video
+          iframe(width="560" height="315" src="https://youtu.be/lciNSmdzKdA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    br
+    separador
 
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 2.3 Control de flujos 
@@ -166,7 +172,8 @@
     .cajon-b.colorcajon8 
       h3 Diagrama estructuras de datos
     br
-    img.col-8.pos12(src='@/assets/template/grafica3.jpg')
+    img.col-8.pos12(src='@/assets/template/grafica3.svg')
+    separador
 
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 2.4 Automatización del proceso 
@@ -186,7 +193,7 @@
           td Las organizaciones pueden tener una, muchas o miles de automatizaciones a través de sus sistemas.<br/><br/>Para coordinar todas las automatizaciones, es necesario la orquestación de procesos.<br/><br/>La orquestación es la estrategia para la ejecución de las Automatizaciones de manera coordinada y eficiente. La orquestación encadena de manera eficaz las automatizaciones que funcionan en diferentes entornos. 
         tr
           th Secuencia de eventos
-          td Secuencia de eventos Con el uso de la orquestación, se logran identificar diferentes tareas y secuenciarlas para lograr velocidad y eficiencia.
+          td Con el uso de la orquestación, se logran identificar diferentes tareas y secuenciarlas para lograr velocidad y eficiencia.
         tr
           th Elimina redundancias
           td Ayuda a identificar nuevas oportunidades aumentando la eficiencia. Si dos flujos de trabajo corren en paralelo, la orquestación puede unir los flujos de trabajo para ejecutar una tarea en vez de dos.
@@ -194,7 +201,7 @@
           th Promulga políticas estandarizadas
           td La orquestación reúne todas las automatizaciones bajo un solo paraguas. Es como el conductor de un tren, enlazando coches, mantiene los movimientos a muy buena velocidad y permite la comunicación entre las automatizaciones.
         tr
-          th Encajes de la Automatización y la Orquestación.
+          th Encajes de la Automatización y la Orquestación
           td La automatización ayuda a eliminar tareas y la orquestación las reúne a todas y las enruta.
         tr
           th Ahorro de costes
