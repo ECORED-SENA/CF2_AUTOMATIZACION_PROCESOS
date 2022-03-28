@@ -99,7 +99,7 @@
 
     #t_1_2
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
-    h2(data-aos="zoom-in") 1.2 Herramientas de Automatización
+      h2(data-aos="zoom-in") 1.2 Herramientas de Automatización
     br
     br
     img.col-4.pos6(src='@/assets/curso/vector4.jpg' alt='AvatarTop')
@@ -209,38 +209,41 @@
       h3.text Sobre <i>UiPath</i>
     <br>
     p.col-12 <i>UiPath Robotic Process Automation</i> es una solución que se basa en la nube, ayuda a las empresas a diseñar y gestionar tareas de automatización, supervisadas y desatendidas, agilizando la atención al cliente. <i>UiPath RPA</i> permite que los usuarios almacenen múltiples licencias en bases de datos para ser consultadas en cualquier momento.
-    
-    img.col-5.pos10(src='@/assets/curso/vector5.svg' alt='AvatarTop')
-    .col-6.pos9
-      h4 RPA <i>(Robotic Process Automation)</i>
-      ul.lista-ul.lista-ul--color
-        li 
-          i.fas.fa-angle-right
-          | Conjunto de herramientas tecnológicas para la automatización de procesos de negocio. 
-        li 
-          i.fas.fa-angle-right
-          | Simula o repite las acciones de un ser humano, interactuando con la interfaz de usuario de un sistema.
-        li 
-          i.fas.fa-angle-right
-          | No es un robot físico que interactúa con el humano, es un robot sistemático.
-        li 
-          i.fas.fa-angle-right
-          | Es un sistema que se encuentra en el computador o en la nube y que ejecuta las automatizaciones que se lleven a cabo.
-        li 
-          i.fas.fa-angle-right
-          | Un robot puede automatizar procesos de negocio de alto volumen orientados con reglas de negocio, si la información se encuentra digital y es repetible.
-    br  
-    .cajon-b.colorcajon5    
-       ul.lista-ul--color.lista-ul--separador
-        li.pb-0
-          ul
-            li 
-              i.fas.fa-cookie
-              | Realizar Automatizaciones en aplicaciones, ya sean de escritorio, en la web o de desarrollo.
-            li 
-              i.fas.fa-cookie
-              | Interactuar con sistemas de inteligencia artificial, visión artificial u otros modelos.
-
+    br
+    br
+    .row
+      .col-6.pos10
+        h4 RPA <i>(Robotic Process Automation)</i>
+        ul.lista-ul.lista-ul--color
+          li 
+            i.fas.fa-angle-right
+            | Conjunto de herramientas tecnológicas para la automatización de procesos de negocio. 
+          li 
+            i.fas.fa-angle-right
+            | Simula o repite las acciones de un ser humano, interactuando con la interfaz de usuario de un sistema.
+          li 
+            i.fas.fa-angle-right
+            | No es un robot físico que interactúa con el humano, es un robot sistemático.
+          li 
+            i.fas.fa-angle-right
+            | Es un sistema que se encuentra en el computador o en la nube y que ejecuta las automatizaciones que se lleven a cabo.
+          li 
+            i.fas.fa-angle-right
+            | Un robot puede automatizar procesos de negocio de alto volumen orientados con reglas de negocio, si la información se encuentra digital y es repetible.
+        .cajon-b.colorcajon5 
+          ul.lista-ul--color.lista-ul--separador
+            li.pb-0
+              ul
+                li 
+                  i.fas.fa-cookie
+                  | Realizar Automatizaciones en aplicaciones, ya sean de escritorio, en la web o de desarrollo.
+                li 
+                  i.fas.fa-cookie
+                  | Interactuar con sistemas de inteligencia artificial, visión artificial u otros modelos.
+                  
+      img.col-5.pos9(src='@/assets/curso/vector5.svg' alt='AvatarTop')
+      
+    br
     .titulomedio2.col-12
       h4 Los componentes de la RPA son 
     br
