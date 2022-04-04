@@ -20,8 +20,8 @@
 
     separador
 
-    #t_2_1
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
+    
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 2.1 Instalación de UiPath
     p Los pasos generales para la descarga de UiPath son los siguientes:
 
@@ -47,7 +47,7 @@
               img.bor(src='@/assets/template/slyder3.jpg', alt='Texto que describa la imagen')
               .tarjeta.colorcajon7 
                 img(src='@/assets/curso/3.png').col-1.pos14 
-                p.negro.col-12 Dentro de la nube aparece el orquestador (<i>Orchestrator Services</i>), para las Automatizaciones mucho más avanzadas.
+                p.negro.col-12 Dentro de la nube aparece el orquestador (<i>Orchestrator Services</i>), para las automatizaciones mucho más avanzadas.
 
           div
             figure
@@ -67,12 +67,12 @@
                 p.text-small Se invita al aprendiz a ver el siguiente video, en el que podrá ver en detalle el procedimiento para realizar el proceso de registro e instalación de <i>UiPath</i>.
       figure.mb-5
         .video
-          iframe(width="560" height="315" src="https://youtu.be/lciNSmdzKdA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/wUHUjMZvINg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
     Separador
 
-    #t_2_2
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
+    
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 2.2 <i>Workflows</i>   
 
     img.col-5.pos15(src='@/assets/curso/vector7.jpg' alt='AvatarTop')
@@ -113,12 +113,12 @@
     .row
       figure.col-12.pos17
         .video
-          iframe(width="560" height="315" src="https://youtu.be/lciNSmdzKdA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/wUHUjMZvINg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     br
     separador
 
-    #t_2_3
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
+    
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 2.3 Control de flujos 
 
     img.col-5.pos15(src='@/assets/curso/vector8.jpg' alt='AvatarTop')
@@ -218,8 +218,8 @@
           td Mayor agilidad La automatización y la orquestación abren un nuevo mercado de herramientas en la nube, en la cual se pueden seleccionar servicios preconstruidos y adicionar o ajustar a las necesidades.
     separador
 
-    #t_2_5
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
+    
+    #t_2_5.titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 2.5 Evaluación de procesos de negocio
     p Los procesos de negocio y procesos de <i>software</i> son similares puesto que capturan las principales características de una serie de actividades que se ordenan para lograr una meta específica.<br/><br/>El objetivo de un proceso de negocio es obtener resultados beneficiosos, generalmente de un producto o servicio para los clientes o usuarios del proceso. Algunos ejemplos de la documentación de un proceso son:
     .tarjeta.p-4.mb-5.col-10.pos12.azul
@@ -244,8 +244,8 @@
                 p.negro.col-12 Ciclo de vida del BPM como un proceso de mejoramiento continuo
 
     Separador
-    #t_2_6
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
+    
+    #t_2_6.titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 2.6 Informe de documentación y pruebas
     p Las tareas que se deben realizar para determinar un formato de pruebas son:
     br

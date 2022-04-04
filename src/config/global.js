@@ -319,39 +319,32 @@ export default {
     ],
     desarrolloProducto: [
       {
-        nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
+        nombre: 'Luis Eyder Ortiz',
+        cargo: 'Experto Temático',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Regional Cauca, Centro de teleinformática y producción industrial',
       },
       {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        nombre: 'Gustavo Santis Mancipe',
+        cargo: 'Diseñador instruccional',
+        centro: 'Centro de Diseño y Metrología Regional distrito Capital',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
-        cargo: 'Diseño web',
+        nombre: 'Rafael Neftalí Lizcano Reyes',
+        cargo: 'Asesor pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Regional Santander - Centro Industrial del Diseño y la Manufactura',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Revisora Metodológica y Pedagógica',
+        centro: 'Regional Distrito Capital -Centro de Diseño y Metrología',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
+        nombre: 'Jhon Jairo Rodríguez Pérez',
+        cargo: 'Diseñador y evaluador instruccional',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica ',
       },
     ],
     gestoresRepositorio: [

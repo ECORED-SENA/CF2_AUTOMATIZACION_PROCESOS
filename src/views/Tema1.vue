@@ -30,8 +30,8 @@
               p Suele ser programable, es un sistema de fabricación automatizado, en el centro del sistema, está el autómata programable. 
     separador
     
-    #t_1_1
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
+    
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 1.1 Definición y características de automatización
     p También se puede decir que la automatización es el conjunto de procesos informáticos, mecánicos y electromecánicos, operados con una mínima o casi nula intervención humana. Se utilizan normalmente para optimizar y realizar mejoras en el funcionamiento de procesos en las industrias, campo, estadios o cualquier lugar que posea un sistema informático y desee operar sus labores de manera más ágil y eficiente. La automatización logra realizar tareas que se desarrollan por sí solas sin la participación de un individuo.
     
@@ -97,9 +97,9 @@
     br
     separador
 
-    #t_1_2
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
-      h2(data-aos="zoom-in") 1.2 Herramientas de Automatización
+    
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
+      h2(data-aos="zoom-in") 1.2 Herramientas de automatización
     br
     br
     img.col-4.pos6(src='@/assets/curso/vector4.jpg' alt='AvatarTop')
@@ -251,8 +251,8 @@
     img.col-8.pos11(src='@/assets/curso/vector6.svg' alt='AvatarTop')
     separador
 
-    #t_1_3
-    .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
+    
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 1.3 Caso de estudio de la Automatización
     p Algunos casos de estudio son:
     
