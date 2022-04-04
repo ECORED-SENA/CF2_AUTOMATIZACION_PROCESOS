@@ -14,7 +14,7 @@
       h5 Figura 1
       p Página de Inicio de <i>UiPath</i>
 
-    figure.col-10.pos12
+    figure.col-10.pos12(data-aos="slide-right")
       .video
         iframe(src="https://www.uipath.com" allowtransparency="true" frameborder="0" scrolling="no" width="640" height="390")
 
@@ -25,7 +25,7 @@
       h2(data-aos="zoom-in") 2.1 Instalación de UiPath
     p Los pasos generales para la descarga de UiPath son los siguientes:
 
-    .tarjeta.p-4.mb-5.col-10.pos12.azul
+    .tarjeta.p-4.mb-5.col-10.pos12.azul(data-aos="slide-right")
         SlyderA(tipo="b")
           
           div
@@ -56,7 +56,7 @@
                 img(src='@/assets/curso/4.png').col-1.pos14 
                 p.negro.col-12 Ingresar a la parte <i>download studio</i>, para descargar <i>uiPath studio</i>. Seleccionar la plataforma <i>studio</i> y no <i>studio X</i>, ya que es más completo.
 
-    .row
+    .row(data-aos="slide-right")
       .tarjeta.colorblue.p-3.mb-5(data-aos="zoom-in")
         .row.justify-content-around.align-items-center
           .col-3.col-sm-2.col-lg-1
@@ -65,7 +65,7 @@
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
                 p.text-small Se invita al aprendiz a ver el siguiente video, en el que podrá ver en detalle el procedimiento para realizar el proceso de registro e instalación de <i>UiPath</i>.
-      figure.mb-5
+      figure.mb-5(data-aos="slide-right")
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/wUHUjMZvINg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
@@ -75,7 +75,7 @@
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 2.2 <i>Workflows</i>   
 
-    img.col-5.pos15(src='@/assets/curso/vector7.jpg' alt='AvatarTop')
+    img.col-5.pos15(src='@/assets/curso/vector7.jpg' alt='AvatarTop')(data-aos="slide-left")
     .col-6.pos9
       p Para empezar a trabajar una automatización se debe reconocer el <i>Workflow</i>, ambiente de trabajo:
       ul.lista-ul.lista-ul--color
@@ -101,7 +101,7 @@
     br
     br
     br
-    .row
+    .row(data-aos="slide-left")
       .tarjeta.colorblue.p-3.mb-5.col-9
         .row.justify-content-around.align-items-center
           .col-1.col-sm-1.col-lg-1
@@ -110,7 +110,7 @@
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
                 p.text-small Se invita al aprendiz a ver el siguiente video, en el que podrá ver en detalle el procedimiento para realizar la creación de un <i>Workflow</i>.
-    .row
+    .row(data-aos="slide-left")
       figure.col-12.pos17
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/wUHUjMZvINg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -121,7 +121,7 @@
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 2.3 Control de flujos 
 
-    img.col-5.pos15(src='@/assets/curso/vector8.jpg' alt='AvatarTop')
+    img.col-5.pos15(src='@/assets/curso/vector8.jpg' alt='AvatarTop')(data-aos="slide-left")
     .col-6.pos9
       p Los controladores de flujo permiten monitoreo y control en tiempo real. Es la capacidad de
       ul.lista-ul.lista-ul--color
@@ -141,10 +141,10 @@
       h3 Tipos y estructura de datos
       p Una variable es el valor de un objeto que puede cambiar o variar, de ahí su nombre de variable. Antes de crear una variable se debe declarar o nombrar, luego se le asocia un identificador, nombre y tipo de visibilidad, van muy relacionadas con los tipos de datos, estos son:
     br
-    .cajon-b.colorcajon8 
+    .cajon-b.colorcajon8(data-aos="slide-up")
       h3 Descripción de algunos tipos de datos
     br
-    .tabla-a.color-acento-contenido.mb-5.col-8.pos12
+    .tabla-a.color-acento-contenido.mb-5.col-8.pos12(data-aos="slide-up")
       table
         thead
           tr
@@ -172,10 +172,10 @@
             td Se utiliza para definir una función que no devuelve ningún valor o declarar puntos genéricos.
 
     br
-    .cajon-b.colorcajon8 
+    .cajon-b.colorcajon8(data-aos="slide-up")
       h3 Diagrama estructuras de datos
     br
-    img.col-8.pos12(src='@/assets/template/grafica3.svg')
+    img.col-8.pos12(src='@/assets/template/grafica3.svg')(data-aos="slide-up")
     separador
 
     #t_2_4
@@ -183,9 +183,9 @@
       h2(data-aos="zoom-in") 2.4 Automatización del proceso 
     br
     p A continuación se relacionan algunos conceptos involucrados en la automatización de procesos:
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido(data-aos="slide-up")
       p Tabla 1 Conceptos generales de automatización de procesos
-    .tabla-b.color-acento-contenido.mb-5
+    .tabla-b.color-acento-contenido.mb-5(data-aos="slide-up")
       .tabla-b__header
         h5.mb-0 Conceptos generales de automatización de procesos
       table
@@ -222,7 +222,7 @@
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 2.5 Evaluación de procesos de negocio
     p Los procesos de negocio y procesos de <i>software</i> son similares puesto que capturan las principales características de una serie de actividades que se ordenan para lograr una meta específica.<br/><br/>El objetivo de un proceso de negocio es obtener resultados beneficiosos, generalmente de un producto o servicio para los clientes o usuarios del proceso. Algunos ejemplos de la documentación de un proceso son:
-    .tarjeta.p-4.mb-5.col-10.pos12.azul
+    .tarjeta.p-4.mb-5.col-10.pos12.azul(data-aos="slide-up")
         SlyderA(tipo="b")
           
           div
@@ -251,7 +251,7 @@
     br
     br
     img(src='@/assets/curso/vector9.jpg').imgpos3
-    .row.mb-5
+    .row.mb-5(data-aos="slide-left")
       .col-md-12.mb-5.mb-md-0
         LineaTiempoD.color-acento-contenido
           p.text-small(numero="1" titulo="Diseño de las pruebas").m-3
@@ -274,7 +274,7 @@
             ul(style="list-style-type: square")
               p Con los resultados de los casos de prueba aplicados, se verifica y se documentan los que pasaron satisfactoriamente, los fallos y errores.
 
-    .cajon-b.colorcajon9 
+    .cajon-b.colorcajon9(data-aos="slide-up")
       span Se solicita al aprendiz ver el video 
       span.text-bold ¿Cómo escribir los casos de pruebas?
       span , ubicado en la sección de material complementario, algunas técnicas de pruebas son:

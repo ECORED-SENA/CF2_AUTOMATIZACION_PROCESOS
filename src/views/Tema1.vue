@@ -9,7 +9,7 @@
       h1 Automatización de procesos informáticos
 
     p La automatización es un sistema donde las tareas de producción se transfieren desde los operadores humanos hacia un conjunto de elementos tecnológicos. Se podría decir que una automatización consta de dos partes: 
-    .row
+    .row(data-aos="slide-right")
       img(src='@/assets/curso/vector1.svg' alt='AvatarTop')
       .col-lg-5.pos1.m-t1-top
         .tarjeta-avatar-b.mb-5
@@ -38,7 +38,7 @@
     .cajon-b.colorcajon3.col-10(data-aos="zoom-in")
       p Las retroalimentaciones y capacidades de realizar ajustes con los datos o información, es la que indica lo autosuficiente que puede llegar a ser un sistema automatizado, por ejemplo:
       
-    .row
+    .row(data-aos="slide-right")
       .col-lg-4.pos2
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
@@ -56,7 +56,7 @@
               p Un tanque de leche industrial tiene sensor de temperatura, y su apagado o prendido es manual. 
     br
 
-    .row
+    .row(data-aos="slide-right")
       .col-5.pos3
         h4 Las características de la automatización son
         ul.lista-ul.lista-ul--color
@@ -93,7 +93,7 @@
           li 
             i.fas.fa-angle-right
             |Permitir el ahorro en la eficiencia y producción. 
-      img.col-4.pos4(src='@/assets/curso/vector2.svg' alt='AvatarTop')
+      img.col-4.pos4(src='@/assets/curso/vector2.svg' alt='AvatarTop')(data-aos="slide-left")
     br
     separador
 
@@ -102,12 +102,12 @@
       h2(data-aos="zoom-in") 1.2 Herramientas de automatización
     br
     br
-    img.col-4.pos6(src='@/assets/curso/vector4.jpg' alt='AvatarTop')
+    img.col-4.pos6(src='@/assets/curso/vector4.jpg' alt='AvatarTop')(data-aos="slide-left")
     p.col-6  Dentro de los grandes desafíos para el desarrollo económico se encuentra la automatización de procesos. Es una de las grandes características de la Revolución Industrial 4.0, refiriéndose a las capacidades de los sistemas tecnológicos para ejecutar tareas que originalmente son realizadas por los humanos.<br/><br/>Dentro de la automatización se encuentra ajustada la tecnología de la información, que también puede ser entendida como el conjunto de herramientas que controlan, corrigen y visualizan el estado de diversas tareas y flujos de trabajo, y aparte de esto generan reportes específicos de todos los procesos de producción de la organización.<br/><br/>Dichas características convierten a la automatización en un gran aliado para las empresas, facilitando la productividad, permitiendo que el talento humano de la empresa se enfoque en la dimensión real, obteniendo un mayor desempeño, mientras se identifican áreas donde existan margen de errores para la reducción de costos y mejoras en los resultados empresariales y permitiendo dar soluciones con las operaciones autómatas.
     
     .cajon-b.colorcajon4.col-10(data-aos="zoom-in")
       p.col-12 Los sistemas, en la automatización, se van regulando a sí mismos, por lo cual cada resultado de un proceso incide en su conjunto, integrándolo y modificándolo. Seguidamente tendrá ciertas restricciones que se configuran previamente, sin intervención humana, entonces el sistema estará evaluando, comparando y realizando ajustes y las mismas correcciones en tiempo real, las ventajas de la automatización de procesos son:
-    img.col-10.pos7(src='@/assets/curso/ventajas.svg')      
+    img.col-10.pos7(src='@/assets/curso/ventajas.svg')(data-aos="slide-right")     
     <br>
     .cajon.cajontitle1.col-4(data-aos="zoom-in-right")
       h3.text Herramientas que son tendencia en el momento
@@ -115,7 +115,7 @@
     p Ante los beneficios y las grandes ventajas que ofrece la automatización, existen algunas herramientas que se diferencian como las mejores aliadas para las organizaciones, facilitando desempeños y rendimientos laborales.<br/><br/>Con estas herramientas es posible automatizar las tareas en ejecución, conectar y coordinar aplicaciones, efectuando pruebas de diferentes tipos en los sitios web, comparando y midiendo los resultados, algunas de estas son:
     br
     br
-    SlyderE(indicadores="derecha")
+    SlyderE(indicadores="derecha")(data-aos="slide-left")
       .row
         .col-md-4.mb-4.mb-md-0
           h3 WorkProject
@@ -194,7 +194,7 @@
     <br>
     p Es ofrecida para realizar una automatización en cualquier web o aplicación de escritorio, <i>UiPath</i> es una Automatización Robótica de Procesos, RPA. Se destaca por la posibilidad de diseñar, desarrollar y controlar la fuerza de trabajo robótica que imita a los empleados.
     br
-    img.col-10.pos8(src='@/assets/template/grafica1.svg') 
+    img.col-10.pos8(src='@/assets/template/grafica1.svg')(data-aos="slide-right")  
     br
     br
     p Cuando se trata de seleccionar una herramienta para la automatización, las necesidades, exigencias y expectativas siempre serán altas, teniendo en cuenta la organización, costos y facilidades de acceso, por esto es recomendable reunir la mayor información posible, clarificando los objetivos y un posible punto de partida en cuanto a recursos humanos y técnicos; también es importante tener claro la evolución tecnológica que tendrá la empresa en cuanto a infraestructura. 
@@ -203,7 +203,7 @@
     .titulomedio
       h4 Las ventajas de utilizar <i>UiPath</i> son:
     br
-    img.col-10.pos8(src='@/assets/template/grafica2.svg') 
+    img.col-10.pos8(src='@/assets/template/grafica2.svg')(data-aos="slide-right")  
     <br>
     .cajon.cajontitle3.col-4(data-aos="zoom-in-right")
       h3.text Sobre <i>UiPath</i>
@@ -241,14 +241,14 @@
                   i.fas.fa-cookie
                   | Interactuar con sistemas de inteligencia artificial, visión artificial u otros modelos.
                   
-      img.col-5.pos9(src='@/assets/curso/vector5.svg' alt='AvatarTop')
+      img.col-5.pos9(src='@/assets/curso/vector5.svg' alt='AvatarTop')(data-aos="slide-left")
       
     br
     .titulomedio2.col-12
       h4 Los componentes de la RPA son 
     br
     br
-    img.col-8.pos11(src='@/assets/curso/vector6.svg' alt='AvatarTop')
+    img.col-8.pos11(src='@/assets/curso/vector6.svg' alt='AvatarTop')(data-aos="slide-left")
     separador
 
     
@@ -256,7 +256,7 @@
       h2(data-aos="zoom-in") 1.3 Caso de estudio de la Automatización
     p Algunos casos de estudio son:
     
-    TabsC.color-acento-contenido
+    TabsC.color-acento-contenido(data-aos="slide-left")
         .py-3.py-md-4(titulo="Referente al aumento de productividad")
           .row
             img(src='@/assets/curso/fondo.svg') 
@@ -271,7 +271,7 @@
     br
     br
     br
-    .row
+    .row(data-aos="slide-right")
       SlyderE(indicadores="derecha")
         div
           figure
