@@ -15,7 +15,7 @@
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img.numero(src='@/assets/curso/1.png' alt='AvatarTop')
-          .tarjeta.tarjeta--azul.med1
+          .tarjeta.med1(style='background-color:#E9F4FD')
               .p-2
               h3 La parte operativa
               p Está directamente relacionada con la máquina, son los elementos que hacen que la máquina actúe, se mueva y realice la operación que se desea. 
@@ -24,7 +24,7 @@
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img.numero(src='@/assets/curso/2.png' alt='AvatarTop')
-          .tarjeta.tarjeta--azul.med1
+          .tarjeta.med1(style='background-color:#E9F4FD')
               .p-2
               h3 La parte de mando
               p Suele ser programable, es un sistema de fabricación automatizado, en el centro del sistema, está el autómata programable. 

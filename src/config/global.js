@@ -139,11 +139,6 @@ export default {
         'https://www.netcall.com/platform/robotic-process-automation/?utm_source=automagica&utm_medium=web',
     },
     {
-      referencia: 'Automatización. (2004).',
-      link:
-        'http://www.sc.ehu.es/sbweb/webcentro/automatica/webcqmh1/pagina%20principal/automatizacion/Automatizacion.htm',
-    },
-    {
       referencia: 'Desarrolloweb. (2021). Bucle For Each.',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
@@ -219,10 +214,6 @@ export default {
         'Rolón, E., Ruiz, F., García, F., & Piattini, M. (2005). Aplicación de Métricas Software en la Evaluación de Modelos de Procesos de Negocio. ResearchGate.',
       link:
         'https://www.researchgate.net/publication/251645101_aplicacion_de_metricas_software_en_la_evaluacion_de_modelos_de_procesos_de_negocio',
-    },
-    {
-      referencia: 'Selenium. (2021).',
-      link: 'https://www.selenium.devdatascope',
     },
     {
       referencia: '(2021) Top 5 herramientas para automatizar procesos.',
@@ -316,8 +307,6 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
-    ],
-    desarrolloProducto: [
       {
         nombre: 'Luis Eyder Ortiz',
         cargo: 'Experto Temático',
@@ -330,12 +319,6 @@ export default {
         centro: 'Centro de Diseño y Metrología Regional distrito Capital',
       },
       {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor pedagógico',
-        centro:
-          'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-      },
-      {
         nombre: 'Carolina Coca Salazar',
         cargo: 'Revisora Metodológica y Pedagógica',
         centro: 'Regional Distrito Capital -Centro de Diseño y Metrología',
@@ -345,6 +328,31 @@ export default {
         cargo: 'Diseñador y evaluador instruccional',
         centro:
           'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica ',
+      },
+    ],
+    desarrolloProducto: [
+      {
+        nombre: 'Francisco José Lizcano Reyes',
+        cargo: 'Responsable equipo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'María Eugenia Mejía López',
+        cargo: 'Validación de diseño y contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
