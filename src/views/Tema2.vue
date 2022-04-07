@@ -67,8 +67,7 @@
                 p.text-small Se invita al aprendiz a ver el siguiente video, en el que podrá ver en detalle el procedimiento para realizar el proceso de registro e instalación de <i>UiPath</i>.
       figure.mb-5(data-aos="slide-right")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/wUHUjMZvINg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      
+          iframe(width="942" height="530" src="https://www.youtube.com/embed/rFipMhtZC4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
 
     
@@ -113,7 +112,7 @@
     .row(data-aos="slide-left")
       figure.col-12.pos17
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/wUHUjMZvINg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="942" height="530" src="https://www.youtube.com/embed/Uxc5E8Ka1xY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     br
     separador
 
