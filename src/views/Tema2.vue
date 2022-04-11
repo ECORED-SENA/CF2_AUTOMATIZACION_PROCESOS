@@ -7,34 +7,37 @@
       .titulo-principal__numero
         span.text-white 2
       h1 Desarrollo e implementación
-    p Para el desarrollo e implementación se utilizará la herramienta <i>UiPath</i>, la cual incluye desarrollo de aplicaciones sin programación, es decir lo puede hacer una persona sin amplios conocimientos de programación, tiene reconocimiento óptico de caracteres (OCR), inteligencia artificial (IA) y aprendizaje automático. Se puede complementar de igual forma con diferentes tipos de programación.  La siguiente imagen muestra una vista del sitio web de <i>UiPath</i>:
+    .row
+      p Para el desarrollo e implementación se utilizará la herramienta <i>UiPath</i>, la cual incluye desarrollo de aplicaciones sin programación, es decir lo puede hacer una persona sin amplios conocimientos de programación, tiene reconocimiento óptico de caracteres (OCR), inteligencia artificial (IA) y aprendizaje automático. Se puede complementar de igual forma con diferentes tipos de programación.  La siguiente imagen muestra una vista del sitio web de <i>UiPath</i>:
     br
-    br
-    .titulo-sexto.color-acento-contenido.pos13
-      h5 Figura 1
-      p Página de Inicio de <i>UiPath</i>
+    .row
+      .titulo-sexto.color-acento-contenido.pos13
+        p <b>Figura 1</b> Página de Inicio de <i>UiPath</i>
 
     figure.col-10.pos12(data-aos="slide-right")
       .video
         iframe(src="https://www.uipath.com" allowtransparency="true" frameborder="0" scrolling="no" width="640" height="390")
-
     separador
 
+    .row#t_2_1
+      .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
+        h2(data-aos="zoom-in") 2.1 Instalación de UiPath
+    .row  
+      p Los pasos generales para la descarga de UiPath son los siguientes:
     
-    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
-      h2(data-aos="zoom-in") 2.1 Instalación de UiPath
-    p Los pasos generales para la descarga de UiPath son los siguientes:
-
-    .tarjeta.p-4.mb-5.col-10.pos12.azul(data-aos="slide-right")
+    .row
+      .tarjeta.p-4.mb-5.col-10.pos12.azul(data-aos="slide-right")
         SlyderA(tipo="b")
           
           div
             figure
-              img.bor(src='@/assets/template/slyder1.jpg', alt='Texto que describa la imagen')   
-              .tarjeta.colorcajon7
-                img(src='@/assets/curso/1.1.png').col-1.pos14 
-                p.negro.col-12 Ingresar a la página oficial de <i>UiPath</i>, <a href="https://www.uipath.com/">https://www.uipath.com/</a> para realizar la respectiva instalación de la herramienta, se solicita una cuenta.
-        
+              img.bor(src='@/assets/template/slyder1.jpg', alt='Texto que describa la imagen')  
+              .tarjeta.p-2.col-10.cen(style='background-color:#FEF4D6')
+                .col-1.pos14.m-2 
+                  img(src='@/assets/curso/1.1.png')
+                .col-12
+                  p.m-1 Ingresar a la página oficial de <i>UiPath</i>, <a href="https://www.uipath.com/" style="color:#008FFF" target="_blank">www.uipath.com </a> para realizar la respectiva instalación de la herramienta, se solicita una cuenta.
+               
           div
             figure
               img.bor(src='@/assets/template/slyder2.jpg', alt='Texto que describa la imagen')
@@ -57,7 +60,7 @@
                 p.negro.col-12 Ingresar a la parte <i>download studio</i>, para descargar <i>uiPath studio</i>. Seleccionar la plataforma <i>studio</i> y no <i>studio X</i>, ya que es más completo.
 
     .row(data-aos="slide-right")
-      .tarjeta.colorblue.p-3.mb-5(data-aos="zoom-in")
+      .tarjeta.p-3.mb-5(data-aos="zoom-in")(style='background-color:#e8e8e8')  
         .row.justify-content-around.align-items-center
           .col-3.col-sm-2.col-lg-1
             img(src="@/assets/curso/video.png")

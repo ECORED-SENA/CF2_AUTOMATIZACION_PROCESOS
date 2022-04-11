@@ -8,7 +8,7 @@
         span.text-white 1
       h1 Automatización de procesos informáticos
 
-    .row  
+    .row.mb-4 
       p La automatización es un sistema donde las tareas de producción se transfieren desde los operadores humanos hacia un conjunto de elementos tecnológicos. Se podría decir que una automatización consta de dos partes: 
     
     .row(data-aos="slide-right").justify-content-center
@@ -31,9 +31,8 @@
                 p.m-4 Suele ser programable, es un sistema de fabricación automatizado, en el centro del sistema, está el autómata programable. 
     separador
 
-    .row#t_1_1
-      .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
-        h2(data-aos="zoom-in") 1.1 Definición y características de automatización
+    .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12#t_1_1
+      h2(data-aos="zoom-in") 1.1 Definición y características de automatización
     
     .row.arri
       p También se puede decir que la automatización es el conjunto de procesos informáticos, mecánicos y electromecánicos, operados con una mínima o casi nula intervención humana. Se utilizan normalmente para optimizar y realizar mejoras en el funcionamiento de procesos en las industrias, campo, estadios o cualquier lugar que posea un sistema informático y desee operar sus labores de manera más ágil y eficiente. La automatización logra realizar tareas que se desarrollan por sí solas sin la participación de un individuo.
@@ -43,9 +42,9 @@
         .col-lg-11
           .cajon-b.colorcajon3.p-4.m-t1-top(data-aos="zoom-in")
             p.m-1 Las retroalimentaciones y capacidades de realizar ajustes con los datos o información, es la que indica lo autosuficiente que puede llegar a ser un sistema automatizado, por ejemplo:
-      br  
+  
       .row.justify-content-center(data-aos="slide-right")
-        .col-lg-4.pos2
+        .col-lg-4.pos2.m-4
           .tarjeta-avatar-b
             .tarjeta-avatar-b__img
               img(src='@/assets/curso/1.png' alt='AvatarTop' style="width: 70px")
@@ -53,18 +52,17 @@
                 h3 Alta dependencia
                 p.m-2 Un brazo robótico que se utiliza en el armado de autos, utilizando sensores y programación, ejecuta las tareas sin intervención humana.
 
-        .col-lg-4.pos2
+        .col-lg-4.pos2.m-4
           .tarjeta-avatar-b
             .tarjeta-avatar-b__img
               img(src='@/assets/curso/2.png' alt='AvatarTop' style="width: 70px")
             .tarjeta.med21(style='background-color:#D5E8F8')
                 h3 Sistema semiautomatizado
                 p.m-2 Un tanque de leche industrial tiene sensor de temperatura, y su apagado o prendido es manual. 
-      br
+  
       .row(data-aos="slide-right")
         .col-5.pos3
-          h3 Las características de la automatización son:
-          br
+          h3.mb-4 Las características de la automatización son:
           ul.lista-ul.lista-ul--color
             li 
               i.fas.fa-angle-right
@@ -100,144 +98,132 @@
               i.fas.fa-angle-right
               | Permitir el ahorro en la eficiencia y producción. 
         img.col-4.pos4(src='@/assets/curso/vector2.svg' alt='AvatarTop')(data-aos="slide-left")
-      br
     separador
-    .row#t_1_2
-      .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
-        h2(data-aos="zoom-in") 1.2 Herramientas de automatización
-    br
+
+    .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12#t_1_2
+      h2(data-aos="zoom-in") 1.2 Herramientas de automatización
     .row
       .col-lg-6
         p Dentro de los grandes desafíos para el desarrollo económico se encuentra la automatización de procesos. Es una de las grandes características de la Revolución Industrial 4.0, refiriéndose a las capacidades de los sistemas tecnológicos para ejecutar tareas que originalmente son realizadas por los humanos.<br/><br/>Dentro de la automatización se encuentra ajustada la tecnología de la información, que también puede ser entendida como el conjunto de herramientas que controlan, corrigen y visualizan el estado de diversas tareas y flujos de trabajo, y aparte de esto generan reportes específicos de todos los procesos de producción de la organización.<br/><br/>Dichas características convierten a la automatización en un gran aliado para las empresas, facilitando la productividad, permitiendo que el talento humano de la empresa se enfoque en la dimensión real, obteniendo un mayor desempeño, mientras se identifican áreas donde existan margen de errores para la reducción de costos y mejoras en los resultados empresariales y permitiendo dar soluciones con las operaciones autómatas.
       .col-lg-5
         img.pos6(src='@/assets/curso/vector4.jpg' alt='AvatarTop')(data-aos="slide-left")
-    br
-    .row.justify-content-center.align-items-center
+
+    .row.m-4.justify-content-center.align-items-center
       .col-lg-10
         .cajon-b.colorcajon4.p-4(data-aos="zoom-in")
           p.p-0 Los sistemas, en la automatización, se van regulando a sí mismos, por lo cual cada resultado de un proceso incide en su conjunto, integrándolo y modificándolo. Seguidamente tendrá ciertas restricciones que se configuran previamente, sin intervención humana, entonces el sistema estará evaluando, comparando y realizando ajustes y las mismas correcciones en tiempo real, las ventajas de la automatización de procesos son:
-    br
-    .row
-      .col-lg-10.m-3
+    .row.mb-4
+      .col-lg-10.pos12
         img(src='@/assets/curso/ventajas.svg')(data-aos="slide-right")     
-    br
-    .row
+
+    .row.mb-4
       .col-5
         .cajon.cajontitle1(data-aos="zoom-in-right")
           h3 Herramientas que son tendencia en el momento
-    br
-    .row
-      .col-12
-        p Ante los beneficios y las grandes ventajas que ofrece la automatización, existen algunas herramientas que se diferencian como las mejores aliadas para las organizaciones, facilitando desempeños y rendimientos laborales.<br/><br/>Con estas herramientas es posible automatizar las tareas en ejecución, conectar y coordinar aplicaciones, efectuando pruebas de diferentes tipos en los sitios web, comparando y midiendo los resultados, algunas de estas son:
-    br
-    .row
-      SlyderE(indicadores="derecha")(data-aos="slide-left")
-        .row
-          .col-md-4.mb-4.mb-md-0
-            h3 WorkProject
-            p Es una muy buena solución que permite registrar automáticamente el tiempo que se invierte en cada uno de los proyectos.
-        
-          .col-md-8
-            figure
-              img(src='@/assets/template/herramienta1.svg', alt='Texto que describa la imagen')
 
-        .row
-          .col-md-4.mb-4.mb-md-0
-            h3 Zapier
-            p Es una de las herramientas catalogadas como la líder del mercado de la automatización de tareas; mueve información entre las aplicaciones web automáticamente.
-        
-          .col-md-8
-            figure
-              img(src='@/assets/template/herramienta2.svg', alt='Texto que describa la imagen')
+    p.mb-4 Ante los beneficios y las grandes ventajas que ofrece la automatización, existen algunas herramientas que se diferencian como las mejores aliadas para las organizaciones, facilitando desempeños y rendimientos laborales.<br/><br/>Con estas herramientas es posible automatizar las tareas en ejecución, conectar y coordinar aplicaciones, efectuando pruebas de diferentes tipos en los sitios web, comparando y midiendo los resultados, algunas de estas son:
 
-        .row
-          .col-md-4.mb-4.mb-md-0
-            h3 Flow
-            p Esta aplicación fue lanzada en 2016 por Microsoft, surgiendo como respuesta de automatización y conexión de aplicaciones web. Es llamada también Microsoft Flow, ofreciendo la automatización de múltiples tareas combinando diferentes servicios en la nube.
+    SlyderE(indicadores="derecha")(data-aos="slide-left")
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 WorkProject
+          p Es una muy buena solución que permite registrar automáticamente el tiempo que se invierte en cada uno de los proyectos.
         
-          .col-md-8
-            figure
-              img(src='@/assets/template/herramienta3.svg', alt='Texto que describa la imagen')
+        .col-md-8
+          figure
+            img(src='@/assets/template/herramienta1.svg', alt='Texto que describa la imagen')
 
-        .row
-          .col-md-4.mb-4.mb-md-0
-            h3 Selenium
-            p Es uno los programas más populares de código abierto para automatizar procesos. Principalmente se utiliza para automatizar aplicaciones web con fines de pruebas, pero no se limita a esto, la administración de tareas web también se puede automatizar.
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Zapier
+          p Es una de las herramientas catalogadas como la líder del mercado de la automatización de tareas; mueve información entre las aplicaciones web automáticamente.
         
-          .col-md-8
-            figure
-              img(src='@/assets/template/herramienta4.svg', alt='Texto que describa la imagen')
+        .col-md-8
+          figure
+            img(src='@/assets/template/herramienta2.svg', alt='Texto que describa la imagen')
 
-        .row
-          .col-md-4.mb-4.mb-md-0
-            h3 Watir
-            p Se trata de una Biblioteca Ruby con código abierto, también es una herramienta de testeo que es desarrollada en C# para automatizar las pruebas de software en una web. Interactúa con un navegador de la misma forma que las personas, hace clic en enlaces, llena formularios y valida textos.
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Flow
+          p Esta aplicación fue lanzada en 2016 por Microsoft, surgiendo como respuesta de automatización y conexión de aplicaciones web. Es llamada también Microsoft Flow, ofreciendo la automatización de múltiples tareas combinando diferentes servicios en la nube.
         
-          .col-md-8
-            figure
-              img(src='@/assets/template/herramienta5.svg', alt='Texto que describa la imagen')
+        .col-md-8
+          figure
+            img(src='@/assets/template/herramienta3.svg', alt='Texto que describa la imagen')
 
-        .row
-          .col-md-4.mb-4.mb-md-0
-            h3 Robocorp
-            p Es una automatización robótica de procesos (RPA) que permite automatizar prácticamente cualquier rutina. La automatización puede ahorrar hasta un 75% de los costos en comparación con el trabajo manual.
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Selenium
+          p Es uno los programas más populares de código abierto para automatizar procesos. Principalmente se utiliza para automatizar aplicaciones web con fines de pruebas, pero no se limita a esto, la administración de tareas web también se puede automatizar.
         
-          .col-md-8
-            figure
-              img(src='@/assets/template/herramienta6.svg', alt='Texto que describa la imagen')
+        .col-md-8
+          figure
+            img(src='@/assets/template/herramienta4.svg', alt='Texto que describa la imagen')
 
-        .row
-          .col-md-4.mb-4.mb-md-0
-            h3 Automagica
-            p La plataforma Automágica se está cambiando a <i>Netcall</i>, herramienta igualmente poderosa en la automatización.
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Watir
+          p Se trata de una Biblioteca Ruby con código abierto, también es una herramienta de testeo que es desarrollada en C# para automatizar las pruebas de software en una web. Interactúa con un navegador de la misma forma que las personas, hace clic en enlaces, llena formularios y valida textos.
         
-          .col-md-8
-            figure
-              img(src='@/assets/template/herramienta7.svg', alt='Texto que describa la imagen')
+        .col-md-8
+          figure
+            img(src='@/assets/template/herramienta5.svg', alt='Texto que describa la imagen')
 
-        .row
-          .col-md-4.mb-4.mb-md-0
-            h3 Robotask
-            p RoboTask es un software de macro automatización que puede automatizar fácilmente cualquier serie de tareas sin escribir código.
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Robocorp
+          p Es una automatización robótica de procesos (RPA) que permite automatizar prácticamente cualquier rutina. La automatización puede ahorrar hasta un 75% de los costos en comparación con el trabajo manual.
         
-          .col-md-8
-            figure
-              img(src='@/assets/template/herramienta8.svg', alt='Texto que describa la imagen')
-    br
-    .row
+        .col-md-8
+          figure
+            img(src='@/assets/template/herramienta6.svg', alt='Texto que describa la imagen')
+
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Automagica
+          p La plataforma Automágica se está cambiando a <i>Netcall</i>, herramienta igualmente poderosa en la automatización.
+        
+        .col-md-8
+          figure
+            img(src='@/assets/template/herramienta7.svg', alt='Texto que describa la imagen')
+
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Robotask
+          p RoboTask es un software de macro automatización que puede automatizar fácilmente cualquier serie de tareas sin escribir código.
+        
+        .col-md-8
+          figure
+            img(src='@/assets/template/herramienta8.svg', alt='Texto que describa la imagen')
+  
+    .row.mb-4
       .col-4
         .cajon.cajontitle2(data-aos="zoom-in-right")
           h3 Otra herramienta que se utiliza es <i>UiPath</i>
-    br
-    .row
-      p Es ofrecida para realizar una automatización en cualquier web o aplicación de escritorio, <i>UiPath</i> es una Automatización Robótica de Procesos, RPA. Se destaca por la posibilidad de diseñar, desarrollar y controlar la fuerza de trabajo robótica que imita a los empleados.
-    br
-    .row.justify-content-center
+    
+    p.mb-4 Es ofrecida para realizar una automatización en cualquier web o aplicación de escritorio, <i>UiPath</i> es una Automatización Robótica de Procesos, RPA. Se destaca por la posibilidad de diseñar, desarrollar y controlar la fuerza de trabajo robótica que imita a los empleados.
+    
+    .row.mb-4.justify-content-center
       .col-lg-10
         img(src='@/assets/template/grafica1.svg')(data-aos="slide-right")  
-    br
-    .row
-      p Cuando se trata de seleccionar una herramienta para la automatización, las necesidades, exigencias y expectativas siempre serán altas, teniendo en cuenta la organización, costos y facilidades de acceso, por esto es recomendable reunir la mayor información posible, clarificando los objetivos y un posible punto de partida en cuanto a recursos humanos y técnicos; también es importante tener claro la evolución tecnológica que tendrá la empresa en cuanto a infraestructura. 
-    br
-    .row
+    p.mb-4 Cuando se trata de seleccionar una herramienta para la automatización, las necesidades, exigencias y expectativas siempre serán altas, teniendo en cuenta la organización, costos y facilidades de acceso, por esto es recomendable reunir la mayor información posible, clarificando los objetivos y un posible punto de partida en cuanto a recursos humanos y técnicos; también es importante tener claro la evolución tecnológica que tendrá la empresa en cuanto a infraestructura. 
+  
+    .row.mb-4
       .titulomedio
         h4 Las ventajas de utilizar <i>UiPath</i> son:
-    br
-    .row.justify-content-center
-      .col-10
+
+    figure.mb-4
+      .col-10.pos12
         img(src='@/assets/template/grafica2.svg')(data-aos="slide-right")  
-    br
-    .row
+
+    .row.mb-4
       .col-2
         .cajon.cajontitle3.p-1(data-aos="zoom-in-right")
           h3.m-1 Sobre <i>UiPath</i>
-    br
-    .row
-      .col-12
-        p <i>UiPath Robotic Process Automation</i> es una solución que se basa en la nube, ayuda a las empresas a diseñar y gestionar tareas de automatización, supervisadas y desatendidas, agilizando la atención al cliente. <i>UiPath RPA</i> permite que los usuarios almacenen múltiples licencias en bases de datos para ser consultadas en cualquier momento.
-    br
-    br
-    .row
+    
+    p.mb-4 <i>UiPath Robotic Process Automation</i> es una solución que se basa en la nube, ayuda a las empresas a diseñar y gestionar tareas de automatización, supervisadas y desatendidas, agilizando la atención al cliente. <i>UiPath RPA</i> permite que los usuarios almacenen múltiples licencias en bases de datos para ser consultadas en cualquier momento.
+    
+    .row.mb-4
       .col-6.pos10
         h4 RPA <i>(Robotic Process Automation)</i>
         ul.lista-ul.lista-ul--color
@@ -257,45 +243,47 @@
             i.fas.fa-angle-right
             | Un robot puede automatizar procesos de negocio de alto volumen orientados con reglas de negocio, si la información se encuentra digital y es repetible.
         .cajon-b.colorcajon5 
-          ul.lista-ul--color.lista-ul--separador
+          ul.m-1.lista-ul--color.lista-ul--separador
             li.pb-0
               ul
                 li 
                   i.fas.fa-cookie
-                  | Realizar Automatizaciones en aplicaciones, ya sean de escritorio, en la web o de desarrollo.
+                  | Realizar automatizaciones en aplicaciones, ya sean de escritorio, en la web o de desarrollo.
                 li 
                   i.fas.fa-cookie
                   | Interactuar con sistemas de inteligencia artificial, visión artificial u otros modelos.
-                  
-      img.col-5.pos9(src='@/assets/curso/vector5.svg' alt='AvatarTop')(data-aos="slide-left")
-      
-    br
-    .titulomedio2.col-12
-      h4 Los componentes de la RPA son 
-    br
-    br
-    img.col-8.pos11(src='@/assets/curso/vector6.svg' alt='AvatarTop')(data-aos="slide-left")
+
+      .col-5.pos9           
+        img(src='@/assets/curso/vector5.svg' alt='AvatarTop')(data-aos="slide-left")
+  
+    .titulomedio2.mb-4
+      .col-12
+        h4 Los componentes de la RPA son: 
+
+    figure.mb-4
+      .col-8.pos12
+        img(src='@/assets/curso/vector6.svg' alt='AvatarTop')(data-aos="slide-left")
     separador
 
     
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
-      h2(data-aos="zoom-in") 1.3 Caso de estudio de la Automatización
-    p Algunos casos de estudio son:
+      h2(data-aos="zoom-in") 1.3 Caso de estudio de la automatización
     
-    TabsC.color-acento-contenido(data-aos="slide-left")
-        .py-3.py-md-4(titulo="Referente al aumento de productividad")
-          .row
-            img(src='@/assets/curso/fondo.svg') 
+    p.mb-4 Algunos casos de estudio son:
+    
+    .row.mb-4
+      TabsC.color-acento-contenido(data-aos="slide-left")
+          .py-3.py-md-4(titulo="Referente al aumento de productividad")
+            .row
+              img(src='@/assets/curso/fondo.svg') 
 
-        .py-3.py-md-4(titulo="Automatización de la mesa de servicio")
-          .row
-            img(src='@/assets/curso/fondo2.svg') 
+          .py-3.py-md-4(titulo="Automatización de la mesa de servicio")
+            .row
+              img(src='@/assets/curso/fondo2.svg') 
 
-        .py-3.py-md-4(titulo="Control de procesos")
-          .row
-            img(src='@/assets/curso/fondo3.svg') 
-    br
-    br
+          .py-3.py-md-4(titulo="Control de procesos")
+            .row
+              img(src='@/assets/curso/fondo3.svg') 
     br
     .row(data-aos="slide-right")
       SlyderE(indicadores="derecha")
