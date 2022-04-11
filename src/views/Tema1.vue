@@ -13,31 +13,31 @@
     
     .row(data-aos="slide-right").justify-content-center
       img(src='@/assets/curso/vector1.svg' alt='AvatarTop')
-      .col-lg-5.m-t1-top
-        .tarjeta-avatar-b
-          .tarjeta-avatar-b__img.m-1
-            img.numero(src='@/assets/curso/1.png' alt='AvatarTop')
-          .tarjeta.med1(style='background-color:#E9F4FD')
-              .m-2
-              h3 La parte operativa
-              p Está directamente relacionada con la máquina, son los elementos que hacen que la máquina actúe, se mueva y realice la operación que se desea. 
+      .row.m-t1-top.justify-content-center
+        .col-lg-5
+          .tarjeta-avatar-b
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/1.png' alt='AvatarTop' style="width: 78px")
+            .tarjeta.p-4(style='background-color:#E9F4FD')
+                h3.m-3 La parte operativa
+                p.m-3 Está directamente relacionada con la máquina, son los elementos que hacen que la máquina actúe, se mueva y realice la operación que se desea. 
 
-      .col-lg-5.m-t1-top
-        .tarjeta-avatar-b
-          .tarjeta-avatar-b__img.m-1
-            img.numero(src='@/assets/curso/2.png' alt='AvatarTop')
-          .tarjeta.med1(style='background-color:#E9F4FD')
-              .p-2
-              h3 La parte de mando
-              p Suele ser programable, es un sistema de fabricación automatizado, en el centro del sistema, está el autómata programable. 
+        .col-lg-5
+          .tarjeta-avatar-b
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/2.png' alt='AvatarTop' style="width: 78px")
+            .tarjeta.p-4(style='background-color:#E9F4FD')
+                h3.m-3 La parte de mando
+                p.m-4 Suele ser programable, es un sistema de fabricación automatizado, en el centro del sistema, está el autómata programable. 
     separador
+
+    .row#t_1_1
+      .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
+        h2(data-aos="zoom-in") 1.1 Definición y características de automatización
     
-    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
-      h2(data-aos="zoom-in") 1.1 Definición y características de automatización
     .row.arri
       p También se puede decir que la automatización es el conjunto de procesos informáticos, mecánicos y electromecánicos, operados con una mínima o casi nula intervención humana. Se utilizan normalmente para optimizar y realizar mejoras en el funcionamiento de procesos en las industrias, campo, estadios o cualquier lugar que posea un sistema informático y desee operar sus labores de manera más ágil y eficiente. La automatización logra realizar tareas que se desarrollan por sí solas sin la participación de un individuo.
     
-  
     .p-4.p-lg-5.mb-5(style='background-color:#F3F9FF')    
       .row.justify-content-center.align-items-center
         .col-lg-11
@@ -48,16 +48,16 @@
         .col-lg-4.pos2
           .tarjeta-avatar-b
             .tarjeta-avatar-b__img
-              img.numero(src='@/assets/curso/1.png' alt='AvatarTop')
-            .tarjeta.tarjeta--azul.med2
+              img.numero(src='@/assets/curso/1.png' alt='AvatarTop' style="width: 70px")
+            .tarjeta.med2(style='background-color:#D5E8F8')
                 h3 Alta dependencia
                 p Un brazo robótico que se utiliza en el armado de autos, utilizando sensores y programación, ejecuta las tareas sin intervención humana.
 
         .col-lg-4.pos2
           .tarjeta-avatar-b
             .tarjeta-avatar-b__img
-              img.numero(src='@/assets/curso/2.png' alt='AvatarTop')
-            .tarjeta.tarjeta--azul.med21
+              img.numero(src='@/assets/curso/2.png' alt='AvatarTop' style="width: 70px")
+            .tarjeta.med21(style='background-color:#D5E8F8')
                 h3 Sistema semiautomatizado
                 p Un tanque de leche industrial tiene sensor de temperatura, y su apagado o prendido es manual. 
       br
@@ -102,23 +102,33 @@
         img.col-4.pos4(src='@/assets/curso/vector2.svg' alt='AvatarTop')(data-aos="slide-left")
       br
     separador
-
-    
-    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
-      h2(data-aos="zoom-in") 1.2 Herramientas de automatización
+    .row#t_1_2
+      .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
+        h2(data-aos="zoom-in") 1.2 Herramientas de automatización
     br
+    .row
+      .col-lg-6
+        p Dentro de los grandes desafíos para el desarrollo económico se encuentra la automatización de procesos. Es una de las grandes características de la Revolución Industrial 4.0, refiriéndose a las capacidades de los sistemas tecnológicos para ejecutar tareas que originalmente son realizadas por los humanos.<br/><br/>Dentro de la automatización se encuentra ajustada la tecnología de la información, que también puede ser entendida como el conjunto de herramientas que controlan, corrigen y visualizan el estado de diversas tareas y flujos de trabajo, y aparte de esto generan reportes específicos de todos los procesos de producción de la organización.<br/><br/>Dichas características convierten a la automatización en un gran aliado para las empresas, facilitando la productividad, permitiendo que el talento humano de la empresa se enfoque en la dimensión real, obteniendo un mayor desempeño, mientras se identifican áreas donde existan margen de errores para la reducción de costos y mejoras en los resultados empresariales y permitiendo dar soluciones con las operaciones autómatas.
+      .col-lg-5
+        img.pos6(src='@/assets/curso/vector4.jpg' alt='AvatarTop')(data-aos="slide-left")
     br
-    img.col-4.pos6(src='@/assets/curso/vector4.jpg' alt='AvatarTop')(data-aos="slide-left")
-    p.col-6  Dentro de los grandes desafíos para el desarrollo económico se encuentra la automatización de procesos. Es una de las grandes características de la Revolución Industrial 4.0, refiriéndose a las capacidades de los sistemas tecnológicos para ejecutar tareas que originalmente son realizadas por los humanos.<br/><br/>Dentro de la automatización se encuentra ajustada la tecnología de la información, que también puede ser entendida como el conjunto de herramientas que controlan, corrigen y visualizan el estado de diversas tareas y flujos de trabajo, y aparte de esto generan reportes específicos de todos los procesos de producción de la organización.<br/><br/>Dichas características convierten a la automatización en un gran aliado para las empresas, facilitando la productividad, permitiendo que el talento humano de la empresa se enfoque en la dimensión real, obteniendo un mayor desempeño, mientras se identifican áreas donde existan margen de errores para la reducción de costos y mejoras en los resultados empresariales y permitiendo dar soluciones con las operaciones autómatas.
-    
-    .cajon-b.colorcajon4.col-10(data-aos="zoom-in")
-      p.col-12 Los sistemas, en la automatización, se van regulando a sí mismos, por lo cual cada resultado de un proceso incide en su conjunto, integrándolo y modificándolo. Seguidamente tendrá ciertas restricciones que se configuran previamente, sin intervención humana, entonces el sistema estará evaluando, comparando y realizando ajustes y las mismas correcciones en tiempo real, las ventajas de la automatización de procesos son:
-    img.col-10.pos7(src='@/assets/curso/ventajas.svg')(data-aos="slide-right")     
-    <br>
-    .cajon.cajontitle1.col-4(data-aos="zoom-in-right")
-      h3.text Herramientas que son tendencia en el momento
-    <br>
-    p Ante los beneficios y las grandes ventajas que ofrece la automatización, existen algunas herramientas que se diferencian como las mejores aliadas para las organizaciones, facilitando desempeños y rendimientos laborales.<br/><br/>Con estas herramientas es posible automatizar las tareas en ejecución, conectar y coordinar aplicaciones, efectuando pruebas de diferentes tipos en los sitios web, comparando y midiendo los resultados, algunas de estas son:
+    .row.justify-content-center.align-items-center
+      .col-lg-10
+        .cajon-b.colorcajon4.p-4(data-aos="zoom-in")
+          p.p-0 Los sistemas, en la automatización, se van regulando a sí mismos, por lo cual cada resultado de un proceso incide en su conjunto, integrándolo y modificándolo. Seguidamente tendrá ciertas restricciones que se configuran previamente, sin intervención humana, entonces el sistema estará evaluando, comparando y realizando ajustes y las mismas correcciones en tiempo real, las ventajas de la automatización de procesos son:
+    br
+    .row
+      .col-lg-10.m-3
+        img(src='@/assets/curso/ventajas.svg')(data-aos="slide-right")     
+    br
+    .row
+      .col-5
+        .cajon.cajontitle1(data-aos="zoom-in-right")
+          h3 Herramientas que son tendencia en el momento
+    br
+    .row
+      .col-12
+        p Ante los beneficios y las grandes ventajas que ofrece la automatización, existen algunas herramientas que se diferencian como las mejores aliadas para las organizaciones, facilitando desempeños y rendimientos laborales.<br/><br/>Con estas herramientas es posible automatizar las tareas en ejecución, conectar y coordinar aplicaciones, efectuando pruebas de diferentes tipos en los sitios web, comparando y midiendo los resultados, algunas de estas son:
     br
     br
     SlyderE(indicadores="derecha")(data-aos="slide-left")
