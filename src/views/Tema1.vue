@@ -43,7 +43,7 @@
         .col-lg-11
           .cajon-b.colorcajon3.p-4.m-t1-top(data-aos="zoom-in")
             p.m-1 Las retroalimentaciones y capacidades de realizar ajustes con los datos o información, es la que indica lo autosuficiente que puede llegar a ser un sistema automatizado, por ejemplo:
-        
+      br  
       .row.justify-content-center(data-aos="slide-right")
         .col-lg-4.pos2
           .tarjeta-avatar-b
@@ -60,10 +60,11 @@
             .tarjeta.tarjeta--azul.med21
                 h3 Sistema semiautomatizado
                 p Un tanque de leche industrial tiene sensor de temperatura, y su apagado o prendido es manual. 
-
+      br
       .row(data-aos="slide-right")
         .col-5.pos3
           h4 Las características de la automatización son
+          br
           ul.lista-ul.lista-ul--color
             li 
               i.fas.fa-angle-right
