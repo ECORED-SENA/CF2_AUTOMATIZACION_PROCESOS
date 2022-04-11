@@ -48,22 +48,22 @@
         .col-lg-4.pos2
           .tarjeta-avatar-b
             .tarjeta-avatar-b__img
-              img.numero(src='@/assets/curso/1.png' alt='AvatarTop' style="width: 70px")
+              img(src='@/assets/curso/1.png' alt='AvatarTop' style="width: 70px")
             .tarjeta.med2(style='background-color:#D5E8F8')
                 h3 Alta dependencia
-                p Un brazo robótico que se utiliza en el armado de autos, utilizando sensores y programación, ejecuta las tareas sin intervención humana.
+                p.m-2 Un brazo robótico que se utiliza en el armado de autos, utilizando sensores y programación, ejecuta las tareas sin intervención humana.
 
         .col-lg-4.pos2
           .tarjeta-avatar-b
             .tarjeta-avatar-b__img
-              img.numero(src='@/assets/curso/2.png' alt='AvatarTop' style="width: 70px")
+              img(src='@/assets/curso/2.png' alt='AvatarTop' style="width: 70px")
             .tarjeta.med21(style='background-color:#D5E8F8')
                 h3 Sistema semiautomatizado
-                p Un tanque de leche industrial tiene sensor de temperatura, y su apagado o prendido es manual. 
+                p.m-2 Un tanque de leche industrial tiene sensor de temperatura, y su apagado o prendido es manual. 
       br
       .row(data-aos="slide-right")
         .col-5.pos3
-          h4 Las características de la automatización son
+          h3 Las características de la automatización son:
           br
           ul.lista-ul.lista-ul--color
             li 
@@ -130,101 +130,111 @@
       .col-12
         p Ante los beneficios y las grandes ventajas que ofrece la automatización, existen algunas herramientas que se diferencian como las mejores aliadas para las organizaciones, facilitando desempeños y rendimientos laborales.<br/><br/>Con estas herramientas es posible automatizar las tareas en ejecución, conectar y coordinar aplicaciones, efectuando pruebas de diferentes tipos en los sitios web, comparando y midiendo los resultados, algunas de estas son:
     br
+    .row
+      SlyderE(indicadores="derecha")(data-aos="slide-left")
+        .row
+          .col-md-4.mb-4.mb-md-0
+            h3 WorkProject
+            p Es una muy buena solución que permite registrar automáticamente el tiempo que se invierte en cada uno de los proyectos.
+        
+          .col-md-8
+            figure
+              img(src='@/assets/template/herramienta1.svg', alt='Texto que describa la imagen')
+
+        .row
+          .col-md-4.mb-4.mb-md-0
+            h3 Zapier
+            p Es una de las herramientas catalogadas como la líder del mercado de la automatización de tareas; mueve información entre las aplicaciones web automáticamente.
+        
+          .col-md-8
+            figure
+              img(src='@/assets/template/herramienta2.svg', alt='Texto que describa la imagen')
+
+        .row
+          .col-md-4.mb-4.mb-md-0
+            h3 Flow
+            p Esta aplicación fue lanzada en 2016 por Microsoft, surgiendo como respuesta de automatización y conexión de aplicaciones web. Es llamada también Microsoft Flow, ofreciendo la automatización de múltiples tareas combinando diferentes servicios en la nube.
+        
+          .col-md-8
+            figure
+              img(src='@/assets/template/herramienta3.svg', alt='Texto que describa la imagen')
+
+        .row
+          .col-md-4.mb-4.mb-md-0
+            h3 Selenium
+            p Es uno los programas más populares de código abierto para automatizar procesos. Principalmente se utiliza para automatizar aplicaciones web con fines de pruebas, pero no se limita a esto, la administración de tareas web también se puede automatizar.
+        
+          .col-md-8
+            figure
+              img(src='@/assets/template/herramienta4.svg', alt='Texto que describa la imagen')
+
+        .row
+          .col-md-4.mb-4.mb-md-0
+            h3 Watir
+            p Se trata de una Biblioteca Ruby con código abierto, también es una herramienta de testeo que es desarrollada en C# para automatizar las pruebas de software en una web. Interactúa con un navegador de la misma forma que las personas, hace clic en enlaces, llena formularios y valida textos.
+        
+          .col-md-8
+            figure
+              img(src='@/assets/template/herramienta5.svg', alt='Texto que describa la imagen')
+
+        .row
+          .col-md-4.mb-4.mb-md-0
+            h3 Robocorp
+            p Es una automatización robótica de procesos (RPA) que permite automatizar prácticamente cualquier rutina. La automatización puede ahorrar hasta un 75% de los costos en comparación con el trabajo manual.
+        
+          .col-md-8
+            figure
+              img(src='@/assets/template/herramienta6.svg', alt='Texto que describa la imagen')
+
+        .row
+          .col-md-4.mb-4.mb-md-0
+            h3 Automagica
+            p La plataforma Automágica se está cambiando a <i>Netcall</i>, herramienta igualmente poderosa en la automatización.
+        
+          .col-md-8
+            figure
+              img(src='@/assets/template/herramienta7.svg', alt='Texto que describa la imagen')
+
+        .row
+          .col-md-4.mb-4.mb-md-0
+            h3 Robotask
+            p RoboTask es un software de macro automatización que puede automatizar fácilmente cualquier serie de tareas sin escribir código.
+        
+          .col-md-8
+            figure
+              img(src='@/assets/template/herramienta8.svg', alt='Texto que describa la imagen')
     br
-    SlyderE(indicadores="derecha")(data-aos="slide-left")
-      .row
-        .col-md-4.mb-4.mb-md-0
-          h3 WorkProject
-          p Es una muy buena solución que permite registrar automáticamente el tiempo que se invierte en cada uno de los proyectos.
-      
-        .col-md-8
-          figure
-            img(src='@/assets/template/herramienta1.svg', alt='Texto que describa la imagen')
-
-      .row
-        .col-md-4.mb-4.mb-md-0
-          h3 Zapier
-          p Es una de las herramientas catalogadas como la líder del mercado de la automatización de tareas; mueve información entre las aplicaciones web automáticamente.
-      
-        .col-md-8
-          figure
-            img(src='@/assets/template/herramienta2.svg', alt='Texto que describa la imagen')
-
-      .row
-        .col-md-4.mb-4.mb-md-0
-          h3 Flow
-          p Esta aplicación fue lanzada en 2016 por Microsoft, surgiendo como respuesta de automatización y conexión de aplicaciones web. Es llamada también Microsoft Flow, ofreciendo la automatización de múltiples tareas combinando diferentes servicios en la nube.
-      
-        .col-md-8
-          figure
-            img(src='@/assets/template/herramienta3.svg', alt='Texto que describa la imagen')
-
-      .row
-        .col-md-4.mb-4.mb-md-0
-          h3 Selenium
-          p Es uno los programas más populares de código abierto para automatizar procesos. Principalmente se utiliza para automatizar aplicaciones web con fines de pruebas, pero no se limita a esto, la administración de tareas web también se puede automatizar.
-      
-        .col-md-8
-          figure
-            img(src='@/assets/template/herramienta4.svg', alt='Texto que describa la imagen')
-
-      .row
-        .col-md-4.mb-4.mb-md-0
-          h3 Watir
-          p Se trata de una Biblioteca Ruby con código abierto, también es una herramienta de testeo que es desarrollada en C# para automatizar las pruebas de software en una web. Interactúa con un navegador de la misma forma que las personas, hace clic en enlaces, llena formularios y valida textos.
-      
-        .col-md-8
-          figure
-            img(src='@/assets/template/herramienta5.svg', alt='Texto que describa la imagen')
-
-      .row
-        .col-md-4.mb-4.mb-md-0
-          h3 Robocorp
-          p Es una automatización robótica de procesos (RPA) que permite automatizar prácticamente cualquier rutina. La automatización puede ahorrar hasta un 75% de los costos en comparación con el trabajo manual.
-      
-        .col-md-8
-          figure
-            img(src='@/assets/template/herramienta6.svg', alt='Texto que describa la imagen')
-
-      .row
-        .col-md-4.mb-4.mb-md-0
-          h3 Automagica
-          p La plataforma Automágica se está cambiando a <i>Netcall</i>, herramienta igualmente poderosa en la automatización.
-      
-        .col-md-8
-          figure
-            img(src='@/assets/template/herramienta7.svg', alt='Texto que describa la imagen')
-
-      .row
-        .col-md-4.mb-4.mb-md-0
-          h3 Robotask
-          p RoboTask es un software de macro automatización que puede automatizar fácilmente cualquier serie de tareas sin escribir código.
-      
-        .col-md-8
-          figure
-            img(src='@/assets/template/herramienta8.svg', alt='Texto que describa la imagen')
-
-    <br>
-    .cajon.cajontitle2.col-4(data-aos="zoom-in-right")
-      h3.text Otra herramienta que se utiliza es <i>UiPath</i>
-    <br>
-    p Es ofrecida para realizar una automatización en cualquier web o aplicación de escritorio, <i>UiPath</i> es una Automatización Robótica de Procesos, RPA. Se destaca por la posibilidad de diseñar, desarrollar y controlar la fuerza de trabajo robótica que imita a los empleados.
+    .row
+      .col-4
+        .cajon.cajontitle2(data-aos="zoom-in-right")
+          h3 Otra herramienta que se utiliza es <i>UiPath</i>
     br
-    img.col-10.pos8(src='@/assets/template/grafica1.svg')(data-aos="slide-right")  
+    .row
+      p Es ofrecida para realizar una automatización en cualquier web o aplicación de escritorio, <i>UiPath</i> es una Automatización Robótica de Procesos, RPA. Se destaca por la posibilidad de diseñar, desarrollar y controlar la fuerza de trabajo robótica que imita a los empleados.
     br
+    .row.justify-content-center
+      .col-lg-10
+        img(src='@/assets/template/grafica1.svg')(data-aos="slide-right")  
     br
-    p Cuando se trata de seleccionar una herramienta para la automatización, las necesidades, exigencias y expectativas siempre serán altas, teniendo en cuenta la organización, costos y facilidades de acceso, por esto es recomendable reunir la mayor información posible, clarificando los objetivos y un posible punto de partida en cuanto a recursos humanos y técnicos; también es importante tener claro la evolución tecnológica que tendrá la empresa en cuanto a infraestructura. 
+    .row
+      p Cuando se trata de seleccionar una herramienta para la automatización, las necesidades, exigencias y expectativas siempre serán altas, teniendo en cuenta la organización, costos y facilidades de acceso, por esto es recomendable reunir la mayor información posible, clarificando los objetivos y un posible punto de partida en cuanto a recursos humanos y técnicos; también es importante tener claro la evolución tecnológica que tendrá la empresa en cuanto a infraestructura. 
     br
+    .row
+      .titulomedio
+        h4 Las ventajas de utilizar <i>UiPath</i> son:
     br
-    .titulomedio
-      h4 Las ventajas de utilizar <i>UiPath</i> son:
+    .row.justify-content-center
+      .col-10
+        img(src='@/assets/template/grafica2.svg')(data-aos="slide-right")  
     br
-    img.col-10.pos8(src='@/assets/template/grafica2.svg')(data-aos="slide-right")  
-    <br>
-    .cajon.cajontitle3.col-4(data-aos="zoom-in-right")
-      h3.text Sobre <i>UiPath</i>
-    <br>
-    p.col-12 <i>UiPath Robotic Process Automation</i> es una solución que se basa en la nube, ayuda a las empresas a diseñar y gestionar tareas de automatización, supervisadas y desatendidas, agilizando la atención al cliente. <i>UiPath RPA</i> permite que los usuarios almacenen múltiples licencias en bases de datos para ser consultadas en cualquier momento.
+    .row
+      .col-2
+        .cajon.cajontitle3.p-1(data-aos="zoom-in-right")
+          h3.m-1 Sobre <i>UiPath</i>
+    br
+    .row
+      .col-12
+        p <i>UiPath Robotic Process Automation</i> es una solución que se basa en la nube, ayuda a las empresas a diseñar y gestionar tareas de automatización, supervisadas y desatendidas, agilizando la atención al cliente. <i>UiPath RPA</i> permite que los usuarios almacenen múltiples licencias en bases de datos para ser consultadas en cualquier momento.
     br
     br
     .row
