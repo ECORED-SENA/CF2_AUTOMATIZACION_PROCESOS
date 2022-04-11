@@ -3,8 +3,8 @@ export default {
     componenteFormativo: 'Creación de la automatización',
     descripcionCurso:
       'Para la creación de la automatización de un proceso, se debe tener en cuenta la identificación de ciertos requerimientos o necesidades en la empresa, que busca con la eficacia y precisión de las tareas, minimizando errores y teniendo la certeza de que los datos obtenidos son los deseados.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
   },
   menuPrincipal: {
     menu: [
