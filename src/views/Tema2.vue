@@ -26,6 +26,7 @@
       p Los pasos generales para la descarga de UiPath son los siguientes:
     
     .row
+    .p-2.p-lg-0.mb-2(style='background-color:#F3F9FF' ) 
       .tarjeta.p-4.mb-5.col-10.pos12.azul(data-aos="slide-right")
         SlyderA(tipo="b")
           
@@ -229,6 +230,7 @@
     p.mb-5 Los procesos de negocio y procesos de <i>software</i> son similares puesto que capturan las principales características de una serie de actividades que se ordenan para lograr una meta específica.<br/><br/>El objetivo de un proceso de negocio es obtener resultados beneficiosos, generalmente de un producto o servicio para los clientes o usuarios del proceso. Algunos ejemplos de la documentación de un proceso son:
   
     .row
+    .p-2.p-lg-0.mb-2(style='background-color:#F3F9FF' )
       .tarjeta.p-4.mb-5.col-10.pos12.azul(data-aos="slide-right")
         SlyderA(tipo="b")
           
@@ -282,7 +284,7 @@
                 ul(style="list-style-type: square")
                   p Con los resultados de los casos de prueba aplicados, se verifica y se documentan los que pasaron satisfactoriamente, los fallos y errores.
       .col-lg-5
-        img(src='@/assets/curso/vector9.jpg')
+        img(src='@/assets/curso/vector9.svg')
 
     
     .row.justify-content-center.align-items-center(data-aos="slide-up")
