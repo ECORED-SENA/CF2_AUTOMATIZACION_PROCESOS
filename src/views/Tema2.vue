@@ -87,19 +87,19 @@
         ul.lista-ul.lista-ul--color
           li 
             i.fas.fa-angle-right
-            p Se crea en primer lugar un nuevo proceso, dentro de proyectos. 
+            span Se crea en primer lugar un nuevo proceso, dentro de proyectos. 
           li 
             i.fas.fa-angle-right
-            p Se ubica la carpeta donde se van a guardar dichos procesos (la cual trae por defecto la carpeta de UiPath)
+            span Se ubica la carpeta donde se van a guardar dichos procesos (la cual trae por defecto la carpeta de UiPath)
           li 
             i.fas.fa-angle-right
-            p Los procesos son las automatizaciones que se van a realizar. 
+            span Los procesos son las automatizaciones que se van a realizar. 
           li 
             i.fas.fa-angle-right
-            p Siempre se debe seleccionar abrir el <i>Workflow</i>, ambiente de trabajo (para conocer poco a poco las herramientas).
+            span Siempre se debe seleccionar abrir el <i>Workflow</i>, ambiente de trabajo (para conocer poco a poco las herramientas).
           li 
             i.fas.fa-angle-right
-            p Se procede a crear el ambiente de trabajo para las automatizaciones. 
+            span Se procede a crear el ambiente de trabajo para las automatizaciones. 
       figure.col-5.pos15
         img(src='@/assets/curso/vector7.jpg' alt='AvatarTop')(data-aos="slide-left")
     p.tx Llegar a conocer de fondo todas las funcionalidades que ofrece <i>UiPath</i> es bastante complejo, puesto que se pueden realizar automatizaciones sencillas y complejas, estas últimas relacionadas con lenguajes de programación, Java, C++ y muchos más. 

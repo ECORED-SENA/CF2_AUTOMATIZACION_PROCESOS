@@ -145,12 +145,6 @@ export default {
     },
     {
       referencia:
-        'Colaboradores de los proyectos Wikimedia. (2021). Bucle (programación).',
-      link:
-        'https://es.wikipedia.org/w/index.php?title=Bucle_(programaci%C3%B3n)&oldid=136397850',
-    },
-    {
-      referencia:
         'alemonterotech (2020). ¿Cuánto debo pagar si quiero implementar RPA con uno de los líderes del mercado en mi empresa?',
       link:
         'https://alemonterotech.com/cuanto-debo-pagar-si-quiero-implementar-rpa-con-uno-de-los-lideres-del-mercado-en-mi-empresa',
@@ -199,7 +193,7 @@ export default {
     },
     {
       referencia:
-        'Lenguajesdeprogramacion  (2019) ¿Qué es un While en programación?',
+        'Lenguajes de programacion  (2019) ¿Qué es un While en programación?',
       link:
         'https://lenguajesdeprogramacion.net/diccionario/que-es-un-while-en-programacion',
     },
