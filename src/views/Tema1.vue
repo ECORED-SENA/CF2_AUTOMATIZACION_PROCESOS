@@ -271,7 +271,7 @@
     
     p.mb-4 Algunos casos de estudio son:
     
-    .row.mb-4
+    .row.m-4
       TabsC.color-acento-contenido(data-aos="slide-left")
           .py-3.py-md-4(titulo="Referente al aumento de productividad")
             .row

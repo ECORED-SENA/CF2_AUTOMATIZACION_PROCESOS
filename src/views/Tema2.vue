@@ -41,111 +41,113 @@
           div
             figure
               img.bor(src='@/assets/template/slyder2.jpg', alt='Texto que describa la imagen')
-              .tarjeta.colorcajon7 
-                img(src='@/assets/curso/2.2.png').col-1.pos14 
-                p.negro.col-12 Dirigirse hacia <i>automation Cloud</i>, que es la nube de automatización donde se pueden hacer varias automatizaciones.
+              .tarjeta.p-2.col-10.cen(style='background-color:#FEF4D6')
+                .col-1.pos14.m-2 
+                  img(src='@/assets/curso/2.2.png')
+                .col-12
+                  p.m-1 Dirigirse hacia <i>automation Cloud</i>, que es la nube de automatización donde se pueden hacer varias automatizaciones.
 
           div
             figure
               img.bor(src='@/assets/template/slyder3.jpg', alt='Texto que describa la imagen')
-              .tarjeta.colorcajon7 
-                img(src='@/assets/curso/3.png').col-1.pos14 
-                p.negro.col-12 Dentro de la nube aparece el orquestador (<i>Orchestrator Services</i>), para las automatizaciones mucho más avanzadas.
+              .tarjeta.p-2.col-10.cen(style='background-color:#FEF4D6')
+                .col-1.pos14.m-2 
+                  img(src='@/assets/curso/3.png')
+                .col-12
+                  p.m-1 Dentro de la nube aparece el orquestador (<i>Orchestrator Services</i>), para las automatizaciones mucho más avanzadas.
 
           div
             figure
               img.bor(src='@/assets/template/slyder4.jpg', alt='Texto que describa la imagen')
-              .tarjeta.colorcajon7 
-                img(src='@/assets/curso/4.png').col-1.pos14 
-                p.negro.col-12 Ingresar a la parte <i>download studio</i>, para descargar <i>uiPath studio</i>. Seleccionar la plataforma <i>studio</i> y no <i>studio X</i>, ya que es más completo.
+              .tarjeta.p-2.col-10.cen(style='background-color:#FEF4D6')
+                .col-1.pos14.m-2 
+                  img(src='@/assets/curso/4.png')
+                .col-12
+                  p.m-1 Ingresar a la parte <i>download studio</i>, para descargar <i>uiPath studio</i>. Seleccionar la plataforma <i>studio</i> y no <i>studio X</i>, ya que es más completo.
 
-    .row(data-aos="slide-right")
-      .tarjeta.p-3.mb-5(data-aos="zoom-in")(style='background-color:#e8e8e8')  
-        .row.justify-content-around.align-items-center
-          .col-3.col-sm-2.col-lg-1
-            img(src="@/assets/curso/video.png")
-          .col
-            .row.justify-content-between.align-items-center
-              .col.mb-3.mb-sm-0
-                p.text-small Se invita al aprendiz a ver el siguiente video, en el que podrá ver en detalle el procedimiento para realizar el proceso de registro e instalación de <i>UiPath</i>.
-      figure.mb-5(data-aos="slide-right")
-        .video
-          iframe(width="942" height="530" src="https://www.youtube.com/embed/rFipMhtZC4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row.justify-content-center.mb-4(data-aos="fade-down")
+      .col-md-12
+        .row.cajon.p-3.align-items-center.bor(style='background-color:#e8e8e8')
+          .col-auto.mb-4.mb-md-0
+            img.px-md-2(src='@/assets/curso/video.svg', alt='Imagen decorativa')
+          .col-md-11
+            p.m-1 Se invita al aprendiz a ver el siguiente video, en el que podrá ver en detalle el procedimiento para realizar el proceso de registro e instalación de <i>UiPath</i>.
+
+    figure.mb-5(data-aos="slide-right")
+      .video
+        iframe(width="942" height="530" src="https://www.youtube.com/embed/rFipMhtZC4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
-
     
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 2.2 <i>Workflows</i>   
 
-    img.col-5.pos15(src='@/assets/curso/vector7.jpg' alt='AvatarTop')(data-aos="slide-left")
-    .col-6.pos9
-      p Para empezar a trabajar una automatización se debe reconocer el <i>Workflow</i>, ambiente de trabajo:
-      ul.lista-ul.lista-ul--color
-        li 
-          i.fas.fa-angle-right
-          p Se crea en primer lugar un nuevo proceso, dentro de proyectos. 
-        li 
-          i.fas.fa-angle-right
-          p Se ubica la carpeta donde se van a guardar dichos procesos (la cual trae por defecto la carpeta de UiPath)
-        li 
-          i.fas.fa-angle-right
-          p Los procesos son las automatizaciones que se van a realizar. 
-        li 
-          i.fas.fa-angle-right
-          p Siempre se debe seleccionar abrir el <i>Workflow</i>, ambiente de trabajo (para conocer poco a poco las herramientas).
-        li 
-          i.fas.fa-angle-right
-          p Se procede a crear el ambiente de trabajo para las automatizaciones. 
-    br   
-    br
+    .row
+      .col-6
+        p Para empezar a trabajar una automatización se debe reconocer el <i>Workflow</i>, ambiente de trabajo:
+        ul.lista-ul.lista-ul--color
+          li 
+            i.fas.fa-angle-right
+            p Se crea en primer lugar un nuevo proceso, dentro de proyectos. 
+          li 
+            i.fas.fa-angle-right
+            p Se ubica la carpeta donde se van a guardar dichos procesos (la cual trae por defecto la carpeta de UiPath)
+          li 
+            i.fas.fa-angle-right
+            p Los procesos son las automatizaciones que se van a realizar. 
+          li 
+            i.fas.fa-angle-right
+            p Siempre se debe seleccionar abrir el <i>Workflow</i>, ambiente de trabajo (para conocer poco a poco las herramientas).
+          li 
+            i.fas.fa-angle-right
+            p Se procede a crear el ambiente de trabajo para las automatizaciones. 
+      figure.col-5.pos15
+        img(src='@/assets/curso/vector7.jpg' alt='AvatarTop')(data-aos="slide-left")
     p.tx Llegar a conocer de fondo todas las funcionalidades que ofrece <i>UiPath</i> es bastante complejo, puesto que se pueden realizar automatizaciones sencillas y complejas, estas últimas relacionadas con lenguajes de programación, Java, C++ y muchos más. 
-    br
-    br
-    br
-    br
-    .row(data-aos="slide-left")
-      .tarjeta.colorblue.p-3.mb-5.col-9
-        .row.justify-content-around.align-items-center
-          .col-1.col-sm-1.col-lg-1
-            img(src="@/assets/curso/video.png")
-          .col
-            .row.justify-content-between.align-items-center
-              .col.mb-3.mb-sm-0
-                p.text-small Se invita al aprendiz a ver el siguiente video, en el que podrá ver en detalle el procedimiento para realizar la creación de un <i>Workflow</i>.
+  
+    .row.mb-4(data-aos="fade-down")
+      .col-md-11
+        .row.cajon.p-3.align-items-center.bor(style='background-color:#e8e8e8')
+          .col-auto.mb-4.mb-md-0
+            img.px-md-2(src='@/assets/curso/video.svg', alt='Imagen decorativa')
+          .col-md-10
+            p.m-1 Se invita al aprendiz a ver el siguiente video, en el que podrá ver en detalle el procedimiento para realizar la creación de un <i>Workflow</i>.
+
     .row(data-aos="slide-left")
       figure.col-12.pos17
         .video
           iframe(width="942" height="530" src="https://www.youtube.com/embed/Uxc5E8Ka1xY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    br
     separador
 
-    
-    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
+    #t_2_3.titulo-segundo.color-acento-contenido.pos5.col-12(data-aos="slide-left")
       h2(data-aos="zoom-in") 2.3 Control de flujos 
 
-    img.col-5.pos15(src='@/assets/curso/vector8.jpg' alt='AvatarTop')(data-aos="slide-left")
-    .col-6.pos9
-      p Los controladores de flujo permiten monitoreo y control en tiempo real. Es la capacidad de
-      ul.lista-ul.lista-ul--color
-        li 
-          i.fas.fa-angle-right
-          | Controlar la variación. 
-        li 
-          i.fas.fa-angle-right
-          | Reducir errores.
-        li 
-          i.fas.fa-angle-right
-          | Mejorar la calidad. 
-        li 
-          i.fas.fa-angle-right
-          | Aumentar la eficiencia de los procesos.
-    .row.col-12  
-      h3 Tipos y estructura de datos
-      p Una variable es el valor de un objeto que puede cambiar o variar, de ahí su nombre de variable. Antes de crear una variable se debe declarar o nombrar, luego se le asocia un identificador, nombre y tipo de visibilidad, van muy relacionadas con los tipos de datos, estos son:
-    br
-    .cajon-b.colorcajon8(data-aos="slide-up")
-      h3 Descripción de algunos tipos de datos
-    br
+    .row
+      .col-6.pos9
+        p Los controladores de flujo permiten monitoreo y control en tiempo real. Es la capacidad de
+        ul.lista-ul.lista-ul--color
+          li 
+            i.fas.fa-angle-right
+            | Controlar la variación. 
+          li 
+            i.fas.fa-angle-right
+            | Reducir errores.
+          li 
+            i.fas.fa-angle-right
+            | Mejorar la calidad. 
+          li 
+            i.fas.fa-angle-right
+            | Aumentar la eficiencia de los procesos.
+      .col-5.pos15
+        img(src='@/assets/curso/vector8.jpg' alt='AvatarTop')(data-aos="slide-left")
+    .row
+      .col-12  
+        h3 Tipos y estructura de datos
+        p Una variable es el valor de un objeto que puede cambiar o variar, de ahí su nombre de variable. Antes de crear una variable se debe declarar o nombrar, luego se le asocia un identificador, nombre y tipo de visibilidad, van muy relacionadas con los tipos de datos, estos son:
+    
+    .row.justify-content-center
+      .col-8
+        .cajon-b.colorcajon8.p-2(data-aos="slide-up")
+          h3.m-2 Descripción de algunos tipos de datos
     .tabla-a.color-acento-contenido.mb-5.col-8.pos12(data-aos="slide-up")
       table
         thead
@@ -173,9 +175,10 @@
             td Void
             td Se utiliza para definir una función que no devuelve ningún valor o declarar puntos genéricos.
 
-    br
-    .cajon-b.colorcajon8(data-aos="slide-up")
-      h3 Diagrama estructuras de datos
+    .row.justify-content-center.mb-4
+      .col-4
+        .cajon-b.colorcajon8.p-2(data-aos="slide-up")
+          h3.m-2 Diagrama estructuras de datos
     br
     img.col-8.pos12(src='@/assets/template/grafica3.svg')(data-aos="slide-up")
     separador
