@@ -175,19 +175,19 @@
             td Void
             td Se utiliza para definir una función que no devuelve ningún valor o declarar puntos genéricos.
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-5
       .col-4
         .cajon-b.colorcajon8.p-2(data-aos="slide-up")
           h3.m-2 Diagrama estructuras de datos
-    br
-    img.col-8.pos12(src='@/assets/template/grafica3.svg')(data-aos="slide-up")
+    figure
+      img.col-8.pos12(src='@/assets/template/grafica3.svg')(data-aos="slide-up")
     separador
 
     #t_2_4
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 2.4 Automatización del proceso 
-    br
-    p A continuación se relacionan algunos conceptos involucrados en la automatización de procesos:
+    
+    p.mb-4 A continuación se relacionan algunos conceptos involucrados en la automatización de procesos:
     .titulo-sexto.color-acento-contenido(data-aos="slide-up")
       p Tabla 1 Conceptos generales de automatización de procesos
     .tabla-b.color-acento-contenido.mb-5(data-aos="slide-up")
@@ -224,65 +224,73 @@
     separador
 
     
-    #t_2_5.titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
+    #t_2_5.titulo-segundo.color-acento-contenido(data-aos="zoom-in").col-12
       h2(data-aos="zoom-in") 2.5 Evaluación de procesos de negocio
-    p Los procesos de negocio y procesos de <i>software</i> son similares puesto que capturan las principales características de una serie de actividades que se ordenan para lograr una meta específica.<br/><br/>El objetivo de un proceso de negocio es obtener resultados beneficiosos, generalmente de un producto o servicio para los clientes o usuarios del proceso. Algunos ejemplos de la documentación de un proceso son:
-    .tarjeta.p-4.mb-5.col-10.pos12.azul(data-aos="slide-up")
+    p.mb-4 Los procesos de negocio y procesos de <i>software</i> son similares puesto que capturan las principales características de una serie de actividades que se ordenan para lograr una meta específica.<br/><br/>El objetivo de un proceso de negocio es obtener resultados beneficiosos, generalmente de un producto o servicio para los clientes o usuarios del proceso. Algunos ejemplos de la documentación de un proceso son:
+    
+
+    .row
+      .tarjeta.p-4.mb-5.col-10.pos12.azul(data-aos="slide-right")
         SlyderA(tipo="b")
           
           div
             figure
-              img.bor(src='@/assets/template/slyder1.1.svg', alt='Texto que describa la imagen').m-t1-top2
-              .tarjeta.colorcajon7
-                p.negro.col-12 El director del DCC recibe una petición de un académico para una comisión en el exterior. Esta debe estar acompañada de la documentación pertinente.
-        
+              img.bor(src='@/assets/template/slyder1.1.svg', alt='Texto que describa la imagen')  
+              .tarjeta.p-2.col-10.cen.ce(style='background-color:#FEF4D6')
+                .col-12
+                  p.m-2 El director del DCC recibe una petición de un académico para una comisión en el exterior. Esta debe estar acompañada de la documentación pertinente.
+              
           div
             figure
-              img.bor(src='@/assets/template/slyder1.2.svg', alt='Texto que describa la imagen')
-              .tarjeta.colorcajon7 
-                p.negro.col-12 Ejemplo de orden de compra, reclamos, productos defectuosos.
+              img.bor(src='@/assets/template/slyder1.2.svg', alt='Texto que describa la imagen')  
+              .tarjeta.p-2.col-10.cen.ce(style='background-color:#FEF4D6')
+                .col-12 
+                p.m-3 Ejemplo de orden de compra, reclamos, productos defectuosos.
 
           div
             figure
               img.bor(src='@/assets/template/slyder1.3.svg', alt='Texto que describa la imagen')
-              .tarjeta.colorcajon7 
-                p.negro.col-12 Ciclo de vida del BPM como un proceso de mejoramiento continuo
-
+              .tarjeta.p-2.col-10.cen.ce(style='background-color:#FEF4D6')
+                .col-12 
+                p.m-3 Ciclo de vida del BPM como un proceso de mejoramiento continuo
     Separador
     
     #t_2_6.titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 2.6 Informe de documentación y pruebas
-    p Las tareas que se deben realizar para determinar un formato de pruebas son:
-    br
-    br
-    img(src='@/assets/curso/vector9.jpg').imgpos3
-    .row.mb-5(data-aos="slide-left")
-      .col-md-12.mb-5.mb-md-0
-        LineaTiempoD.color-acento-contenido
-          p.text-small(numero="1" titulo="Diseño de las pruebas").m-3
-            ul(style="list-style-type: square")
-              p Identificar la técnica o técnicas de pruebas para utilizar en las pruebas, dependiendo del sistema lo que se quiere probar.
+    p.mb-4 Las tareas que se deben realizar para determinar un formato de pruebas son:
+    .row.mb-4
+      .col-lg-7  
+        .row.mb-5(data-aos="slide-left")
+          .col-md-12.mb-5.mb-md-0
+            LineaTiempoD.color-acento-contenido
+              p.text-small(numero="1" titulo="Diseño de las pruebas").m-3
+                ul(style="list-style-type: square")
+                  p Identificar la técnica o técnicas de pruebas para utilizar en las pruebas, dependiendo del sistema lo que se quiere probar.
 
-          p.text-small(numero="2" titulo="Generación de los casos de pruebas").m-3
-            ul(style="list-style-type: square")
-              p Ayudan a determinar el conjunto de entradas, las condiciones de la ejecución y los resultados esperados para el objetivo particular.
+              p.text-small(numero="2" titulo="Generación de los casos de pruebas").m-3
+                ul(style="list-style-type: square")
+                  p Ayudan a determinar el conjunto de entradas, las condiciones de la ejecución y los resultados esperados para el objetivo particular.
 
-          p.text-small(numero="3" titulo="Definir procedimientos de las pruebas").m-3
-            ul(style="list-style-type: square")
-              p Se trata de especificar cómo se llevan a cabo los procesos de pruebas, quien lo realiza, cuándo y demás descripciones.
-          
-          p.text-small(numero="4" titulo="Ejecución de la prueba").m-3
-            ul(style="list-style-type: square")
-              p Se ejecuta la prueba aplicando los casos que se han generado previamente y logrando identificar los posibles fallos que se producen al comparar los resultados.
+              p.text-small(numero="3" titulo="Definir procedimientos de las pruebas").m-3
+                ul(style="list-style-type: square")
+                  p Se trata de especificar cómo se llevan a cabo los procesos de pruebas, quien lo realiza, cuándo y demás descripciones.
+              
+              p.text-small(numero="4" titulo="Ejecución de la prueba").m-3
+                ul(style="list-style-type: square")
+                  p Se ejecuta la prueba aplicando los casos que se han generado previamente y logrando identificar los posibles fallos que se producen al comparar los resultados.
 
-          p.text-small(numero="5" titulo="Realización del informe").m-3
-            ul(style="list-style-type: square")
-              p Con los resultados de los casos de prueba aplicados, se verifica y se documentan los que pasaron satisfactoriamente, los fallos y errores.
+              p.text-small(numero="5" titulo="Realización del informe").m-3
+                ul(style="list-style-type: square")
+                  p Con los resultados de los casos de prueba aplicados, se verifica y se documentan los que pasaron satisfactoriamente, los fallos y errores.
+      .col-lg-5
+        img(src='@/assets/curso/vector9.jpg')
 
-    .cajon-b.colorcajon9(data-aos="slide-up")
-      span Se solicita al aprendiz ver el video 
-      span.text-bold ¿Cómo escribir los casos de pruebas?
-      span , ubicado en la sección de material complementario, algunas técnicas de pruebas son:
+    
+    .row.justify-content-center.align-items-center(data-aos="slide-up")
+      .col-lg-11
+        .cajon-b.colorcajon3.p-4.m-t1-end(data-aos="zoom-in")
+          p.m-1 Se solicita al aprendiz ver el video <b>¿Cómo escribir los casos de pruebas?</b>, ubicado en la sección de material complementario, algunas técnicas de pruebas son:
+
     .tarjeta.cajontitle4
       img(src='@/assets/curso/accion.png').col-4.imgpos4
       p.col-5.tx2 A nivel mundial se ha establecido un formato estándar para la realización de los campos de pruebas, revisar la ISO 29119. 
