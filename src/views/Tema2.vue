@@ -155,7 +155,7 @@
             th Tipos de datos
             th Descripción
            
-        tbody
+        tbody.pa
           tr
             td Int
             td Resolución 1841 de 2013
@@ -187,13 +187,13 @@
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
       h2(data-aos="zoom-in") 2.4 Automatización del proceso 
     
-    p.mb-4 A continuación se relacionan algunos conceptos involucrados en la automatización de procesos:
+    p.mb-4 A continuación, se relacionan algunos conceptos involucrados en la automatización de procesos:
     .titulo-sexto.color-acento-contenido(data-aos="slide-up")
       p Tabla 1 Conceptos generales de automatización de procesos
     .tabla-b.color-acento-contenido.mb-5(data-aos="slide-up")
       .tabla-b__header
         h5.mb-0 Conceptos generales de automatización de procesos
-      table
+      table.pa
         tr
           th Automatización de procesos
           td Es la manera de emplear tecnología para realizar tareas sin necesidad de la intervención humana.<br/><br/>Las labores rutinarias, manuales y responsabilidades son transferidas a las máquinas.
@@ -226,9 +226,8 @@
     
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos="zoom-in").col-12
       h2(data-aos="zoom-in") 2.5 Evaluación de procesos de negocio
-    p.mb-4 Los procesos de negocio y procesos de <i>software</i> son similares puesto que capturan las principales características de una serie de actividades que se ordenan para lograr una meta específica.<br/><br/>El objetivo de un proceso de negocio es obtener resultados beneficiosos, generalmente de un producto o servicio para los clientes o usuarios del proceso. Algunos ejemplos de la documentación de un proceso son:
-    
-
+    p.mb-5 Los procesos de negocio y procesos de <i>software</i> son similares puesto que capturan las principales características de una serie de actividades que se ordenan para lograr una meta específica.<br/><br/>El objetivo de un proceso de negocio es obtener resultados beneficiosos, generalmente de un producto o servicio para los clientes o usuarios del proceso. Algunos ejemplos de la documentación de un proceso son:
+  
     .row
       .tarjeta.p-4.mb-5.col-10.pos12.azul(data-aos="slide-right")
         SlyderA(tipo="b")
@@ -292,10 +291,10 @@
           p.m-1 Se solicita al aprendiz ver el video <b>¿Cómo escribir los casos de pruebas?</b>, ubicado en la sección de material complementario, algunas técnicas de pruebas son:
 
     .tarjeta.cajontitle4
-      img(src='@/assets/curso/accion.png').col-4.imgpos4
+      img(src='@/assets/curso/accion.svg').col-5.imgpos4
       p.col-5.tx2 A nivel mundial se ha establecido un formato estándar para la realización de los campos de pruebas, revisar la ISO 29119. 
       .row.tx3.col-4
-          a.anexo.mb-4(:href="obtenerLink('/downloads/CF002_Anexo2_ISO29119-GT26-20151215.pdf')" target="_blank")
+          a.anexo.mb-4(style='background-color:#FFFFFF')(:href="obtenerLink('/downloads/CF002_Anexo2_ISO29119-GT26-20151215.pdf')" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto
@@ -304,7 +303,7 @@
       p.col-5.tx4 Se invita al aprendiz a consultar la plantilla ejemplo para referenciar las pruebas, ubicada en la sección de material complementario.      
 
       .row.tx3.col-4
-          a.anexo(:href="obtenerLink('/downloads/OKEst_CF002_Anexo3_Plantilla-Pruebas.xlsx')" target="_blank")
+          a.anexo(style='background-color:#FFFFFF')(:href="obtenerLink('/downloads/OKEst_CF002_Anexo3_Plantilla-Pruebas.xlsx')" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-xml.svg")
             .anexo__texto
