@@ -58,6 +58,8 @@
 .pos3
   float: left
   margin: 40px 10px 10px 130px
+  @media screen and (max-width: 767px)
+    margin: 0
 
 .pos4
   float: right
@@ -109,9 +111,9 @@
   background-color: #FEF4D6
   height: auto
   width: auto
-  float: right
-  text-align: left
-  padding: 20px
+  @media screen and (max-width: 767px)
+    height: 250px
+    width: 300px
 
 .pos10
   float: left
@@ -129,6 +131,12 @@
   margin: 0 auto
   text-align: left
   padding: 30px
+  @media screen and (max-width: 767px)        
+    height: 61px
+    width: 220px
+    margin: 0 auto
+    text-align: center
+    padding: 10px
 
 .pos12
   margin: 0 auto
@@ -225,7 +233,12 @@
   margin-top: 20px
 
 .m-t1-top1
-  margin-top: -35em
+  margin-top: -38em
+  @media screen and (max-width: 1199px)
+    font-size: small
+  @media screen and (max-width: 767px)        
+    font-size: medium
+    margin-top: -48em
 
 .ce
   text-align: center
@@ -246,3 +259,24 @@
   background-color: #E9F4FD
 .slyder-a__tipo-b .slyder-a__btn--atrs
   background-color: #E9F4FD
+
+.fondo
+  position: relative
+  background-image: url('../assets/curso/fondo.svg')
+  background-repeat: no-repeat      
+
+.bg-suave
+  background-color: #F3F9FF
+  border-radius: 0
+
+.fondo-2
+  position: relative
+  background-image: url('../assets/curso/fondo-2.svg')
+  background-repeat: no-repeat   
+  background-position-y: center
+
+.center
+  margin: 0 auto
+
+.negro
+  color: #000000

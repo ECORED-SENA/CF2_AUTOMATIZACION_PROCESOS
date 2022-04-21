@@ -14,7 +14,7 @@
     .row(data-aos="slide-right").justify-content-center
       img(src='@/assets/curso/vector1.svg' alt='AvatarTop')
       .row.m-t1-top.justify-content-center
-        .col-lg-5
+        .col-md-5.mb-2
           .tarjeta-avatar-b
             .tarjeta-avatar-b__img
               img(src='@/assets/curso/1.png' alt='AvatarTop' style="width: 78px")
@@ -22,7 +22,7 @@
                 h3.m-3 La parte operativa
                 p.m-3 Está directamente relacionada con la máquina, son los elementos que hacen que la máquina actúe, se mueva y realice la operación que se desea. 
 
-        .col-lg-5
+        .col-md-5.mb-2
           .tarjeta-avatar-b
             .tarjeta-avatar-b__img
               img(src='@/assets/curso/2.png' alt='AvatarTop' style="width: 78px")
@@ -34,9 +34,9 @@
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12#t_1_1
       h2(data-aos="zoom-in") 1.1 Definición y características de automatización
     
-    .row.arri
-      p También se puede decir que la automatización es el conjunto de procesos informáticos, mecánicos y electromecánicos, operados con una mínima o casi nula intervención humana. Se utilizan normalmente para optimizar y realizar mejoras en el funcionamiento de procesos en las industrias, campo, estadios o cualquier lugar que posea un sistema informático y desee operar sus labores de manera más ágil y eficiente. La automatización logra realizar tareas que se desarrollan por sí solas sin la participación de un individuo.
     
+    p.mb-5 También se puede decir que la automatización es el conjunto de procesos informáticos, mecánicos y electromecánicos, operados con una mínima o casi nula intervención humana. Se utilizan normalmente para optimizar y realizar mejoras en el funcionamiento de procesos en las industrias, campo, estadios o cualquier lugar que posea un sistema informático y desee operar sus labores de manera más ágil y eficiente. La automatización logra realizar tareas que se desarrollan por sí solas sin la participación de un individuo.
+    br
     .p-4.p-lg-5.mb-5(style='background-color:#F3F9FF')    
       .row.justify-content-center.align-items-center
         .col-lg-11
@@ -61,7 +61,7 @@
                 p.m-2 Un tanque de leche industrial tiene sensor de temperatura, y su apagado o prendido es manual. 
   
       .row(data-aos="slide-right")
-        .col-5.pos3
+        .col-md-5.pos3
           h3.mb-4 Las características de la automatización son:
           ul.lista-ul.lista-ul--color
             li 
@@ -97,7 +97,7 @@
             li 
               i.fas.fa-angle-right
               | Permitir el ahorro en la eficiencia y producción. 
-        img.col-4.pos4(src='@/assets/curso/vector2.svg' alt='AvatarTop')(data-aos="slide-left")
+        img.col-md-4.col-6.pos4(src='@/assets/curso/vector2.svg' alt='AvatarTop')(data-aos="slide-left")
     separador
 
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12#t_1_2
@@ -113,11 +113,11 @@
         .cajon-b.colorcajon4.p-4(data-aos="zoom-in")
           p.p-0 Los sistemas, en la automatización, se van regulando a sí mismos, por lo cual cada resultado de un proceso incide en su conjunto, integrándolo y modificándolo. Seguidamente tendrá ciertas restricciones que se configuran previamente, sin intervención humana, entonces el sistema estará evaluando, comparando y realizando ajustes y las mismas correcciones en tiempo real, las ventajas de la automatización de procesos son:
     .row.mb-4
-      .col-lg-10.pos12
+      .col-lg-10.col-12.pos12
         img(src='@/assets/curso/ventajas.svg')(data-aos="slide-right")     
 
     .row.mb-4
-      .col-5
+      .col-7.col-md-5
         .cajon.cajontitle1(data-aos="zoom-in-right")
           h3 Herramientas que son tendencia en el momento
 
@@ -197,11 +197,11 @@
             img(src='@/assets/template/herramienta8.svg', alt='Texto que describa la imagen')
   
     .row.mb-4
-      .col-4
+      .col-7.col-md-5
         .cajon.cajontitle2(data-aos="zoom-in-right")
-          h3 Otra herramienta que se utiliza es <i>UiPath</i>
+          h3 Otra herramienta que se utiliza es UiPath
     
-    p.mb-4 Es ofrecida para realizar una automatización en cualquier web o aplicación de escritorio, <i>UiPath</i> es una Automatización Robótica de Procesos, RPA. Se destaca por la posibilidad de diseñar, desarrollar y controlar la fuerza de trabajo robótica que imita a los empleados.
+    p.mb-4 Es ofrecida para realizar una automatización en cualquier web o aplicación de escritorio, UiPath es una Automatización Robótica de Procesos, RPA. Se destaca por la posibilidad de diseñar, desarrollar y controlar la fuerza de trabajo robótica que imita a los empleados.
     
     .row.mb-4.justify-content-center
       .col-lg-10
@@ -210,25 +210,25 @@
   
     .row.mb-4
       .titulomedio
-        h4 Las ventajas de utilizar <i>UiPath</i> son:
+        h4 Las ventajas de utilizar UiPath son:
 
     figure.mb-4
       .col-10.pos12
         img(src='@/assets/template/grafica2.svg')(data-aos="slide-right")  
 
     .row.mb-4
-      .col-2
+      .col-6.col-md-2
         .cajon.cajontitle3.p-1(data-aos="zoom-in-right")
-          h3.m-1 Sobre <i>UiPath</i>
+          h3.m-1 Sobre UiPath
     
-    p.mb-4 <i>UiPath Robotic Process Automation</i> es una solución que se basa en la nube, ayuda a las empresas a diseñar y gestionar tareas de automatización, supervisadas y desatendidas, agilizando la atención al cliente. <i>UiPath RPA</i> permite que los usuarios almacenen múltiples licencias en bases de datos para ser consultadas en cualquier momento.
+    p.mb-4 UiPath Robotic Process Automation es una solución que se basa en la nube, ayuda a las empresas a diseñar y gestionar tareas de automatización, supervisadas y desatendidas, agilizando la atención al cliente. UiPath RPA permite que los usuarios almacenen múltiples licencias en bases de datos para ser consultadas en cualquier momento.
     
-    .row.mb-4
-      .col-6.pos10
+    .row.mb-5
+      .col-md-6.pos10
         h4 RPA <i>(Robotic Process Automation)</i>
         ul.lista-ul.lista-ul--color
           li 
-            i.fas.fa-angle-right
+            i.fas.fa-angle-right 
             | Conjunto de herramientas tecnológicas para la automatización de procesos de negocio. 
           li 
             i.fas.fa-angle-right
@@ -242,22 +242,22 @@
           li 
             i.fas.fa-angle-right
             | Un robot puede automatizar procesos de negocio de alto volumen orientados con reglas de negocio, si la información se encuentra digital y es repetible.
-        .cajon-b.colorcajon5 
-          ul.m-1.lista-ul--color.lista-ul--separador
+        .cajon-b.colorcajon5.py-4.px-4.col-md-12.col-6
+          ul.m-1.lista-ul--color
             li.pb-0
               ul
                 li 
-                  i.fas.fa-cookie
-                  | Realizar automatizaciones en aplicaciones, ya sean de escritorio, en la web o de desarrollo.
+                  i.fas.fa-circle
+                  span Realizar automatizaciones en aplicaciones, ya sean de escritorio, en la web o de desarrollo.
                 li 
-                  i.fas.fa-cookie
-                  | Interactuar con sistemas de inteligencia artificial, visión artificial u otros modelos.
-
-      .col-5.pos9           
+                  i.fas.fa-circle
+                  span Interactuar con sistemas de inteligencia artificial, visión artificial u otros modelos.
+            
+      .col-md-5.pos9           
         img(src='@/assets/curso/vector5.svg' alt='AvatarTop')(data-aos="slide-left")
   
-    .titulomedio2.mb-4
-      .col-12
+    .titulomedio2.mb-5
+      .col-md-12
         h4 Los componentes de la RPA son: 
 
     figure.mb-4
@@ -271,53 +271,107 @@
     
     p.mb-4 Algunos casos de estudio son:
     
-    .row.m-4
+    .row.mb-5
       TabsC.color-acento-contenido(data-aos="slide-left")
-          .py-3.py-md-4(titulo="Referente al aumento de productividad")
-            .row
-              img(src='@/assets/curso/fondo.svg') 
+        .py-3.py-md-4(titulo="Referente al aumento de productividad")
+          .row.fondo.p-5.justify-content-center.align-items-center
+            .col-md-6
+              h4 Referente al aumento de productividad
+              p Una empresa de clase mundial de inspección y certificación, utilizó la herramienta de automatización de procesos para realizar auditorías.<br><br/>Todos los pasos y las evoluciones del cronograma de apertura ganaron visibilidad por medio de la automatización, permitiendo un mejor control y seguimiento, generando un aumento del 50% de la productividad.
 
-          .py-3.py-md-4(titulo="Automatización de la mesa de servicio")
-            .row
-              img(src='@/assets/curso/fondo2.svg') 
+            .col-5.col-md-4
+              figure
+                img(src='@/assets/curso/bn1.svg')
 
-          .py-3.py-md-4(titulo="Control de procesos")
-            .row
-              img(src='@/assets/curso/fondo3.svg') 
+        .py-3.py-md-4(titulo="Automatización de la mesa de servicio")
+          .row.fondo.p-5.justify-content-center.align-items-center
+            .col-md-6
+              h4 Automatización de la mesa de servicio
+              p Una gran empresa de pensiones automatizó sus servicios de atención al cliente de manera que se puede integrar y entregar toda la información referente a las áreas de la organización como la informática, marketing, recursos humanos y proyectos.
+            
+            .col-5.col-md-4
+              figure
+                img(src='@/assets/curso/bn2.svg')
+
+        .py-3.py-md-4(titulo="Control de procesos")
+          .row.fondo.p-5.justify-content-center.align-items-center
+            .col-md-6
+              h4 Control de procesos.
+              p Una institución dedicada a la asesoría y consultoría de pequeñas empresas y referente al estímulo empresarial tenía problemas para manejar la gran cantidad de llamadas a la oficina de defensa del consumidor. Por medio de la automatización de este proceso, se generaron indicadores claves de rendimiento que permitieron gestionar el flujo de manera mucho más eficaz, y de igual forma la satisfacción del cliente con más transparencia.
+
+            .col-5.col-md-4
+              figure
+                img(src='@/assets/curso/bn3.svg')
+
     br
-    .row(data-aos="slide-right")
-      SlyderE(indicadores="derecha")
-        div
-          figure
-            img(src='@/assets/curso/auto1.svg', alt='Texto que describa la imagen')
+    .row.tarjeta.py-4.bg-suave.justify-content-center.align-items-center
+      .col-md-12
+        SlyderE(indicadores="derecha")
+          .row.justify-content-center.align-items-center
+            .col-md-6.mb-4.mb-md-0
+              h3 Proceso de contratación
+              p Los empleadores pueden escanear e identificar sin problema a los postulados que mejor se adapten al cargo.
 
-        div
-          figure
-            img(src='@/assets/curso/auto2.svg', alt='Texto que describa la imagen')
+            .col-4.col-md-2
+              figure
+                img(src='@/assets/curso/1.svg', alt='Color')
+          .row.justify-content-center.align-items-center
+            .col-md-6.mb-4.mb-md-0
+              h3 Solicitudes y procesamiento de transcripciones
+              p Se reconocen e introducen los cursos pertinentes, eliminando la necesidad de la revisión manual e introducción de datos.
+            
+            .col-4.col-md-2
+              figure
+                img(src='@/assets/curso/2.svg', alt='Espacio de color')      
+          .row.justify-content-center.align-items-center
+            .col-md-6.mb-4.mb-md-0
+              h3 Empleado a bordo
+              p Las organizaciones pueden crear procedimientos de incorporación consistentes y eficientes minimizando errores y retención de empleados.
 
-        div
-          figure
-            img(src='@/assets/curso/auto3.svg', alt='Texto que describa la imagen')
+            .col-4.col-md-2
+              figure
+                img(src='@/assets/curso/3.svg', alt='Motor de color')    
+          .row.justify-content-center.align-items-center
+            .col-md-6.mb-4.mb-md-0
+              h3 Tramitación de reclamaciones
+              p Las compañías de seguros pueden obtener fuertes conocimientos de extracción y análisis de fuentes de datos.
 
-        div
-          figure
-            img(src='@/assets/curso/auto4.svg', alt='Texto que describa la imagen')
+            .col-4.col-md-2
+              figure
+                img(src='@/assets/curso/4.svg', alt='Pantalla')     
+          .row.justify-content-center.align-items-center
+            .col-md-6.mb-4.mb-md-0
+              h3 Análisis y retención de empleados
+              p Permite recopilar y analizar los indicadores clave del rendimiento de los empleados.
 
-        div
-          figure
-            img(src='@/assets/curso/auto5.svg', alt='Texto que describa la imagen')
+            .col-4.col-md-2
+              figure
+                img(src='@/assets/curso/5.svg', alt='Iluminación')            
+          .row.justify-content-center.align-items-center
+            .col-md-6.mb-4.mb-md-0
+              h3 Cuentas por cobrar
+              p Las organizaciones pueden crear facturas sin problemas, entregarlas, manejar fechas, recordatorios, registros y conciliaciones.
 
-        div
-          figure
-            img(src='@/assets/curso/auto6.svg', alt='Texto que describa la imagen')
+            .col-4.col-md-2
+              figure
+                img(src='@/assets/curso/6.svg', alt='Impresora') 
+          .row.justify-content-center.align-items-center
+            .col-md-6.mb-4.mb-md-0
+              h3 Solicitudes de vacaciones y permisos a empleados
+              p Un empleado puede hacer su solicitud electrónicamente.
 
-        div
-          figure
-            img(src='@/assets/curso/auto7.svg', alt='Texto que describa la imagen')
+            .col-4.col-md-2
+              figure
+                img(src='@/assets/curso/7.svg', alt='Tintas') 
+          .row.justify-content-center.align-items-center
+            .col-md-6.mb-4.mb-md-0
+              h3 Órdenes de compra 
+              p Las solicitudes de orden de compra se envían automáticamente a la parte apropiada para su revisión.
+            
+            .col-4.col-md-2
+              figure
+                img(src='@/assets/curso/8.svg', alt='Papel') 
 
-        div
-          figure
-            img(src='@/assets/curso/auto8.svg', alt='Texto que describa la imagen')
       .cajon-b.colorcajon6.m-t1-top1
         h3 Algunos ejemplos de automatización son:
 

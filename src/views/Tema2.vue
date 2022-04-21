@@ -8,15 +8,16 @@
         span.text-white 2
       h1 Desarrollo e implementación
     .row
-      p Para el desarrollo e implementación se utilizará la herramienta <i>UiPath</i>, la cual incluye desarrollo de aplicaciones sin programación, es decir lo puede hacer una persona sin amplios conocimientos de programación, tiene reconocimiento óptico de caracteres (OCR), inteligencia artificial (IA) y aprendizaje automático. Se puede complementar de igual forma con diferentes tipos de programación.  La siguiente imagen muestra una vista del sitio web de <i>UiPath</i>:
+      p Para el desarrollo e implementación se utilizará la herramienta UiPath, la cual incluye desarrollo de aplicaciones sin programación, es decir lo puede hacer una persona sin amplios conocimientos de programación, tiene reconocimiento óptico de caracteres (OCR), inteligencia artificial (IA) y aprendizaje automático. Se puede complementar de igual forma con diferentes tipos de programación.  La siguiente imagen muestra una vista del sitio web de UiPath:
     br
     .row
-      .titulo-sexto.color-acento-contenido.pos13
-        p <b>Figura 1</b> Página de Inicio de <i>UiPath</i>
+      .titulo-sexto.color-acento-contenido.pos13.col-md-12.col-5
+        p <b>Figura 1</b> Página de Inicio de UiPath
 
     figure.col-10.pos12(data-aos="slide-right")
       .video
         iframe(src="https://www.uipath.com" allowtransparency="true" frameborder="0" scrolling="no" width="640" height="390")
+      figcaption https://www.uipath.com/
     separador
 
     .row#t_2_1
@@ -26,7 +27,7 @@
       p Los pasos generales para la descarga de UiPath son los siguientes:
     
     .row
-    .p-2.p-lg-0.mb-2(style='background-color:#F3F9FF' ) 
+    .col-12.col-md-12.my-2.fondo-2
       .tarjeta.p-4.mb-5.col-10.pos12.azul(data-aos="slide-right")
         SlyderA(tipo="b")
           
@@ -37,7 +38,7 @@
                 .col-1.pos14.m-2 
                   img(src='@/assets/curso/1.1.png')
                 .col-12
-                  p.m-1 Ingresar a la página oficial de <i>UiPath</i>, <a href="https://www.uipath.com/" style="color:#008FFF" target="_blank">www.uipath.com </a> para realizar la respectiva instalación de la herramienta, se solicita una cuenta.
+                  p.m-1 Ingresar a la página oficial de UiPath, <a href="https://www.uipath.com/" style="color:#008FFF" target="_blank">www.uipath.com </a> para realizar la respectiva instalación de la herramienta, se solicita una cuenta.
                
           div
             figure
@@ -64,15 +65,15 @@
                 .col-1.pos14.m-2 
                   img(src='@/assets/curso/4.png')
                 .col-12
-                  p.m-1 Ingresar a la parte <i>download studio</i>, para descargar <i>uiPath studio</i>. Seleccionar la plataforma <i>studio</i> y no <i>studio X</i>, ya que es más completo.
+                  p.m-1 Ingresar a la parte <i>download studio</i>, para descargar uiPath studio. Seleccionar la plataforma <i>studio</i> y no <i>studio X</i>, ya que es más completo.
 
-    .row.justify-content-center.mb-4(data-aos="fade-down")
+    .row.justify-content-center.mb-5.col-md-12(data-aos="fade-down")
       .col-md-12
         .row.cajon.p-3.align-items-center.bor(style='background-color:#e8e8e8')
           .col-auto.mb-4.mb-md-0
             img.px-md-2(src='@/assets/curso/video.svg', alt='Imagen decorativa')
-          .col-md-11
-            p.m-1 Se invita al aprendiz a ver el siguiente video, en el que podrá ver en detalle el procedimiento para realizar el proceso de registro e instalación de <i>UiPath</i>.
+          .col-md-10
+            p.m-1 Se invita al aprendiz a ver el siguiente video, en el que podrá ver en detalle el procedimiento para realizar el proceso de registro e instalación de UiPath.
 
     figure.mb-5(data-aos="slide-right")
       .video
@@ -103,7 +104,7 @@
             span Se procede a crear el ambiente de trabajo para las automatizaciones. 
       figure.col-5.pos15
         img(src='@/assets/curso/vector7.jpg' alt='AvatarTop')(data-aos="slide-left")
-    p.tx Llegar a conocer de fondo todas las funcionalidades que ofrece <i>UiPath</i> es bastante complejo, puesto que se pueden realizar automatizaciones sencillas y complejas, estas últimas relacionadas con lenguajes de programación, Java, C++ y muchos más. 
+    p.tx Llegar a conocer de fondo todas las funcionalidades que ofrece UiPath es bastante complejo, puesto que se pueden realizar automatizaciones sencillas y complejas, estas últimas relacionadas con lenguajes de programación, Java, C++ y muchos más. 
   
     .row.mb-4(data-aos="fade-down")
       .col-md-11
@@ -122,8 +123,8 @@
     #t_2_3.titulo-segundo.color-acento-contenido.pos5.col-12(data-aos="slide-left")
       h2(data-aos="zoom-in") 2.3 Control de flujos 
 
-    .row
-      .col-6.pos9
+    .row.mb-5
+      .col-md-6.pos9
         p Los controladores de flujo permiten monitoreo y control en tiempo real. Es la capacidad de
         ul.lista-ul.lista-ul--color
           li 
@@ -138,14 +139,15 @@
           li 
             i.fas.fa-angle-right
             | Aumentar la eficiencia de los procesos.
-      .col-5.pos15
+      .col-md-5.pos15.mb-3
         img(src='@/assets/curso/vector8.jpg' alt='AvatarTop')(data-aos="slide-left")
-    .row
+    
+    .row.mb-5
       .col-12  
         h3 Tipos y estructura de datos
         p Una variable es el valor de un objeto que puede cambiar o variar, de ahí su nombre de variable. Antes de crear una variable se debe declarar o nombrar, luego se le asocia un identificador, nombre y tipo de visibilidad, van muy relacionadas con los tipos de datos, estos son:
     
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-8
         .cajon-b.colorcajon8.p-2(data-aos="slide-up")
           h3.m-2 Descripción de algunos tipos de datos
@@ -180,7 +182,7 @@
       .col-4
         .cajon-b.colorcajon8.p-2(data-aos="slide-up")
           h3.m-2 Diagrama estructuras de datos
-    figure
+    figure.mb-4
       img.col-8.pos12(src='@/assets/template/grafica3.svg')(data-aos="slide-up")
     separador
 
@@ -230,7 +232,7 @@
     p.mb-5 Los procesos de negocio y procesos de <i>software</i> son similares puesto que capturan las principales características de una serie de actividades que se ordenan para lograr una meta específica.<br/><br/>El objetivo de un proceso de negocio es obtener resultados beneficiosos, generalmente de un producto o servicio para los clientes o usuarios del proceso. Algunos ejemplos de la documentación de un proceso son:
   
     .row
-    .p-2.p-lg-0.mb-2(style='background-color:#F3F9FF' )
+    .col-12.col-md-12.my-2.fondo-2
       .tarjeta.p-4.mb-5.col-10.pos12.azul(data-aos="slide-right")
         SlyderA(tipo="b")
           
@@ -253,7 +255,7 @@
               img.bor(src='@/assets/template/slyder1.3.svg', alt='Texto que describa la imagen')
               .tarjeta.p-2.col-10.cen.ce(style='background-color:#FEF4D6')
                 .col-12 
-                p.m-3 Ciclo de vida del BPM como un proceso de mejoramiento continuo
+                p.m-3 Ciclo de vida del BPM como un proceso de mejoramiento continuo.
     Separador
     
     #t_2_6.titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
