@@ -10,19 +10,12 @@
         figure
           img(src="@/assets/curso/sintesis.svg", alt="alt")
   
-    .tarjeta.col-12.col-md-8.color-acento-botones.p-3.mb-5.center(style='background-color:#EBF6FF')
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
+    .row.col-md-4.mb-5.center
+      a.anexo(style='background-color:#E9F4FD')(:href="obtenerLink('/downloads/Síntesis.pdf')" target="_blank")
+        .anexo__icono
           img(src="@/assets/template/icono-pdf.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              h3.mb-1 Descargar Síntesis
-              p.text-small  Con el fin de sintetizar el contenido de este componente formativo se presenta el siguiente mapa conceptual  
-            .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/síntesis.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+        .anexo__texto
+          p <b>Anexo.</b>  Plantilla de pruebas.
 
 
 </template>
