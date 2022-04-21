@@ -301,6 +301,28 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Luis Eyder Ortíz',
+        cargo: 'Experto temático',
+        centro:
+          'Centro de Teleinformática y Producción Industrial Regional Cauca',
+      },
+      {
+        nombre: 'Gustavo Santis Mancipe',
+        cargo: 'Diseñador instruccional',
+        centro: 'Centro de Diseño y Metrología Regional Distrito Capital',
+      },
+      {
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro: 'Centro de Diseño y Metrología Regional Distrito Capital',
+      },
+      {
+        nombre: 'Jhon Jairo Rodríguez Pérez',
+        cargo: 'Diseñador y evaluador instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -310,51 +332,14 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Magdi Khalifah Gamboa',
-        cargo: 'Magdi Khalifah Gamboa Diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Zuleidy Ruiz',
-        cargo: 'Revisión guión audiovisual',
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Camilo Andres Bolaño Rey',
-        cargo: 'Locución',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Laura Gisselle Murcia Pardo',
-        cargo: 'Revisión gráficos',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Angela María Maldonado Jaime',
-        cargo: 'Storyboard',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Ludwyng Corzo García',
-        cargo: 'Revisión video',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Gilberto Junior Rodríguez Rodríguez',
-        cargo: 'Ilustración',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Zuleidy María Ruíz Torres',
         cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Wilson Andrés Arenales Cáceres',
@@ -369,20 +354,56 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Carlos Eduardo Garavito Parada',
+        nombre: 'Camilo Andres Bolaño Rey',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Laura Gisselle Murcia Pardo',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Carlos Mauricio Gomez Delgado',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Angela María Maldonado Jaime',
+        cargo: 'Storyboard/Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Carmen Alicia Martínez Torres',
+        cargo: 'Revisión video',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Laura Ximena Hurtado Villalba',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Carlos Mauricio Gómez Delgado',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Melina Tatiana Quintero Rodriguez',
+        nombre: 'María Eugenia Mejía López',
         cargo: 'Validación de diseño y contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Magdi Khalifah',
+        cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
