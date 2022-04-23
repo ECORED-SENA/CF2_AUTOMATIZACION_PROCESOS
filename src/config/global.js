@@ -170,7 +170,7 @@ export default {
     },
     {
       referencia:
-        '<i<Mozilla and individual contributors. (2021). do...while_.</i>',
+        '<i>Mozilla and individual contributors. (2021). do...while_.</i>',
       link:
         'https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/do...while',
     },
