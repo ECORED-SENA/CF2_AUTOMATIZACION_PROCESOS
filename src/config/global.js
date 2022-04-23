@@ -134,114 +134,129 @@ export default {
   referencias: [
     {
       referencia:
-        'Netcall. (2021). Liberty RPA. AI-powered robotic process automation.',
-      link:
-        'https://www.netcall.com/platform/robotic-process-automation/?utm_source=automagica&utm_medium=web',
-    },
-    {
-      referencia: 'Desarrolloweb. (2021). Bucle For Each.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'alemonterotech (2020). ¿Cuánto debo pagar si quiero implementar RPA con uno de los líderes del mercado en mi empresa?',
+        'Alemonterotech.com. (2020). ¿Cuánto debo pagar si quiero implementar RPA con uno de los líderes del mercado en mi empresa?',
       link:
         'https://alemonterotech.com/cuanto-debo-pagar-si-quiero-implementar-rpa-con-uno-de-los-lideres-del-mercado-en-mi-empresa',
     },
     {
-      referencia: 'Definicion.de. (2021). Definición de automatización.',
+      referencia:
+        'Colaboradores de los proyectos Wikimedia. (2021). Bucle (programación).',
+      link:
+        'https://es.wikipedia.org/w/index.php?title=Bucle_(programaci%C3%B3n)&oldid=136397850',
+    },
+    {
+      referencia: 'Definiciones. (2021). Definición de automatización.',
       link: 'https://definicion.de/automatizacion',
     },
     {
-      referencia: 'Mozilla and individual contributors (2021). do...while.',
+      referencia: 'Desarrolloweb.com. (2021). <i>Bucle for each.</i>',
+      link: 'https://desarrolloweb.com/articulos/bucle-for-each-vbscript.html',
+    },
+    {
+      referencia:
+        'Inforges.es. (2021). Microsoft Flow automatiza todas tus tareas.',
       link:
-        'https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/do...while',
+        'https://www.inforges.es/post/office365-microsoft-flow-automatiza-todas-tus-tareas',
     },
     {
-      referencia: 'UiPath (2021). Automation Platform - Leading RPA Company.',
-      link: 'https://www.uipath.com',
+      referencia:
+        'Lenguajesdeprogramacion.net. (2019). ¿Qué es un while en programación?',
+      link:
+        'https://lenguajesdeprogramacion.net/diccionario/que-es-un-while-en-programacion',
     },
     {
-      referencia: 'Logicbus. (2021).  ¿Qué es automatización?',
+      referencia: 'Logicbus.com.mx. (2021). ¿Qué es automatización?',
       link: 'https://www.logicbus.com.mx/automatizacion.php',
     },
     {
       referencia:
-        'Tecnologías Moviles. (2021). Método de Java String format() explicado con ejemplos.',
+        '<i<Mozilla and individual contributors. (2021). do...while_.</i>',
+      link:
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/do...while',
+    },
+    {
+      referencia:
+        'Netcall. (2021). <i>Liberty RPA. AI-powered robotic process automation</i>',
+      link:
+        'https://www.netcall.com/platform/robotic-process-automation/?utm_source=automagica&utm_medium=web',
+    },
+    {
+      referencia:
+        'Nirvana, B. (2020). <i>Automagica open source RPA.</i> [Video] YouTube.',
+      link: 'https://www.youtube.com/watch?v=OYUj_Gc3XrY&ab_channel=BotNirvana',
+    },
+    {
+      referencia:
+        'ProcessMaker.com. (2021). 15 ejemplos de automatización de procesos.',
+      link:
+        'https://www.processmaker.com/es/blog/15-process-automation-examples',
+    },
+    {
+      referencia:
+        'ProcessMaker.com. (2021). Orquestación de procesos vs. Automatización.',
+      link:
+        'https://www.processmaker.com/es/blog/process-orchestration-vs-automation',
+    },
+    {
+      referencia: 'Robocorp.com. (2021). <i>Automation without boundaries.</i>',
+      link: 'https://robocorp.com',
+    },
+    {
+      referencia:
+        'Rolón, E., Ruiz, F., García, F., y Piattini, M. (2005). Aplicación de métricas software en la evaluación de modelos de procesos de negocio. ResearchGate.',
+      link:
+        'https://www.researchgate.net/publication/251645101_aplicacion_de_metricas_software_en_la_evaluacion_de_modelos_de_procesos_de_negocio',
+    },
+    {
+      referencia: 'Selenium.dev. (2021). <i>Selenium automates browsers.</i>',
+      link: 'https://www.selenium.dev',
+    },
+    {
+      referencia:
+        'Tecnologiasmoviles.com. (2021). Método de <i>Java String</i> format() explicado con ejemplos.',
       link:
         'https://tecnologiasmoviles.com/metodo-de-java-string-format-explicado-con-ejemplos',
     },
     {
       referencia:
-        'Nirvana, B. (2020). Automagica Open Source RPA. [Video] Youtube.',
-      link: 'https://www.youtube.com/watch?v=OYUj_Gc3XrY&ab_channel=BotNirvana',
-    },
-    {
-      referencia: 'Robocorp. (2021). Automation without Boundaries.',
-      link: 'https://robocorp.com',
+        'UiPath.com. (2021). <i>Automation platform - Leading RPA Company.</i>',
+      link: 'https://www.uipath.com',
     },
     {
       referencia:
-        'ProcessMaker. (2021).  Orquestación de procesos vs. Automatización.',
-      link:
-        'https://www.processmaker.com/es/blog/process-orchestration-vs-automation',
-    },
-    {
-      referencia: 'Universidad de Granada. (2001) Arrays y cadenas.',
+        'Universidad de Granada. (2001) Arrays y cadenas. Universidad de Granada.',
       link: 'https://ccia.ugr.es/~jfv/ed1/c/cdrom/cap5/f_cap52.htm',
     },
     {
-      referencia:
-        'Lenguajes de programacion  (2019) ¿Qué es un While en programación?',
+      referencia: 'Universidad del País Vasco. (2004). Automatización.',
       link:
-        'https://lenguajesdeprogramacion.net/diccionario/que-es-un-while-en-programacion',
+        'http://www.sc.ehu.es/sbweb/webcentro/automatica/webcqmh1/pagina%20principal/automatizacion/Automatizacion.htm',
     },
     {
       referencia:
-        '¿Qué es y cómo funciona la automatización Industrial? (2019, Julio 12).',
+        'Vestertraining.com. (2019). ¿Qué es y cómo funciona la automatización industrial?',
       link:
         'https://vestertraining.com/blog/automatizacion-industrial-que-es-como-funciona',
     },
     {
-      referencia:
-        'Rolón, E., Ruiz, F., García, F., & Piattini, M. (2005). Aplicación de Métricas Software en la Evaluación de Modelos de Procesos de Negocio. ResearchGate.',
-      link:
-        'https://www.researchgate.net/publication/251645101_aplicacion_de_metricas_software_en_la_evaluacion_de_modelos_de_procesos_de_negocio',
-    },
-    {
-      referencia: '(2021) Top 5 herramientas para automatizar procesos.',
-      link:
-        'https://datascope.io/es/blog/las-5-mejores-herramientas-para-automatizar-procesos',
-    },
-    {
-      referencia: 'UNO. (2021)',
-      link:
-        'https://www.inforges.es/post/office365-microsoft-flow-automatiza-todas-tus-tareas',
-    },
-    {
-      referencia: 'Watir Project. (2021). Watir Project.',
+      referencia: 'Watir.com. (2021). <i>Watir Project.</i>',
       link: 'http://watir.com',
     },
     {
-      referencia: 'WorkMeter. (2021). Software_gestion_proyectos.',
+      referencia:
+        'WorkMeter.com. (2021). <i>Software</i> de gestión de proyectos.',
       link: 'https://es.workmeter.com/software_gestion_proyectos#workproject',
     },
     {
       referencia:
-        'Yooz. (2021). La importancia y los beneficios de la automatización de procesos.',
+        'Yooz, E. (2021). La importancia y los beneficios de la automatización de procesos.',
       link:
         'https://www.getyooz.com/es/blog/la-importancia-de-la-automatizacion-de-procesos',
     },
     {
-      referencia: 'Zapier. (2021). The easiest way to automate your work.',
-      link: 'https://zapier.com',
-    },
-    {
       referencia:
-        'ProcessMaker. (2021).  15 Ejemplos de Automatización de Procesos',
-      link:
-        'https://www.processmaker.com/es/blog/15-process-automation-examples',
+        'Zapier.com. (2021). <i>The easiest way to automate your work.</i>',
+      link: 'https://zapier.com',
     },
   ],
   glosario: [
