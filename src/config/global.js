@@ -296,7 +296,7 @@ export default {
       descarga: ['/downloads/CF002_Anexo2_ISO29119-GT26-20151215.pdf'],
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
+      texto: 'SENA. (2021).  Plantilla ejemplo para referenciar pruebas',
       tipo: 'Plantilla',
       descarga: ['/downloads/OKEst_CF002_Anexo3_Plantilla-Pruebas.xlsx'],
     },
