@@ -9,15 +9,6 @@
       .col-6
         figure
           img(src="@/assets/curso/sintesis.svg", alt="alt")
-  
-    .row.col-md-2.mb-4.center
-      a.anexo(style='background-color:#E9F4FD')(:href="obtenerLink('/downloads/Síntesis.pdf')" target="_blank")
-        .anexo__icono
-          img(src="@/assets/template/icono-pdf.svg")
-        .anexo__texto
-          p <b>Anexo PDF.</b>   
-
-
 </template>
 
 <script>

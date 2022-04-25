@@ -139,12 +139,6 @@ export default {
         'https://alemonterotech.com/cuanto-debo-pagar-si-quiero-implementar-rpa-con-uno-de-los-lideres-del-mercado-en-mi-empresa',
     },
     {
-      referencia:
-        'Colaboradores de los proyectos Wikimedia. (2021). Bucle (programación).',
-      link:
-        'https://es.wikipedia.org/w/index.php?title=Bucle_(programaci%C3%B3n)&oldid=136397850',
-    },
-    {
       referencia: 'Definiciones. (2021). Definición de automatización.',
       link: 'https://definicion.de/automatizacion',
     },
@@ -228,11 +222,6 @@ export default {
       link: 'https://ccia.ugr.es/~jfv/ed1/c/cdrom/cap5/f_cap52.htm',
     },
     {
-      referencia: 'Universidad del País Vasco. (2004). Automatización.',
-      link:
-        'http://www.sc.ehu.es/sbweb/webcentro/automatica/webcqmh1/pagina%20principal/automatizacion/Automatizacion.htm',
-    },
-    {
       referencia:
         'Vestertraining.com. (2019). ¿Qué es y cómo funciona la automatización industrial?',
       link:
@@ -291,7 +280,7 @@ export default {
     },
     {
       texto:
-        'ISO/IEC/IEEE 29119 El nuevo estándar internacional para pruebas de software (2015). AEN/CTN 71/SC7/GT26 – Ingeniería del Software y Sistemas de Información – Pruebas del Software.',
+        'ISO/IEC/IEEE 29119 El nuevo estándar internacional para pruebas de <i>software</i> (2015). AEN/CTN 71/SC7/GT26 – Ingeniería del <i>Software</i> y Sistemas de Información – Pruebas del <i>Software</i>.',
       tipo: 'Presentación',
       descarga: ['/downloads/CF002_Anexo2_ISO29119-GT26-20151215.pdf'],
     },

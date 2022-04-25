@@ -8,7 +8,7 @@
         span.text-white 2
       h1 Desarrollo e implementación
     .row
-      p Para el desarrollo e implementación se utilizará la herramienta UiPath, la cual incluye desarrollo de aplicaciones sin programación, es decir lo puede hacer una persona sin amplios conocimientos de programación, tiene reconocimiento óptico de caracteres (OCR), inteligencia artificial (IA) y aprendizaje automático. Se puede complementar de igual forma con diferentes tipos de programación.  La siguiente imagen muestra una vista del sitio web de UiPath:
+      p Para el desarrollo e implementación se utilizará la herramienta UiPath, la cual incluye desarrollo de aplicaciones sin programación, es decir lo puede hacer una persona sin amplios conocimientos de programación, tiene reconocimiento óptico de caracteres (OCR), inteligencia artificial (IA) y aprendizaje automático. Se puede complementar de igual forma con diferentes tipos de programación.  La siguiente imagen muestra una vista del sitio <em>web</em> de UiPath:
     br
     .row
       .titulo-sexto.color-acento-contenido.pos13.col-md-12.col-5
@@ -92,7 +92,7 @@
             span Se crea en primer lugar un nuevo proceso, dentro de proyectos. 
           li 
             i.fas.fa-angle-right
-            span Se ubica la carpeta donde se van a guardar dichos procesos (la cual trae por defecto la carpeta de UiPath)
+            span Se ubica la carpeta donde se van a guardar dichos procesos (la cual trae por defecto la carpeta de UiPath).
           li 
             i.fas.fa-angle-right
             span Los procesos son las automatizaciones que se van a realizar. 
@@ -160,22 +160,22 @@
            
         tbody.pa
           tr
-            td Int
-            td Resolución 1841 de 2013
+            td <i>Int</i>
+            td Resolución 1841 de 2013.
           tr
-            td Char
-            td Carácter
+            td <i>Char</i>
+            td Carácter.
 
           tr
-            td Float
-            td Almacena valores reales en punto flotante
+            td <i>Float</i>
+            td Almacena valores reales en punto flotante.
 
           tr
-            td Double
-            td Almacena valores reales en doble precisión
+            td <i>Double</i>
+            td Almacena valores reales en doble precisión.
 
           tr
-            td Void
+            td <i>Void</i>
             td Se utiliza para definir una función que no devuelve ningún valor o declarar puntos genéricos.
 
     .row.justify-content-center.mb-5
@@ -202,7 +202,7 @@
           td Es la manera de emplear tecnología para realizar tareas sin necesidad de la intervención humana.<br/><br/>Las labores rutinarias, manuales y responsabilidades son transferidas a las máquinas.
         tr
           th Orquestación de procesos
-          td Las organizaciones pueden tener una, muchas o miles de automatizaciones a través de sus sistemas.<br/><br/>Para coordinar todas las automatizaciones, es necesario la orquestación de procesos.<br/><br/>La orquestación es la estrategia para la ejecución de las Automatizaciones de manera coordinada y eficiente. La orquestación encadena de manera eficaz las automatizaciones que funcionan en diferentes entornos. 
+          td Las organizaciones pueden tener una, muchas o miles de automatizaciones a través de sus sistemas.<br/><br/>Para coordinar todas las automatizaciones, es necesario la orquestación de procesos.<br/><br/>La orquestación es la estrategia para la ejecución de las automatizaciones de manera coordinada y eficiente. La orquestación encadena de manera eficaz las automatizaciones que funcionan en diferentes entornos. 
         tr
           th Secuencia de eventos
           td Con el uso de la orquestación, se logran identificar diferentes tareas y secuenciarlas para lograr velocidad y eficiencia.
@@ -213,7 +213,7 @@
           th Promulga políticas estandarizadas
           td La orquestación reúne todas las automatizaciones bajo un solo paraguas. Es como el conductor de un tren, enlazando coches, mantiene los movimientos a muy buena velocidad y permite la comunicación entre las automatizaciones.
         tr
-          th Encajes de la Automatización y la Orquestación
+          th Encajes de la automatización y la orquestación
           td La automatización ayuda a eliminar tareas y la orquestación las reúne a todas y las enruta.
         tr
           th Ahorro de costes

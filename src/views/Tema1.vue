@@ -121,7 +121,7 @@
         .cajon.cajontitle1(data-aos="zoom-in-right")
           h3 Herramientas que son tendencia en el momento
 
-    p.mb-4 Ante los beneficios y las grandes ventajas que ofrece la automatización, existen algunas herramientas que se diferencian como las mejores aliadas para las organizaciones, facilitando desempeños y rendimientos laborales.<br/><br/>Con estas herramientas es posible automatizar las tareas en ejecución, conectar y coordinar aplicaciones, efectuando pruebas de diferentes tipos en los sitios web, comparando y midiendo los resultados, algunas de estas son:
+    p.mb-4 Ante los beneficios y las grandes ventajas que ofrece la automatización, existen algunas herramientas que se diferencian como las mejores aliadas para las organizaciones, facilitando desempeños y rendimientos laborales.<br/><br/>Con estas herramientas es posible automatizar las tareas en ejecución, conectar y coordinar aplicaciones, efectuando pruebas de diferentes tipos en los sitios <em>web</em>, comparando y midiendo los resultados, algunas de estas son:
 
     SlyderE(indicadores="derecha")(data-aos="slide-left")
       .row
@@ -136,7 +136,7 @@
       .row
         .col-md-4.mb-4.mb-md-0
           h3 Zapier
-          p Es una de las herramientas catalogadas como la líder del mercado de la automatización de tareas; mueve información entre las aplicaciones web automáticamente.
+          p Es una de las herramientas catalogadas como la líder del mercado de la automatización de tareas; mueve información entre las aplicaciones <em>web</em> automáticamente.
         
         .col-md-8
           figure
@@ -145,7 +145,7 @@
       .row
         .col-md-4.mb-4.mb-md-0
           h3 Flow
-          p Esta aplicación fue lanzada en 2016 por Microsoft, surgiendo como respuesta de automatización y conexión de aplicaciones web. Es llamada también Microsoft Flow, ofreciendo la automatización de múltiples tareas combinando diferentes servicios en la nube.
+          p Esta aplicación fue lanzada en 2016 por Microsoft, surgiendo como respuesta de automatización y conexión de aplicaciones <em>web</em>. Es llamada también Microsoft Flow, ofreciendo la automatización de múltiples tareas combinando diferentes servicios en la nube.
         
         .col-md-8
           figure
@@ -154,7 +154,7 @@
       .row
         .col-md-4.mb-4.mb-md-0
           h3 Selenium
-          p Es uno los programas más populares de código abierto para automatizar procesos. Principalmente se utiliza para automatizar aplicaciones web con fines de pruebas, pero no se limita a esto, la administración de tareas web también se puede automatizar.
+          p Es uno los programas más populares de código abierto para automatizar procesos. Principalmente se utiliza para automatizar aplicaciones <em>web</em> con fines de pruebas, pero no se limita a esto, la administración de tareas <em>web</em> también se puede automatizar.
         
         .col-md-8
           figure
@@ -163,7 +163,7 @@
       .row
         .col-md-4.mb-4.mb-md-0
           h3 Watir
-          p Se trata de una Biblioteca Ruby con código abierto, también es una herramienta de testeo que es desarrollada en C# para automatizar las pruebas de software en una web. Interactúa con un navegador de la misma forma que las personas, hace clic en enlaces, llena formularios y valida textos.
+          p Se trata de una Biblioteca Ruby con código abierto, también es una herramienta de testeo que es desarrollada en C# para automatizar las pruebas de <em>software</em> en una <em>web</em>. Interactúa con un navegador de la misma forma que las personas, hace clic en enlaces, llena formularios y valida textos.
         
         .col-md-8
           figure
@@ -181,7 +181,7 @@
       .row
         .col-md-4.mb-4.mb-md-0
           h3 Automagica
-          p La plataforma Automágica se está cambiando a <i>Netcall</i>, herramienta igualmente poderosa en la automatización.
+          p La plataforma Automágica se está cambiando a Netcall, herramienta igualmente poderosa en la automatización.
         
         .col-md-8
           figure
@@ -190,7 +190,7 @@
       .row
         .col-md-4.mb-4.mb-md-0
           h3 Robotask
-          p RoboTask es un software de macro automatización que puede automatizar fácilmente cualquier serie de tareas sin escribir código.
+          p RoboTask es un <em>software</em> de macro automatización que puede automatizar fácilmente cualquier serie de tareas sin escribir código.
         
         .col-md-8
           figure
@@ -201,7 +201,7 @@
         .cajon.cajontitle2(data-aos="zoom-in-right")
           h3 Otra herramienta que se utiliza es UiPath
     
-    p.mb-4 Es ofrecida para realizar una automatización en cualquier web o aplicación de escritorio, UiPath es una Automatización Robótica de Procesos, RPA. Se destaca por la posibilidad de diseñar, desarrollar y controlar la fuerza de trabajo robótica que imita a los empleados.
+    p.mb-4 Es ofrecida para realizar una automatización en cualquier <em>web</em> o aplicación de escritorio, UiPath es una Automatización Robótica de Procesos, RPA. Se destaca por la posibilidad de diseñar, desarrollar y controlar la fuerza de trabajo robótica que imita a los empleados.
     
     .row.mb-4.justify-content-center
       .col-lg-10
@@ -221,7 +221,7 @@
         .cajon.cajontitle3.p-1(data-aos="zoom-in-right")
           h3.m-1 Sobre UiPath
     
-    p.mb-4 UiPath Robotic Process Automation es una solución que se basa en la nube, ayuda a las empresas a diseñar y gestionar tareas de automatización, supervisadas y desatendidas, agilizando la atención al cliente. UiPath RPA permite que los usuarios almacenen múltiples licencias en bases de datos para ser consultadas en cualquier momento.
+    p.mb-4 UiPath <i>Robotic Process Automation</i> es una solución que se basa en la nube, ayuda a las empresas a diseñar y gestionar tareas de automatización, supervisadas y desatendidas, agilizando la atención al cliente. UiPath RPA permite que los usuarios almacenen múltiples licencias en bases de datos para ser consultadas en cualquier momento.
     
     .row.mb-5
       .col-md-6.pos10
@@ -248,7 +248,7 @@
               ul
                 li 
                   i.fas.fa-circle
-                  span Realizar automatizaciones en aplicaciones, ya sean de escritorio, en la web o de desarrollo.
+                  span Realizar automatizaciones en aplicaciones, ya sean de escritorio, en la <em>web</em> o de desarrollo.
                 li 
                   i.fas.fa-circle
                   span Interactuar con sistemas de inteligencia artificial, visión artificial u otros modelos.
@@ -287,7 +287,7 @@
           .row.fondo.p-5.justify-content-center.align-items-center
             .col-md-6
               h4 Automatización de la mesa de servicio
-              p Una gran empresa de pensiones automatizó sus servicios de atención al cliente de manera que se puede integrar y entregar toda la información referente a las áreas de la organización como la informática, marketing, recursos humanos y proyectos.
+              p Una gran empresa de pensiones automatizó sus servicios de atención al cliente de manera que se puede integrar y entregar toda la información referente a las áreas de la organización como la informática, <em>marketing</em>, recursos humanos y proyectos.
             
             .col-5.col-md-4
               figure
