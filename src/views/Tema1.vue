@@ -102,7 +102,7 @@
 
     .titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12#t_1_2
       h2(data-aos="zoom-in") 1.2 Herramientas de automatización
-    .row
+    .row.justify-content-between.align-items-center
       .col-lg-6
         p Dentro de los grandes desafíos para el desarrollo económico se encuentra la automatización de procesos. Es una de las grandes características de la Revolución Industrial 4.0, refiriéndose a las capacidades de los sistemas tecnológicos para ejecutar tareas que originalmente son realizadas por los humanos.<br/><br/>Dentro de la automatización se encuentra ajustada la tecnología de la información, que también puede ser entendida como el conjunto de herramientas que controlan, corrigen y visualizan el estado de diversas tareas y flujos de trabajo, y aparte de esto generan reportes específicos de todos los procesos de producción de la organización.<br/><br/>Dichas características convierten a la automatización en un gran aliado para las empresas, facilitando la productividad, permitiendo que el talento humano de la empresa se enfoque en la dimensión real, obteniendo un mayor desempeño, mientras se identifican áreas donde existan margen de errores para la reducción de costos y mejoras en los resultados empresariales y permitiendo dar soluciones con las operaciones autómatas.
       .col-lg-5
