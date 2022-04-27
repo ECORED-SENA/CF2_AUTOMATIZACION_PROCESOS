@@ -15,8 +15,7 @@
         p <b>Figura 1</b> Página de Inicio de UiPath
 
     figure.col-10.pos12(data-aos="slide-right")
-      .video
-        iframe(src="https://www.uipath.com" allowtransparency="true" frameborder="0" scrolling="no" width="640" height="390")
+      img(src='@/assets/curso/paginaweb.jpg')
       figcaption https://www.uipath.com/
     separador
 
