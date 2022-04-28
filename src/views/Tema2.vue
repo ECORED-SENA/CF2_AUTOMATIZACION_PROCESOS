@@ -76,7 +76,7 @@
 
     figure.mb-5(data-aos="slide-right")
       .video
-        iframe(width="942" height="530" src="https://www.youtube.com/embed/rFipMhtZC4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="942" height="530" src="https://www.youtube.com/embed/U3mHzvDWNNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
     
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
@@ -160,7 +160,7 @@
         tbody.pa
           tr
             td <i>Int</i>
-            td Resolución 1841 de 2013.
+            td Cantidad entera
           tr
             td <i>Char</i>
             td Carácter.
@@ -222,7 +222,7 @@
           td Se pueden realizar políticas masivas que de manera ágil filtran a cada automatización dentro del sistema, sin necesidad de entrar a cada una.
         tr
           th Mayor agilidad
-          td Mayor agilidad La automatización y la orquestación abren un nuevo mercado de herramientas en la nube, en la cual se pueden seleccionar servicios preconstruidos y adicionar o ajustar a las necesidades.
+          td La automatización y la orquestación abren un nuevo mercado de herramientas en la nube, en la cual se pueden seleccionar servicios preconstruidos y adicionar o ajustar a las necesidades.
     separador
 
     
