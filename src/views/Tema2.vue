@@ -79,8 +79,8 @@
         iframe(width="942" height="530" src="https://www.youtube.com/embed/U3mHzvDWNNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
     
-    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in").pos5.col-12
-      h2(data-aos="zoom-in") 2.2 <i>Workflows</i>   
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
+      h2 2.2 <i>Workflows</i>   
 
     .row
       .col-6
@@ -103,9 +103,12 @@
             span Se procede a crear el ambiente de trabajo para las automatizaciones. 
       figure.col-5.pos15
         img(src='@/assets/curso/vector7.jpg' alt='AvatarTop')(data-aos="slide-left")
-    p.tx Llegar a conocer de fondo todas las funcionalidades que ofrece UiPath es bastante complejo, puesto que se pueden realizar automatizaciones sencillas y complejas, estas últimas relacionadas con lenguajes de programación, Java, C++ y muchos más. 
+
+
+       
+    p.mt-5 Llegar a conocer de fondo todas las funcionalidades que ofrece UiPath es bastante complejo, puesto que se pueden realizar automatizaciones sencillas y complejas, estas últimas relacionadas con lenguajes de programación, Java, C++ y muchos más. 
   
-    .row.mb-4(data-aos="fade-down")
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-down")
       .col-md-11
         .row.cajon.p-3.align-items-center.bor(style='background-color:#e8e8e8')
           .col-auto.mb-4.mb-md-0
@@ -119,7 +122,7 @@
           iframe(width="942" height="530" src="https://www.youtube.com/embed/Uxc5E8Ka1xY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
 
-    #t_2_3.titulo-segundo.color-acento-contenido.pos5.col-12(data-aos="slide-left")
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="slide-left")
       h2(data-aos="zoom-in") 2.3 Control de flujos 
 
     .row.mb-5
